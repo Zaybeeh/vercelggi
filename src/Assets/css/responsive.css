@@ -53,6 +53,9 @@
     font-family: "Helvetica";
     font-size: 12px;
   }
+  .footer_img{
+    width: -webkit-fill-available;
+  }
   /*--------------------------------Footer page End--------------------------------*/
   /*--------------------------------Team page start--------------------------------*/
   .team_section {
@@ -178,7 +181,7 @@
 }
 @media only screen and (min-width:375px) and (max-width: 405px)
 {
-  
+
 }
 @media only screen and (min-width:406px) and (max-width: 459px)
 {
