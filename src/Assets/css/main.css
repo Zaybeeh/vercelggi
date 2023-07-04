@@ -274,8 +274,10 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
-  background-color:#0c1b2b;
+  background-color: transparent;
   padding: 0 137px;
+  position: absolute;
+  width: -webkit-fill-available;
 }
 
 .header.sticked {

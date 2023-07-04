@@ -22,6 +22,8 @@ export const Img = {
 	team_10: require("../Assets/img/Team/10.png"),
 	team_11: require("../Assets/img/Team/11.png"),
 	team_12: require("../Assets/img/Team/12.png"),
+	book_appointment_day: require("../Assets/img/book_appointment_day.png"),
+
 };
 
 export const Icons = {

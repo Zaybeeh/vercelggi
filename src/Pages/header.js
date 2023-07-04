@@ -4,7 +4,9 @@ import "./../Assets/vendor/bootstrap/css/bootstrap.min.css";
 import "./../Assets/vendor/bootstrap-icons/bootstrap-icons.css";
 import "./../Assets/vendor/glightbox/css/glightbox.min.css";
 import "./../Assets/vendor/swiper/swiper-bundle.min.css";
+import "./../Assets/css/swiper.min.css";
 import "./../Assets/css/main.css";
+import "./../Assets/css/slider.css";
 import "./../Assets/css/responsive.css";
 import {Logo} from "../Utilities/Icons.js";
 

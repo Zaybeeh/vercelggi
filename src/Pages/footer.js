@@ -6,7 +6,7 @@ import React from "react";
 // import "./../Assets/vendor/swiper/swiper-bundle.min.js";
 // import "./../Assets/vendor/isotope-layout/isotope.pkgd.min.js";
 // import "./../Assets/vendor/php-email-form/validate.js";
-// import "./../Assets/js/main.js";
+// import "./../Assets/js/swiper.min.js";
 import {Logo, FooterImg} from "../Utilities/Icons.js";
 
 
