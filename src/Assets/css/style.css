@@ -1415,7 +1415,7 @@
 }
 
 ::-webkit-scrollbar-button:single-button {
-  background-color: #082032;
+  /* background-color: #082032; */
   display: block;
   background-size: 10px;
   background-repeat: no-repeat;
@@ -1588,10 +1588,10 @@
   border-radius: 4px; /* Radius of the scrollbar thumb */
 }
 .scroll-container::-webkit-scrollbar-thumb:hover {
-  background-color: #d80100; /* Color of the scrollbar thumb on hover */
+  /* background-color: #d80100; /* Color of the scrollbar thumb on hover */
 }
 .scroll-container::-webkit-scrollbar-track {
-  background-color: #f5f5f5; /* Color of the scrollbar track */
+  background-color: #f5f5f5; /* Color of the scrollbar track*/
   margin-bottom: 5px;
 }
 .scroll-container::-webkit-scrollbar-button:vertical:increment {

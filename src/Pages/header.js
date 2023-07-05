@@ -9,6 +9,8 @@ import "./../Assets/css/main.css";
 import "./../Assets/css/slider.css";
 import "./../Assets/css/responsive.css";
 import {Logo} from "../Utilities/Icons.js";
+import {Link} from 'react-router-dom';
+
 
 function Header(){
 	return(
@@ -29,9 +31,9 @@ function Header(){
       </section>
       <header id="header" className="header d-flex align-items-center">
         <div className="container-fluid d-flex align-items-center justify-content-md-between">
-          <a className="logo d-flex align-items-center navbar_logo_box">
+          <Link to="/" className="logo d-flex align-items-center navbar_logo_box">
             <img src={Logo.logo} alt=""></img>
-          </a>
+          </Link>
           <nav id="navbar" className="navbar navbar_nav_box">
             <ul>
               <li><a href="#hero">Temporary Resident Visa</a></li>
@@ -39,12 +41,7 @@ function Header(){
               <li><a href="#services">Business Immigration</a></li>
               <li><a href="#portfolio">About</a></li>
               <li className="dropdown"><a href="#"><span>Blog</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
-                <ul>
-                  <li><a href="#">Drop Down 1</a></li>
-                  <li><a href="#">Drop Down 2</a></li>
-                  <li><a href="#">Drop Down 3</a></li>
-                  <li><a href="#">Drop Down 4</a></li>
-                </ul>
+              
               </li>
             </ul>
           </nav>

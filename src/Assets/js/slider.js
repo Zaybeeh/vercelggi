@@ -1,6 +1,3 @@
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
 (function () {
 
   'use strict';

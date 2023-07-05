@@ -58,7 +58,6 @@ function Home(){
                 <h3 className="immigrate_canada_sec_title">DID YOU KNOW THAT THERE ARE 129 WAYS TO IMMIGRATE TO CANADA?</h3>
               </div>
             </div>
-          
           </div>
         </div>
         <div className="embark_section">
