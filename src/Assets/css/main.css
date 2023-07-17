@@ -2665,3 +2665,9 @@ section {
   color: #fff;
   font-family: "Helvetica";
 }
+
+.scrollTo{
+  position: relative;
+  text-align: center;
+}
+

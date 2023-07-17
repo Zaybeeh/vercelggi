@@ -1276,6 +1276,29 @@
   text-align: center;
   color: #fff;
 }
+.permanent_resident_visa_text{
+  font-family: "helvetica";
+  font-size: 18px;
+  position: relative;
+  color: white;
+  z-index: 99999;
+  top: -125px;
+  left: 20px;
+}
+.learn_more_btn{
+  font-family: "helvetica";
+  font-size: 18px;
+  position: relative;
+  z-index: 99999;
+  top: -125px;
+  width: 80%;
+  background: #ff0000;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px;
+  left: 20px;
+}
 .book_appoint_section{
   padding: 50px 100px;
 }
@@ -1640,3 +1663,130 @@
 }
 
 /*---------------------------------Team End---------------------------------*/
+.cover {
+    position: relative;
+    padding: 0px 30px;
+    margin-top: 100px;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.scroll-images {
+    position: relative;
+    width: 100%;
+    padding: 40px 0px;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+    height: 200px;
+    padding: 0px 15px;
+    margin: 1px 10px;
+    border: 1px solid #f1f1f1;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 15px 2px rgb(0 0 0 / 10%);;
+    box-shadow: 0px 0px 15px 2px rgb(0 0 0 / 10%);;
+}
+
+.child img, .child > svg {
+    position: absolute;
+    margin-top: -195px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    background: #03A9F4;
+}
+
+.scroll-images::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #aaa;
+}
+
+.scroll-images::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
+/*button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+}*/
+
+.consultants .react-multi-carousel-item{
+/*  width: 200px!important;*/
+}
+
+.consultants .react-multi-carousel-item img{
+  width: 100%;
+}
+
+.consultants .react-multi-carousel-track {
+/*  transition: transform 200ms ease-in-out 0s!important;*/
+} 
+
+.consultants img{
+/*  border-radius: 50%;*/
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: filter 600ms ease;
+  -webkit-transition: -webkit-filter 600ms ease;
+}
+
+.consultants img:hover{
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+
+.consultants .react-multi-carousel-dot-list{
+  bottom:80px!important;
+}
+
+.react-multi-carousel-dot button{
+  width: 16px!important;
+  height: 16px!important;
+  border-color: white!important;
+  background: transparent!important;
+}
+
+.react-multi-carousel-dot--active button{
+  background: #ff0000!important;
+}
+
+.meet_the_team_btn{
+  font-family: "Helvetica";
+  position: relative;
+  top: -70px;
+  border: none;
+  color: #ffffff;
+  background: #ff0000;
+  padding: 14px 25px;
+  border-radius: 4px;
+  font-size: 18px;
+}

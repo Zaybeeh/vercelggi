@@ -36,12 +36,12 @@ function Header(){
           </Link>
           <nav id="navbar" className="navbar navbar_nav_box">
             <ul>
-              <li><a href="#hero">Temporary Resident Visa</a></li>
-              <li><a href="#about">Permanent Resident Visa</a></li>
-              <li><a href="#services">Business Immigration</a></li>
-              <li><a href="#portfolio">About</a></li>
-              <li className="dropdown"><a href="#"><span>Blog</span> <i className="bi bi-chevron-down dropdown-indicator"></i></a>
-              
+              <li><Link to="#hero">Temporary Resident Visa</Link></li>
+              <li><Link to="#about">Permanent Resident Visa</Link></li>
+              <li><Link to="#services">Business Immigration</Link></li>
+              <li><Link to="#portfolio">About</Link></li>
+              <li className="dropdown"><Link to="#"><span>Blog</span> <i className="bi bi-chevron-down dropdown-indicator"></i></Link>
+
               </li>
             </ul>
           </nav>

@@ -3,8 +3,47 @@ import Header from "./header.js";
 import Footer from "./footer.js";
 import {Img} from "../Utilities/Icons.js";
 import VideoPlayer from "react-background-video-player";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 function Home(){
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3.5
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
+  const responsive_2 = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 7,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 7
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
+
   return(
     <div>
       <Header />
@@ -43,7 +82,10 @@ function Home(){
                       </div>
                       <div>
                         <button className="video_free_report">Create A Free Report</button>
-                      </div>
+                      </div>                   
+                    </div>
+                    <div className="col-md-12" className="text-center">
+                      <a href="#top" className="scrollTo"><img src={Img.bottom_arrow}></img></a>
                     </div>
                   </div>
                 </div>
@@ -51,11 +93,43 @@ function Home(){
             </div>
           </div>
         </div>
-        <div className="immigrate_canada_section">
+        <div className="immigrate_canada_section" id="top">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-12">
                 <h3 className="immigrate_canada_sec_title">DID YOU KNOW THAT THERE ARE 129 WAYS TO IMMIGRATE TO CANADA?</h3>
+              </div>
+              <div className="col-md-12">
+                <Carousel responsive={responsive} showDots={true}>
+                  <div>
+                    <img src={Img.immigrate_canada_img_1} alt=""></img>
+                    <div className="text-center">
+                       <h3 className="permanent_resident_visa_text">Permanent Resident Visa</h3>
+                       <button className="learn_more_btn">Learn More</button>
+                    </div>
+                  </div>
+                  <div>
+                    <img src={Img.immigrate_canada_img_2} alt=""></img>
+                    <div className="text-center">
+                       <h3 className="permanent_resident_visa_text">Permanent Resident Visa</h3>
+                       <button className="learn_more_btn">Learn More</button>
+                    </div>
+                  </div>
+                  <div>
+                    <img src={Img.immigrate_canada_img_3} alt=""></img>
+                    <div className="text-center">
+                       <h3 className="permanent_resident_visa_text">Permanent Resident Visa</h3>
+                       <button className="learn_more_btn">Learn More</button>
+                    </div>
+                  </div>
+                  <div>
+                    <img src={Img.immigrate_canada_img_4} alt=""></img>
+                    <div className="text-center">
+                       <h3 className="permanent_resident_visa_text">Permanent Resident Visa</h3>
+                       <button className="learn_more_btn">Learn More</button>
+                    </div>
+                  </div>
+                </Carousel>
               </div>
             </div>
           </div>
@@ -78,6 +152,21 @@ function Home(){
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="consultants">
+          <div style={{ position: "relative" }}>
+            <Carousel responsive={responsive_2} showArrows={true} showDots={true}>
+              <div className="consultants"><img src={Img.p1} className="embark_img" alt=""></img></div>
+              <div className="consultants"><img src={Img.p2} className="embark_img" alt=""></img></div>
+              <div className="consultants"><img src={Img.p3} className="embark_img" alt=""></img></div>
+              <div className="consultants"><img src={Img.p4} className="embark_img" alt=""></img></div>
+              <div className="consultants"><img src={Img.p5} className="embark_img" alt=""></img></div>
+              <div className="consultants"><img src={Img.p6} className="embark_img" alt=""></img></div>
+              <div className="consultants"><img src={Img.p7} className="embark_img" alt=""></img></div>
+              <div className="consultants"><img src={Img.p1} className="embark_img" alt=""></img></div>
+            </Carousel>
+            <center><button className="meet_the_team_btn">Meet the Team</button></center>
           </div>
         </div>
         <div className="book_appoint_section">
