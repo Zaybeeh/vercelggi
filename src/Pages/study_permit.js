@@ -1,0 +1,123 @@
+import React from "react";
+import Header from "./header.js";
+import Footer from "./footer.js";
+import {Img} from "../Utilities/Icons.js";
+import VideoPlayer from "react-background-video-player";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
+function Home(){
+  const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3.5
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
+  const responsive_2 = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 7,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 7
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
+
+  return(
+    <div>
+      <Header />
+        <div className="banner_section">
+          <img src={Img.student_visa_banner} className="banner_img" alt=""></img>
+          <button className="embark_book_appoint">Book An Appointment</button>         
+        </div>
+        <div className="immigrate_canada_section" id="top">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-md-12">
+                <h3 className="study_permit_title">Study Permit</h3>
+              </div>
+              <div className="col-md-6">
+                <p className="study_permit_para">A study permit is a document issued by the Canadian government that allows foreign nationals to study at designated learning institutions (DLIs) in the country. It serves as an essential requirement for most international students planning to pursue their academic aspirations in Canada.</p>
+                <p className="study_permit_para">To ensure a smooth and successful study permit application process, it is imperative to have all the required documents ready beforehand.</p>
+                <p className="study_permit_para">The specific documents necessary may vary depending on your unique circumstances, including whether you are applying through the Student Direct Stream (SDS) or the regular non-SDS stream.</p>              
+              </div>
+              <div className="col-md-6">
+                <img src={Img.study_permit} className="study_permit_img" alt=""></img>               
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="requirements_section">
+          <div className="container-fluid">
+            <div className="row align_item_center">
+              <div className="col-md-12">
+                <h3 className="requirements_title">SDS & Non-SDS</h3>
+              </div>
+              <div className="col-md-6">
+                <div className="sdm_box">
+                  <h3 className="sdm_stream_title">SDS Stream</h3>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="sdm_box">
+                  <h3 className="sdm_stream_title">Non- SDS Stream</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div className="why_glowing_section">
+          <div className="container-fluid">
+            <div className="row align_item_center">
+              <div className="col-md-12">
+                <h3 className="study_permit_title">Why Growing Globe Immigration?</h3>
+                <ul className="why_glowing_ul">
+                  <li>At our consultancy, we understand the intricacies of the study permit application process for both SDS and non-SDS streams and are here to assist you every step of the way.</li>
+                  <li>Our knowledgeable consultants will ensure that you have a smooth experience, from document preparation to submitting your application.</li>
+                  <li>Our team of experts is ready to provide you with the guidance and support you need to navigate the study permit application process, tailored to your specific circumstances and stream.</li>
+                  <li>Let us help you turn your aspirations of studying in Canada into a reality.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="contact_us_today_section">
+           <div className="container-fluid">
+              <div className="row align_item_center">
+                <div className="col-md-12">                
+                  <h3 className="contact_us_today_text">Contact us today to start your journey <br /> towards a world-class education in Canada.</h3>
+                  <button className="video_book_appoint mt_10">Book An Appointment</button>                  
+                </div>
+              </div>
+           </div>
+        </div>
+
+      <Footer />
+    </div>
+  );
+}
+
+export default Home;

@@ -20,6 +20,7 @@ function Home(){
       breakpoint: { max: 1024, min: 464 },
       items: 2
     },
+    
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1
@@ -63,25 +64,25 @@ function Home(){
                 <div className="col-md-12">
                   <div className="video_sec_counter_box">
                     <div className="video_sec_counter_box_inner">
-                      <h3 className="video_sec_counter_title">5000+</h3>
+                      <h3 className="video_sec_counter_title">1500+</h3>
                       <h5 className="video_sec_counter_subtitle">List of Approvals</h5>
                     </div>
                     <div className="video_sec_counter_box_inner">
-                      <h3 className="video_sec_counter_title">100+</h3>
+                      <h3 className="video_sec_counter_title">300+</h3>
                       <h5 className="video_sec_counter_subtitle">Ongoing Files</h5>
                     </div>
                     <div className="video_sec_counter_box_inner">
-                      <h3 className="video_sec_counter_title">24 Hours</h3>
+                      <h3 className="video_sec_counter_title">48 Hours</h3>
                       <h5 className="video_sec_counter_subtitle">Current Processing Time</h5>
                     </div>
                   </div>
                   <div className="col-md-12">
                     <div className="video_sec_counter_box">
                       <div>
-                        <button className="video_book_appoint">Book An Appointment</button>
+                        <a href="https://calendly.com/growingglobeimmigration"><button className="video_book_appoint">Book An Appointment</button></a>
                       </div>
                       <div>
-                        <button className="video_free_report">Create A Free Report</button>
+                        <button className="video_free_report">Free Assesment</button>
                       </div>                   
                     </div>
                     <div className="col-md-12" className="text-center">
@@ -97,35 +98,35 @@ function Home(){
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-12">
-                <h3 className="immigrate_canada_sec_title">DID YOU KNOW THAT THERE ARE 129 WAYS TO IMMIGRATE TO CANADA?</h3>
+                <h3 className="immigrate_canada_sec_title mb_25">Did you know that there are 129 ways to immigrate to canada?</h3>
               </div>
               <div className="col-md-12">
                 <Carousel responsive={responsive} showDots={true}>
                   <div>
                     <img src={Img.immigrate_canada_img_1} alt=""></img>
                     <div className="text-center">
-                       <h3 className="permanent_resident_visa_text">Permanent Resident Visa</h3>
+                       <h3 className="permanent_resident_visa_text">Study Permit</h3>
                        <button className="learn_more_btn">Learn More</button>
                     </div>
                   </div>
                   <div>
                     <img src={Img.immigrate_canada_img_2} alt=""></img>
                     <div className="text-center">
-                       <h3 className="permanent_resident_visa_text">Permanent Resident Visa</h3>
+                       <h3 className="permanent_resident_visa_text">Business Visa</h3>
                        <button className="learn_more_btn">Learn More</button>
                     </div>
                   </div>
                   <div>
                     <img src={Img.immigrate_canada_img_3} alt=""></img>
                     <div className="text-center">
-                       <h3 className="permanent_resident_visa_text">Permanent Resident Visa</h3>
+                       <h3 className="permanent_resident_visa_text">Work Visa</h3>
                        <button className="learn_more_btn">Learn More</button>
                     </div>
                   </div>
                   <div>
                     <img src={Img.immigrate_canada_img_4} alt=""></img>
                     <div className="text-center">
-                       <h3 className="permanent_resident_visa_text">Permanent Resident Visa</h3>
+                       <h3 className="permanent_resident_visa_text">Immigrate</h3>
                        <button className="learn_more_btn">Learn More</button>
                     </div>
                   </div>

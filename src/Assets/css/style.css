@@ -1250,6 +1250,7 @@
   padding: 10px 50px 10px 55px;
   letter-spacing: 0.5px;
   border: 2px solid #fff;
+  width: 280px;
 }
 .video_sec_counter_title{
   font-family: "helvetica";
@@ -1272,7 +1273,7 @@
   font-family: "helvetica";
   font-size: 25px;
   font-weight: 500;
-  text-transform: uppercase;
+/*  text-transform: uppercase;*/
   text-align: center;
   color: #fff;
 }
@@ -1380,7 +1381,8 @@
   margin-right: 15px;
   margin-left: 40px;
   margin-bottom: 50px;
-  line-height: 41px;
+/*  line-height: 41px;*/
+  text-align: justify;
 }
 .embark_scroll_content {
   width: 100%;
@@ -1789,4 +1791,234 @@
   padding: 14px 25px;
   border-radius: 4px;
   font-size: 18px;
+}
+
+
+.video_section_2 {
+    background: #000;
+    padding: 30px 0 60px 0;
+    height: 800px;
+    align-items: end;
+/*    display: flex;*/
+    position: relative;
+}
+
+.video_counter_box_2{
+/*  background-color: #D80000;*/
+  height: 200px;
+  top: 64%;
+  position: relative;
+  width: 71%;
+  background-image: url("../img/Rectangle 28.png");
+  background-size: cover;
+}
+
+.girl_img{
+  position: relative;
+  height: 315px;
+  top: -91px;
+}
+
+.student_visa_text{
+  font-family: "Helvetica";
+  font-size: 14px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  padding: 25px 0;
+/*  top: -220px;*/
+}
+
+.study_permit_title{
+  font-family: "Helvetica";
+  font-size: 24px;
+  color: #D80000;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.study_permit_para{
+  font-family: "Helvetica";
+  font-size: 16px;
+  color: #fff;
+  text-align: justify;
+}
+
+.study_permit_img{
+  background: white;
+  width: 100%;
+}
+
+.requirements_section{
+  background-color: #292A2B;
+  padding: 30px 0;
+}
+
+.requirements_title{
+  font-family: "Helvetica";
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.sdm_box{
+  background-color: rgba(216, 0, 0, 0.27);
+  padding: 20px;
+}
+
+.sdm_stream_title{
+  font-family: "Helvetica";
+  font-size: 23px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.why_glowing_section{
+  background-color: #101822;
+  padding: 35px;
+}
+
+.why_glowing_ul li{
+  font-family: "Helvetica";
+  font-size: 16px;
+  color: #ffffff;
+}
+
+ul.why_glowing_ul {
+  list-style-image:url('../img/Hand_Left.png');
+}
+
+.contact_us_today_section{
+  background-color: #D80000;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contact_us_today_text{
+  font-family: "Helvetica-Bold";
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.let_us_introduce_title{
+  font-family: "Helvetica";
+  font-size: 16px;
+  color: #D80000;
+}
+
+.visa_card{
+  background-color: #ffffff;
+  width: 100%;
+  margin: 15px 0;
+/*  min-height: 415px;*/
+}
+
+.visa_img{
+  width: 100%;
+}
+
+.visa_content{
+  padding: 15px;
+}
+
+.visa_title{
+  font-family: "Helvetica";
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.visa_para{
+  font-family: "Helvetica";
+  font-size: 14px;
+  text-align: justify;
+}
+
+.if_you_are_para{
+  font-family: "Helvetica";
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.unlock_additional_para{
+  font-family: "Helvetica";
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.about_growing_head{
+  font-family: "Helvetica";
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+
+.we_are_a_global_para{
+  font-family: "Helvetica";
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+}
+
+.who_we_are_ul li{
+  font-family: "Helvetica";
+  font-size: 16px;
+  color: #ffffff;
+  list-style-type: none;
+}
+
+ul.who_we_are_ul li::before {
+  content: "";
+  background-image: url(../img/Checked_Checkbox.png);
+  background-size: contain;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  position: relative;
+  top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.logo_img{
+  height: 64px;
+  width: initial;
+  margin: 25px 0;
+}
+
+.book_an_appointment_btn{
+  font-family: "Helvetica";
+  font-size: 14px;
+  border: none;
+  background: #D80000;
+  padding: 5px 15px;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.meet_team{
+  position: absolute;
+  bottom: 45px;
+  z-index: 9999;
+}
+
+.banner_img{
+  width: 100%;
+}
+
+.banner_content{
+  position: absolute;
+  bottom: 12%;
+  left: 14%;
+}
+
+.banner_content_2 {
+    position: absolute;
+    bottom: 9%;
+    right: 11%;
 }

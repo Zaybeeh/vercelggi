@@ -25,33 +25,50 @@ function Footer(){
           </div>
           <div class="col-lg-2 col-6 footer-links">
             <h4>Quick Links</h4>
-            <ul>
-              <li><Link>Permanent Resident Visa</Link></li>
-              <li><Link>Temporary Resident Visa</Link></li>
-              <li><Link>Business Immigration</Link></li>
-              <li><Link>Resettlement </Link></li>
-            </ul>
+            <div className="flex_this">
+              <ul>
+                <li><Link to="/visit_visa">Visit Visa</Link></li>
+                <li><Link to="/study_permit">study Permit</Link></li>
+                <li><Link to="/work_visa">Work Visa</Link></li>
+                <li><Link to="/business_visa">Business Visa</Link></li>
+              </ul>
+              <ul>
+                <li><Link to="/immigrate">Immigration</Link></li>
+                <li><Link to="/about_us">About Us</Link></li>
+                <li><Link to="#portfolio">Contact Us</Link></li>
+                <li><Link to="#portfolio">Blog</Link></li>
+              </ul>
+            </div>
           </div>
           <div class="col-lg-2 col-6 footer-links">
             <h4>Contact</h4>
             <ul>
-              <li><Link>Permanent Resident Visa</Link></li>
-              <li><Link>Temporary Resident Visa</Link></li>
-              <li><Link>Business Immigration</Link></li>
-              <li><Link>Resettlement </Link></li>
+              <li><Link>Canada : +16477055403</Link></li>
+              <li><Link>UAE : +971501328189</Link></li>
+              <li><Link>India : 18008890542</Link></li>
             </ul>
           </div>
           <div class="col-lg-2 col-6 footer-links">
             <h4>Locations</h4>
+            <div className="flex_this">
             <ul>
-              <li><Link>Permanent Resident Visa</Link></li>
-              <li><Link>Temporary Resident Visa</Link></li>
-              <li><Link>Business Immigration</Link></li>
-              <li><Link>Resettlement </Link></li>
+              <li><Link className="footer_subtitle">Canada</Link></li>
+              <li><Link>Toronto </Link></li>
+              <li><Link>Brampton</Link></li>
+              <li><Link>ON Canada</Link></li>
+              <li><Link className="footer_subtitle">UAE</Link></li>             
             </ul>
+            <ul>
+              <li><Link className="footer_subtitle">India</Link></li>
+              <li><Link>new Delhi</Link></li>
+              <li><Link>Jalandhar</Link></li>
+              <li><Link>Ahmedabad</Link></li>
+            </ul>
+            </div>
           </div>
           <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <div>
+              <img src={FooterImg.footer_img4} className="footer_img" alt=""></img>
               <img src={FooterImg.footer_img} className="footer_img" alt=""></img>
               <img src={FooterImg.footer_img2} className="footer_img" alt=""></img>
               <img src={FooterImg.footer_img3} className="footer_img" alt=""></img>
