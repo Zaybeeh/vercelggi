@@ -1198,20 +1198,20 @@
 /*---------------------------------Home Page Start---------------------------------*/
 .video_section {
   background: #000;
-  padding: 30px 0 60px 0;
+  padding: 30px 0 80px 0;
   height: 800px;
   align-items: end;
   display: flex;
     position: relative;
+}
+.video_btn_img{
+  margin-top: 20px;
 }
 .video_box{
   opacity: 0.5;
 }
 .video{
   width: 100px;
-}
-.video_counter_box{
-
 }
 .video_sec_counter_box{
  display: flex;
@@ -1267,24 +1267,29 @@
 }
 .immigrate_canada_section{
   background: #101822;
-  padding: 50px 20px;
+  padding: 50px 20px 120px 20px
 }
 .immigrate_canada_sec_title{
   font-family: "helvetica";
   font-size: 25px;
-  font-weight: 500;
-/*  text-transform: uppercase;*/
+  font-weight: 600;
+ text-transform: uppercase;
   text-align: center;
   color: #fff;
 }
+.immigrate_canada_sec_img{
+  width: 511px;
+  height: 771px;
+}
 .permanent_resident_visa_text{
   font-family: "helvetica";
-  font-size: 18px;
+  font-size: 20px;
   position: relative;
   color: white;
   z-index: 99999;
-  top: -125px;
+  top: -140px;
   left: 20px;
+  width: 95%;
 }
 .learn_more_btn{
   font-family: "helvetica";
@@ -1292,20 +1297,20 @@
   position: relative;
   z-index: 99999;
   top: -125px;
-  width: 80%;
+  width: 84%;
   background: #ff0000;
   border: none;
   color: #fff;
   border-radius: 8px;
-  padding: 8px;
-  left: 20px;
+  padding: 5px 8px 10px 8px;
+  margin-left: 15px;
 }
 .book_appoint_section{
   padding: 50px 100px;
 }
 .book_appoint_section_title{
   font-family: "helvetica";
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   color: #000;
   margin-right: 20px;
@@ -1376,7 +1381,7 @@
   overflow-y: scroll;
   position: relative;
   font-family: "Helvetica";
-  font-size: 18px;
+  font-size: 16px;
   padding-right: 50px;
   margin-right: 15px;
   margin-left: 40px;
@@ -1470,7 +1475,9 @@
   background-position: center 6px;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='rgb(151, 151, 151)'><polygon points='0,0 100,0 50,50'/></svg>");
 }
-
+.react-multiple-carousel__arrow{
+  margin-top: -125px;
+}
 /*---------------------------------Home Page End---------------------------------*/
 /*---------------------------------Team Start---------------------------------*/
 .team_section{
@@ -1740,7 +1747,24 @@
     cursor: pointer;
     font-size: 25px;
 }*/
-
+.consultants_section{
+  background: #101822;
+  padding: 50px 0 0 0;
+}
+.react-multi-carousel-list{
+  margin-bottom: -55px;
+}
+.consultants_sec_title {
+    font-family: "helvetica";
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 25px;
+    line-height: 38px;
+    letter-spacing: 0.5px;
+}
 .consultants .react-multi-carousel-item{
 /*  width: 200px!important;*/
 }
@@ -1751,7 +1775,7 @@
 
 .consultants .react-multi-carousel-track {
 /*  transition: transform 200ms ease-in-out 0s!important;*/
-} 
+}
 
 .consultants img{
 /*  border-radius: 50%;*/
@@ -1767,7 +1791,7 @@
 }
 
 .consultants .react-multi-carousel-dot-list{
-  bottom:80px!important;
+  bottom:110px!important;
 }
 
 .react-multi-carousel-dot button{
@@ -1784,13 +1808,14 @@
 .meet_the_team_btn{
   font-family: "Helvetica";
   position: relative;
-  top: -70px;
+  top: -40px;
   border: none;
   color: #ffffff;
   background: #ff0000;
-  padding: 14px 25px;
+  padding: 10px 45px 14px 45px;
   border-radius: 4px;
   font-size: 18px;
+  text-transform: capitalize;
 }
 
 
@@ -1878,23 +1903,19 @@
   background-color: #101822;
   padding: 35px;
 }
-
 .why_glowing_ul li{
   font-family: "Helvetica";
   font-size: 16px;
   color: #ffffff;
 }
-
 ul.why_glowing_ul {
   list-style-image:url('../img/Hand_Left.png');
 }
-
 .contact_us_today_section{
   background-color: #D80000;
   text-align: center;
   padding: 20px 0;
 }
-
 .contact_us_today_text{
   font-family: "Helvetica-Bold";
   font-size: 25px;
@@ -1902,62 +1923,52 @@ ul.why_glowing_ul {
   text-align: center;
   text-transform: capitalize;
 }
-
 .let_us_introduce_title{
   font-family: "Helvetica";
   font-size: 16px;
   color: #D80000;
 }
-
 .visa_card{
   background-color: #ffffff;
   width: 100%;
   margin: 15px 0;
 /*  min-height: 415px;*/
 }
-
 .visa_img{
   width: 100%;
 }
-
 .visa_content{
   padding: 15px;
 }
-
 .visa_title{
   font-family: "Helvetica";
   font-size: 14px;
   font-weight: 700;
   text-align: center;
 }
-
 .visa_para{
   font-family: "Helvetica";
   font-size: 14px;
   text-align: justify;
 }
-
 .if_you_are_para{
   font-family: "Helvetica";
   font-size: 12px;
   font-weight: 300;
   color: #ffffff;
 }
-
 .unlock_additional_para{
   font-family: "Helvetica";
   font-size: 16px;
   color: #ffffff;
   text-align: center;
 }
-
 .about_growing_head{
   font-family: "Helvetica";
   font-size: 22px;
   color: #ffffff;
   margin-bottom: 35px;
 }
-
 .we_are_a_global_para{
   font-family: "Helvetica";
   font-size: 16px;
@@ -1965,14 +1976,12 @@ ul.why_glowing_ul {
   color: #ffffff;
   text-align: center;
 }
-
 .who_we_are_ul li{
   font-family: "Helvetica";
   font-size: 16px;
   color: #ffffff;
   list-style-type: none;
 }
-
 ul.who_we_are_ul li::before {
   content: "";
   background-image: url(../img/Checked_Checkbox.png);
@@ -1984,13 +1993,11 @@ ul.who_we_are_ul li::before {
   top: 0.5rem;
   margin-right: 0.5rem;
 }
-
 .logo_img{
   height: 64px;
   width: initial;
   margin: 25px 0;
 }
-
 .book_an_appointment_btn{
   font-family: "Helvetica";
   font-size: 14px;
@@ -2000,25 +2007,144 @@ ul.who_we_are_ul li::before {
   color: #ffffff;
   border-radius: 20px;
 }
-
 .meet_team{
   position: absolute;
   bottom: 45px;
   z-index: 9999;
 }
-
 .banner_img{
   width: 100%;
 }
-
 .banner_content{
   position: absolute;
   bottom: 12%;
   left: 14%;
 }
-
 .banner_content_2 {
     position: absolute;
     bottom: 9%;
     right: 11%;
 }
+/*---------------------------------------------------------------------------------------------------------------------------*/
+.heading {
+    text-align: center;
+    color: #454343;
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    z-index: 999;
+}
+.white-heading{
+    color: #ffffff;
+}
+.heading:after {
+    content: ' ';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 40px;
+    width: 180px;
+    border-radius: 4px;
+    transform: translateX(-50%);
+    /* background: url(img/heading-line.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.white-heading:after {
+    background: url(https://i.ibb.co/d7tSD1R/heading-line-white.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heading span {
+    font-size: 18px;
+    display: block;
+    font-weight: 500;
+}
+.white-heading span {
+    color: #ffffff;
+}
+/*------------------------------Testimonials------------------------------------*/
+.testimonials_sec{
+
+}
+section.row.testimonials {
+  background-color: #101822;
+  padding: 60px 65px;
+  box-sizing: border-box;
+}
+section.row.testimonials .owl-carousel {
+  width: 100%;
+  cursor: move;
+}
+section.row.testimonials .owl-carousel .item {
+  text-align: center;
+  font-family: "Helvetica";
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  transition: 0.3s all linear;
+}
+section.row.testimonials .owl-carousel .item:hover {
+  background-color: #ff0000;
+}
+section.row.testimonials .owl-carousel .item:hover h3, section.row.testimonials .owl-carousel .item:hover p {
+  color: #ffffff;
+}
+section.row.testimonials .owl-carousel .item:hover img {
+  border: 3px solid white;
+  box-sizing: border-box;
+}
+section.row.testimonials .owl-carousel .item h3 {
+  color: #000;
+  font-family: "Helvetica";
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+section.row.testimonials .owl-carousel .item p {
+  color: #777777;
+  font-family: "Helvetica";
+  font-weight: 500;
+  font-size: 13 px;
+}
+section.row.testimonials .owl-carousel .item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 30px;
+  transition: 0.3s border linear;
+}
+section.row.testimonials h2 {
+  color: #ffffff;
+  font-weight: normal;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 33px;
+  letter-spacing: 0.5px;
+  font-family: "Helvetica";
+  text-align: center;
+  margin-bottom: 40px;
+}
+section.row.testimonials .owl-dots {
+  margin: 20px auto 0;
+  /*for centering the dots*/
+  text-align: center;
+}
+section.row.testimonials .owl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #ff0000;
+  margin-right: 5px;
+  display: inline-block;
+}
+section.row.testimonials .owl-dot.active {
+  background: #ffffff;
+}
+section.row.testimonials .owl-dots.disabled {
+  display: block !important;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/

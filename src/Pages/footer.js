@@ -56,7 +56,7 @@ function Footer(){
               <li><Link>Toronto </Link></li>
               <li><Link>Brampton</Link></li>
               <li><Link>ON Canada</Link></li>
-              <li><Link className="footer_subtitle">UAE</Link></li>             
+              <li><Link className="footer_subtitle">UAE</Link></li>
             </ul>
             <ul>
               <li><Link className="footer_subtitle">India</Link></li>
@@ -83,6 +83,8 @@ function Footer(){
         </div>
       </div>
 
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+      <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
     </footer>
   );
 }
