@@ -42,9 +42,9 @@ function Header(){
               <li><Link to="/business_visa">Business Visa</Link></li>
               <li><Link to="/immigrate">Immigration</Link></li>
               <li><Link to="/about_us">About Us</Link></li>
-              <li><Link to="#portfolio">Contact Us</Link></li>
-              <li><Link to="#portfolio">Blog</Link></li>
-             
+              <li><Link to="/contactus">Contact Us</Link></li>
+              <li><Link to="/blogs">Blog</Link></li>
+
             </ul>
           </nav>
 

@@ -12,7 +12,8 @@ a {
 }
 
 a:hover {
-  color: #00b6a1;
+  color: #d80100;
+  /* color: #00b6a1; */
   text-decoration: none;
 }
 
@@ -2561,7 +2562,7 @@ section {
 }
 
 .footer .footer-info .logo img {
-  max-height:250px;
+  max-height:190px;
   margin-right: 6px;
 }
 
@@ -2681,4 +2682,3 @@ section {
   display: flex;
   gap: 15px;
 }
-

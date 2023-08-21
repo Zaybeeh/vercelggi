@@ -8,6 +8,8 @@ import Visit_visa from "./Pages/visit_visa.js";
 import Work_visa from "./Pages/work_visa.js";
 import Immigrate from "./Pages/immigrate.js";
 import About_us from "./Pages/about_us.js";
+import Blogs from "./Pages/blogs.js";
+import ContactUs from "./Pages/contact_us.js";
 import './App.css';
 
 function App() {
@@ -21,7 +23,9 @@ function App() {
         <Route path="/visit_visa" element={<Visit_visa/>}/>
         <Route path="/work_visa" element={<Work_visa/>}/>
         <Route path="/immigrate" element={<Immigrate/>}/>
-        <Route path="/about_us" element={<About_us/>}/>        
+        <Route path="/about_us" element={<About_us/>}/>
+        <Route path="/blogs" element={<Blogs/>}/>
+        <Route path="/contactus" element={<ContactUs/>}/>
       </Routes>
     </div>
   );

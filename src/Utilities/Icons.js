@@ -1,6 +1,7 @@
 export const Logo = {
-  logo: require("../Assets/img/logo_2.png"),
-  footer_logo: require("../Assets/img/footer_logo_img.png"),
+  logo: require("../Assets/img/logo.png"),
+  footer_logo: require("../Assets/img/logo.png"),
+  // footer_logo: require("../Assets/img/footer_logo_img.png"),
 };
 
 export const FooterImg = {
@@ -87,16 +88,33 @@ export const Img = {
 	capic: require("../Assets/img/capic.png"),
 	CICC: require("../Assets/img/CICC.png"),
 	Low_security: require("../Assets/img/Low_security.png"),
-	student_visa_banner: require("../Assets/img/student_visa_banner.png"),
-	business_visa_banner: require("../Assets/img/business_visa_banner.png"),
-	visit_visa_banner: require("../Assets/img/visit_visa_banner.png"),
-	work_visa_banner: require("../Assets/img/work_visa_banner.png"),
-	about_us_banner: require("../Assets/img/about_us_banner.jpg"),
-	immigrate_banner: require("../Assets/img/immigrate_banner.jpg"),
-
+	town_of_Whitecourt_Logo: require("../Assets/img/Town_of_Whitecourt_Logo.png"),
+	student_visa_banner: require("../Assets/img/breadcrumb/student_visa.jpg"),
+	business_visa_banner: require("../Assets/img/breadcrumb/business_visa.jpg"),
+	visit_visa_banner: require("../Assets/img/breadcrumb/visit_visa.jpg"),
+	work_visa_banner: require("../Assets/img/breadcrumb/work_visa.jpg"),
+	about_us_banner: require("../Assets/img/breadcrumb/about_us.jpg"),
+	immigrate_banner: require("../Assets/img/breadcrumb/immigrate.jpg"),
+	blog_banner: require("../Assets/img/breadcrumb/blogs.jpg"),
+	contactus_banner: require("../Assets/img/breadcrumb/contact_us.jpg"),
+  contact_canada: require("../Assets/img/contactus/Canada.jpg"),
+  contact_india: require("../Assets/img/contactus/India-map.jpg"),
+  contact_uae: require("../Assets/img/contactus/UAE.jpg"),
 };
 
 export const Icons = {
   arrow_top: require("../Assets/img/top.png"),
   arrow_bottom: require("../Assets/img/bottom.png"),
+  useravtar: require("../Assets/img/user_avtar.png"),
+}
+
+export const Blogs_img = {
+  blogs_1: require("../Assets/img/blogs/blog_1.jpeg"),
+  blogs_2: require("../Assets/img/blogs/blog_2.jpg"),
+  blogs_3: require("../Assets/img/blogs/blog_3.jpg"),
+  blogs_4: require("../Assets/img/blogs/blog_4.jpg"),
+  blogs_5: require("../Assets/img/blogs/blog_5.png"),
+  blogs_6: require("../Assets/img/blogs/blog_6.jpg"),
+  blogs_7: require("../Assets/img/blogs/blog_7.jpg"),
+  blogs_8: require("../Assets/img/blogs/blog_8.jpg"),
 }

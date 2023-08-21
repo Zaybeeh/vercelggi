@@ -51,12 +51,12 @@ function Home(){
           <img src={Img.work_visa_banner} className="banner_img" alt=""></img>
           <div className="banner_content">
               <a href="https://calendly.com/growingglobeimmigration">
-                 <button className="video_book_appoint">Book An Appointment</button>
+                 <button className="embark_book_appoint">Book An Appointment</button>
               </a>
-          </div>     
+          </div>
         </div>
         <div className="immigrate_canada_section" id="top">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <h3 className="study_permit_title">Work Visa</h3>
@@ -66,13 +66,13 @@ function Home(){
                 <p className="study_permit_para">At our consultancy, we recognize the diverse range of individuals seeking Canadian work visas, including those involved in charitable or religious work, as well as vulnerable workers. We understand the importance of providing support and guidance tailored to the unique circumstances and needs of these individuals.</p>
               </div>
               <div className="col-md-6">
-                <img src={Img.work_visa} className="study_permit_img" alt=""></img>               
+                <img src={Img.work_visa} className="study_permit_img" alt=""></img>
               </div>
             </div>
           </div>
         </div>
         <div className="requirements_section">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row align_item_center">
               <div className="col-md-6">
                 <div className="sdm_box">
@@ -91,7 +91,7 @@ function Home(){
         </div>
 
         <div className="immigrate_canada_section">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <h3 className="let_us_introduce_title">Let's explore the range of Canadian work visa options available to you:</h3>
@@ -177,9 +177,9 @@ function Home(){
             </div>
           </div>
         </div>
-        
+
         <div className="why_glowing_section">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row align_item_center">
               <div className="col-md-12">
                 <h3 className="study_permit_title">Why Growing Globe Immigration?</h3>
@@ -197,9 +197,9 @@ function Home(){
         <div className="contact_us_today_section">
            <div className="container-fluid">
               <div className="row align_item_center">
-                <div className="col-md-12">                
+                <div className="col-md-12">
                   <h3 className="contact_us_today_text">Contact us today to begin your Canadian work visa application journey</h3>
-                  <button className="video_book_appoint mt_10">Book An Appointment</button>                  
+                  <button className="video_book_appoint mt_10">Book An Appointment</button>
                 </div>
               </div>
            </div>

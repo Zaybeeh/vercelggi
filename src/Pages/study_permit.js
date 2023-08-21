@@ -49,10 +49,14 @@ function Home(){
       <Header />
         <div className="banner_section">
           <img src={Img.student_visa_banner} className="banner_img" alt=""></img>
-          <button className="embark_book_appoint">Book An Appointment</button>
+          <div className="banner_content">
+            <a href="https://calendly.com/growingglobeimmigration">
+              <button className="embark_book_appoint">Book An Appointment</button>
+            </a>
+          </div>
         </div>
         <div className="immigrate_canada_section" id="top">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <h3 className="study_permit_title">Study Permit</h3>
@@ -69,7 +73,7 @@ function Home(){
           </div>
         </div>
         <div className="requirements_section">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row align_item_center">
               <div className="col-md-12">
                 <h3 className="requirements_title">SDS & Non-SDS</h3>
@@ -109,7 +113,7 @@ function Home(){
         </div>
 
         <div className="why_glowing_section">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row align_item_center">
               <div className="col-md-12">
                 <h3 className="study_permit_title">Why Growing Globe Immigration?</h3>

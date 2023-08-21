@@ -1267,7 +1267,7 @@
 }
 .immigrate_canada_section{
   background: #101822;
-  padding: 50px 20px 120px 20px
+  padding: 80px 20px 80px 20px;
 }
 .immigrate_canada_sec_title{
   font-family: "helvetica";
@@ -1856,10 +1856,11 @@
 
 .study_permit_title{
   font-family: "Helvetica";
-  font-size: 24px;
-  color: #D80000;
+  font-size: 30px;
+  /* color: #D80000; */
+  color: #fff;
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 }
 
 .study_permit_para{
@@ -1876,12 +1877,12 @@
 
 .requirements_section{
   background-color: #292A2B;
-  padding: 30px 0;
+  padding: 80px 0;
 }
 
 .requirements_title{
   font-family: "Helvetica";
-  font-size: 24px;
+  font-size: 30px;
   color: #ffffff;
   text-align: center;
   margin-bottom: 35px;
@@ -1906,7 +1907,7 @@
 
 .why_glowing_section{
   background-color: #101822;
-  padding: 35px;
+  padding: 50px 35px;
 }
 .why_glowing_ul li{
   font-family: "Helvetica";
@@ -1919,7 +1920,7 @@ ul.why_glowing_ul {
 .contact_us_today_section{
   background-color: #D80000;
   text-align: center;
-  padding: 20px 0;
+  padding: 35px 0;
 }
 .contact_us_today_text{
   font-family: "Helvetica-Bold";
@@ -1927,10 +1928,11 @@ ul.why_glowing_ul {
   color: #ffffff;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 15px;
 }
 .let_us_introduce_title{
   font-family: "Helvetica";
-  font-size: 16px;
+  font-size: 22px;
   color: #D80000;
 }
 .visa_card{
@@ -2008,7 +2010,7 @@ ul.who_we_are_ul li::before {
   font-size: 14px;
   border: none;
   background: #D80000;
-  padding: 5px 15px;
+  padding: 10px 25px;
   color: #ffffff;
   border-radius: 20px;
 }
@@ -2022,8 +2024,8 @@ ul.who_we_are_ul li::before {
 }
 .banner_content{
   position: absolute;
-  bottom: 12%;
-  left: 14%;
+  bottom: 28%;
+  left: 5%;
 }
 .banner_content_2 {
     position: absolute;
@@ -2153,3 +2155,377 @@ section.row.testimonials .owl-dots.disabled {
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------Blog Page Start----------------------------------------*/
+.Blog_section{
+  background: #101822;
+  padding: 65px 20px 120px 20px;
+}
+.blog_section_title{
+  font-family: "Helvetica";
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  margin-bottom:50px;
+}
+.blog-card-blog {
+    margin-top: 30px;
+}
+.blog-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.blog-card .blog-card-image {
+    height: 217px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.blog-card .blog-card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    pointer-events: none;
+}
+.blog-card .blog-table {
+    padding: 15px 30px 20px 30px;
+}
+.blog-table {
+    margin-bottom: 0px;
+}
+.blog-category {
+    position: relative;
+    line-height: 0;
+    margin: 15px 0;
+    font-family: "Helvetica";
+}
+.blog-text-success {
+    color: #d80100!important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.blog-card-blog .blog-card-caption {
+    margin-top: 5px;
+    height: 55px;
+}
+.blog-card-caption {
+    font-weight: 600;
+    font-family: "Helvetica";
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.blog-card .ftr {
+    margin-top: 15px;
+}
+.blog-card .ftr .author {
+    color: #888;
+}
+
+.blog-card .ftr div {
+    display: inline-block;
+}
+.blog-card .author .avatar {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 14px;
+    font-family: "Helvetica";
+    font-weight: 600;
+}
+.blog-card .ftr .stats {
+    float: right;
+    line-height: 30px;
+    font-family: "Helvetica";
+}
+.blog-card-description{
+  font-family: "Helvetica";
+  padding-bottom: 12px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.blog_author_name{
+  font-family: "Helvetica";
+}
+/*-----------------------------------------Blog Page End-----------------------------------------*/
+/*----------------------------------------Contact Page Start----------------------------------------*/
+.contact_section{
+  background: #101822;
+  padding: 65px 20px 120px 20px;
+}
+.contact_section_title{
+  font-family: "Helvetica";
+  font-size: 35px;
+  color: #fff;
+  text-align: center;
+  margin-bottom:80px;
+}
+.contact-card-blog {
+    margin-top: 30px;
+}
+.contact-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.contact-card .contact-card-image {
+    height: -webkit-fill-available;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.contact-card .contact-card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    pointer-events: none;
+}
+.contact-card .contact-table {
+    padding: 15px 30px 20px 30px;
+}
+.contact-table {
+    margin-bottom: 0px;
+}
+.contact-category {
+    position: relative;
+    line-height: 0;
+    margin: 15px 0;
+    font-family: "Helvetica";
+}
+.contact-text-success {
+    color: #d80100!important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.contact-card-blog .contact-card-caption {
+    margin-top: 5px;
+    height: 55px;
+}
+.contact-card-caption {
+    font-weight: 600;
+    font-family: "Helvetica";
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.contact-card-caption, .contact-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    padding-top: 30px;
+}
+.contact-card .ftr {
+    margin-top: 15px;
+}
+.contact-card .ftr .author {
+    color: #888;
+}
+
+.contact-card .ftr div {
+    display: inline-block;
+}
+.contact-card .author .avatar {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.contact-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 14px;
+    font-family: "Helvetica";
+    font-weight: 600;
+}
+.contact-card .ftr .stats {
+    float: right;
+    line-height: 30px;
+    font-family: "Helvetica";
+}
+.contact-card-description{
+  font-family: "Helvetica";
+  padding-bottom: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #212020;
+  margin-bottom: 10px;
+}
+.contact_author_name{
+  font-family: "Helvetica";
+}
+/*-----------------------------------------Contact Page End-----------------------------------------*/
+/*-----------------------------------------Modal Start-----------------------------------------*/
+/**
+ * Overlay
+ * -- only show for tablet and up
+ */
+@media only screen and (min-width: 40em) {
+  .modal-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), visibility 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  }
+  .modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+/**
+ * Modal
+ */
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  background-color: #fff;
+  width: 600px;
+  max-width: 75rem;
+  min-height: 20rem;
+  padding: 1rem;
+  border-radius: 3px;
+  opacity: 0;
+  overflow-y: auto;
+  visibility: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transform: scale(1.2);
+  transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+}
+.modal .close-modal {
+  position: absolute;
+  cursor: pointer;
+  top: 5px;
+  right: 15px;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1), transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  transition-delay: 0.3s;
+}
+.modal .close-modal svg {
+  width: 1.75em;
+  height: 1.75em;
+}
+.modal .modal-content {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transition: opacity 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+  transition-delay: 0.3s;
+}
+.modal.active {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+.modal.active .modal-content {
+  opacity: 1;
+}
+.modal.active .close-modal {
+  transform: translateY(10px);
+  opacity: 1;
+}
+
+/**
+ * Mobile styling
+ */
+@media only screen and (max-width: 39.9375em) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 0;
+    transform: scale(1.1);
+    padding: 0 !important;
+  }
+
+  .close-modal {
+    right: 20px !important;
+  }
+}
+button {
+  background-color: #0D52E9;
+  position: relative;
+  color: #fff;
+  border: none;
+  padding: 1.25em 2em;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: background 0.25s cubic-bezier(0.55, 0, 0.1, 1);
+}
+button:hover {
+  background: #0c4ddb;
+}
+button:focus {
+  outline: none;
+}
+/*------------------------------------------Modal End------------------------------------------*/

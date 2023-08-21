@@ -48,25 +48,30 @@ function Home(){
     <div>
       <Header />
         <div className="banner_section">
-          <img src={Img.immigrate_banner} className="banner_img" alt=""></img>         
+          <img src={Img.immigrate_banner} className="banner_img" alt=""></img>
+          <div className="banner_content">
+            <a href="https://calendly.com/growingglobeimmigration">
+              <button className="embark_book_appoint">Book An Appointment</button>
+            </a>
+          </div>
         </div>
         <div className="immigrate_canada_section" id="top">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <h3 className="study_permit_title">Immigrate</h3>
               </div>
               <div className="col-md-6">
-                <p className="study_permit_para">Welcome to Growing Globe immigration, your trusted partner in helping you navigate the Canadian immigration landscape. We understand that pursuing your Canadian dreams involves exploring various immigration programs, and we're here to provide you with comprehensive information about the programs offered at both the federal and provincial levels.</p>
+                <p className="study_permit_para mt_100">Welcome to Growing Globe immigration, your trusted partner in helping you navigate the Canadian immigration landscape. We understand that pursuing your Canadian dreams involves exploring various immigration programs, and we're here to provide you with comprehensive information about the programs offered at both the federal and provincial levels.</p>
               </div>
               <div className="col-md-6">
-                <img src={Img.immigrate} className="study_permit_img" alt=""></img>               
+                <img src={Img.immigrate} className="study_permit_img" alt=""></img>
               </div>
             </div>
           </div>
         </div>
         <div className="requirements_section">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <h3 className="let_us_introduce_title">Federal Programs:-</h3>
@@ -124,10 +129,10 @@ function Home(){
 
             </div>
           </div>
-        </div> 
+        </div>
 
         <div className="immigrate_canada_section">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <h3 className="let_us_introduce_title">Provincial Programs</h3>
@@ -177,7 +182,7 @@ function Home(){
                       <p className="visa_para">1. Discover the opportunities offered by the Saskatchewan Immigrant Nominee Program. It has various streams, including the International Skilled Worker Category, Saskatchewan Experience Category, and Entrepreneur... Read More</p>
                    </div>
                 </div>
-              </div> 
+              </div>
               <div className="col-md-4 d-flex">
                 <div className="visa_card">
                    <img src={Img.MPNP} className="visa_img"></img>
@@ -264,9 +269,9 @@ function Home(){
             </div>
           </div>
         </div>
-        
+
         <div className="why_glowing_section">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row align_item_center">
               <div className="col-md-12">
                 <h3 className="study_permit_title">Why Growing Globe Immigration?</h3>
@@ -282,9 +287,9 @@ function Home(){
         <div className="contact_us_today_section">
            <div className="container-fluid">
               <div className="row align_item_center">
-                <div className="col-md-12">                
+                <div className="col-md-12">
                   <h3 className="contact_us_today_text">Feel free to reach out to us for personalized support and guidance.</h3>
-                  <button className="video_book_appoint mt_10">Book An Appointment</button>                  
+                  <button className="video_book_appoint mt_10">Book An Appointment</button>
                 </div>
               </div>
            </div>

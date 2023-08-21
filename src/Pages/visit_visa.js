@@ -51,12 +51,12 @@ function Home(){
           <img src={Img.visit_visa_banner} className="banner_img" alt=""></img>
           <div className="banner_content">
               <a href="https://calendly.com/growingglobeimmigration">
-                 <button className="video_book_appoint">Book An Appointment</button>
+                 <button className="embark_book_appoint">Book An Appointment</button>
               </a>
-          </div>         
+          </div>
         </div>
         <div className="immigrate_canada_section">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row">
               <div className="col-md-12">
                 <h3 className="let_us_introduce_title">When it comes to visiting Canada, there are different types of visit visas that cater to various purposes and circumstances.</h3>
@@ -138,9 +138,9 @@ function Home(){
             </div>
           </div>
         </div>
-        
+
         <div className="why_glowing_section">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row align_item_center">
               <div className="col-md-12">
                 <h3 className="study_permit_title">Important Note</h3>
@@ -156,9 +156,9 @@ function Home(){
         <div className="contact_us_today_section">
            <div className="container-fluid">
               <div className="row align_item_center">
-                <div className="col-md-12">                
+                <div className="col-md-12">
                   <h3 className="contact_us_today_text">Contact us today, To Get Visit Visa today for Canada.</h3>
-                  <button className="video_book_appoint mt_10">Book An Appointment</button>                  
+                  <button className="video_book_appoint mt_10">Book An Appointment</button>
                 </div>
               </div>
            </div>
