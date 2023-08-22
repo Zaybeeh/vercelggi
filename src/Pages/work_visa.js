@@ -134,7 +134,7 @@ function Home(){
               </div>
               <div className="col-md-4 d-flex">
                 <div className="visa_card">
-                   <img src={Img.spousel_work_permit} className="visa_img"></img>
+                   <img src={Img.parents_grandparents_visitor_visa} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Parent and Grandparent Visitor Visa</h3>
                       <p className="visa_para">This visa allows parents and grandparents of Canadian citizens or permanent residents to visit Canada for extended periods. It requires sponsorship from their Canadian family member and meeting certain financial criteria.</p>
@@ -143,7 +143,7 @@ function Home(){
               </div>
               <div className="col-md-4 d-flex">
                 <div className="visa_card">
-                   <img src={Img.post_graduation_work_permit} className="visa_img"></img>
+                   <img src={Img.spousal_work_permit} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Spousal Work Permit</h3>
                       <p className="visa_para">If your spouse or common-law partner is studying or working in Canada, you may be eligible for an open work permit. This allows you to work for any employer in Canada without needing a job offer.</p>

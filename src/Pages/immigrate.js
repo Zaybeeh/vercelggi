@@ -203,7 +203,7 @@ function Home(){
               </div>
               <div className="col-md-4 d-flex">
                 <div className="visa_card">
-                   <img src={Img.NBPNP} className="visa_img"></img>
+                   <img src={Img.new_brunswick_provincial_nominee_program} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">New Brunswick Provincial Nominee Program</h3>
                       <p className="visa_para">Discover the opportunities available in New Brunswick through the New Brunswick Provincial Nominee Program. It has streams for skilled workers, entrepreneurs, and international graduates, providing pathways to...Read More</p>
