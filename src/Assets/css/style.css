@@ -1144,6 +1144,9 @@
 .align_item_center{
   align-items: center;
 }
+.red{
+  color: #d80100;
+}
 /*----------------------------------Extra Code End----------------------------------*/
 
 /*---------------------------------Top Bar Start---------------------------------*/
@@ -2396,6 +2399,14 @@ section.row.testimonials .owl-dots.disabled {
 }
 .contact_author_name{
   font-family: "Helvetica";
+}
+.conatact_add_box{
+  display: flex;
+  column-gap: 10px;
+}
+.hr_sty{
+  border-top: 2px solid #d80100;
+  margin-bottom: 25px;
 }
 /*-----------------------------------------Contact Page End-----------------------------------------*/
 /*-----------------------------------------Modal Start-----------------------------------------*/

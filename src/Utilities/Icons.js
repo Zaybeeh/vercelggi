@@ -24,6 +24,8 @@ export const Img = {
 	team_10: require("../Assets/img/Team/10.png"),
 	team_11: require("../Assets/img/Team/11.png"),
 	team_12: require("../Assets/img/Team/12.png"),
+	team_13: require("../Assets/img/Team/13.jpg"),
+	team_14: require("../Assets/img/Team/14.jpg"),
 	bottom_arrow: require("../Assets/img/bottom_arrow.png"),
 	home_bottom_arrow: require("../Assets/img/home_dropdown_arrow.png"),
 	book_appointment_day: require("../Assets/img/book_appointment_day.png"),
@@ -106,6 +108,7 @@ export const Icons = {
   arrow_top: require("../Assets/img/top.png"),
   arrow_bottom: require("../Assets/img/bottom.png"),
   useravtar: require("../Assets/img/user_avtar.png"),
+  arrow_conact: require("../Assets/img/Hand_Left.png"),
 }
 
 export const Blogs_img = {

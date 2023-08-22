@@ -28,19 +28,13 @@ function Team(){
                         </div>
                         <h5 className="team_card_name">Vinay Sachdeva</h5>
                         <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
-                        <button className="team_card_free_report">CREATE A FREE REPORT</button>
+
                       </center>
                     </div>
                     <div className="team_card_inner_2">
-                      <h3 className="team_card_type">SPECIALITY</h3>
-                      <h5 className="team_card_type_name">Leadership</h5>
+                      <h3 className="team_card_type">LANGUAGES</h3>
+                      <h5 className="team_card_type_name"></h5>
                       <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 15</span></h3>
-                      <div class="scroll-container">
-                        <div class="scroll-content">
-                          With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business. With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business
-                        </div>
-                      </div>
-                      <h3 className="team_card_consult_fee_title">CONSULTANCY FEE : <span className="team_card_consult_fee">$250</span></h3>
                     </div>
                   </div>
                 </div>
@@ -54,19 +48,13 @@ function Team(){
                         </div>
                         <h5 className="team_card_name">Tabinda Khan</h5>
                         <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
-                        <button className="team_card_free_report">CREATE A FREE REPORT</button>
+
                       </center>
                     </div>
                     <div className="team_card_inner_2">
-                      <h3 className="team_card_type">SPECIALITY</h3>
-                      <h5 className="team_card_type_name">Leadership</h5>
-                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 15</span></h3>
-                      <div class="scroll-container">
-                          <div class="scroll-content">
-                            With an unwavering commitment toexcellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business. With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business
-                          </div>
-                        </div>
-                      <h3 className="team_card_consult_fee_title">CONSULTANCY FEE : <span className="team_card_consult_fee">$250</span></h3>
+                      <h3 className="team_card_type">LANGUAGES</h3>
+                      <h5 className="team_card_type_name">English/Hindi/urdu</h5>
+                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 2</span></h3>
                     </div>
                   </div>
                 </div>
@@ -82,19 +70,13 @@ function Team(){
                         </div>
                         <h5 className="team_card_name">Amandeep Kaur</h5>
                         <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
-                        <button className="team_card_free_report">CREATE A FREE REPORT</button>
+
                       </center>
                     </div>
                     <div className="team_card_inner_2">
-                      <h3 className="team_card_type">SPECIALITY</h3>
-                      <h5 className="team_card_type_name">Leadership</h5>
-                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 15</span></h3>
-                      <div class="scroll-container">
-                          <div class="scroll-content">
-                            With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business. With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business
-                          </div>
-                        </div>
-                      <h3 className="team_card_consult_fee_title">CONSULTANCY FEE : <span className="team_card_consult_fee">$250</span></h3>
+                      <h3 className="team_card_type">LANGUAGES</h3>
+                      <h5 className="team_card_type_name">English/Hindi/Punjabi/Urdu</h5>
+                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 5</span></h3>
                     </div>
                   </div>
                 </div>
@@ -108,19 +90,13 @@ function Team(){
                         </div>
                         <h5 className="team_card_name">Victoria</h5>
                         <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
-                        <button className="team_card_free_report">CREATE A FREE REPORT</button>
+
                       </center>
                     </div>
                     <div className="team_card_inner_2">
-                      <h3 className="team_card_type">SPECIALITY</h3>
+                      <h3 className="team_card_type">LANGUAGES</h3>
                       <h5 className="team_card_type_name">Leadership</h5>
                       <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 15</span></h3>
-                      <div class="scroll-container">
-                          <div class="scroll-content">
-                            With an unwavering commitment toexcellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business. With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business
-                          </div>
-                        </div>
-                      <h3 className="team_card_consult_fee_title">CONSULTANCY FEE : <span className="team_card_consult_fee">$250</span></h3>
                     </div>
                   </div>
                 </div>
@@ -136,19 +112,13 @@ function Team(){
                           </div>
                         <h5 className="team_card_name">Umer Sheikh</h5>
                         <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
-                        <button className="team_card_free_report">CREATE A FREE REPORT</button>
+
                       </center>
                     </div>
                     <div className="team_card_inner_2">
-                      <h3 className="team_card_type">SPECIALITY</h3>
-                      <h5 className="team_card_type_name">Leadership</h5>
-                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 15</span></h3>
-                      <div class="scroll-container">
-                          <div class="scroll-content">
-                            With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business. With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business
-                          </div>
-                        </div>
-                      <h3 className="team_card_consult_fee_title">CONSULTANCY FEE : <span className="team_card_consult_fee">$250</span></h3>
+                      <h3 className="team_card_type">LANGUAGES</h3>
+                      <h5 className="team_card_type_name">English/Hindi/Punjabi</h5>
+                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 2</span></h3>
                     </div>
                   </div>
                 </div>
@@ -162,19 +132,13 @@ function Team(){
                         </div>
                         <h5 className="team_card_name">Bhavuk Arora</h5>
                         <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
-                        <button className="team_card_free_report">CREATE A FREE REPORT</button>
+
                       </center>
                     </div>
                     <div className="team_card_inner_2">
-                      <h3 className="team_card_type">SPECIALITY</h3>
-                      <h5 className="team_card_type_name">Leadership</h5>
-                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 15</span></h3>
-                      <div class="scroll-container">
-                          <div class="scroll-content">
-                            With an unwavering commitment toexcellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business. With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business
-                          </div>
-                        </div>
-                      <h3 className="team_card_consult_fee_title">CONSULTANCY FEE : <span className="team_card_consult_fee">$250</span></h3>
+                      <h3 className="team_card_type">LANGUAGES</h3>
+                      <h5 className="team_card_type_name">English/Hindi</h5>
+                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 4</span></h3>
                     </div>
                   </div>
                 </div>
@@ -190,19 +154,13 @@ function Team(){
                         </div>
                         <h5 className="team_card_name">Harinder Kahlon</h5>
                         <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
-                        <button className="team_card_free_report">CREATE A FREE REPORT</button>
+
                       </center>
                     </div>
                     <div className="team_card_inner_2">
-                      <h3 className="team_card_type">SPECIALITY</h3>
+                      <h3 className="team_card_type">LANGUAGES</h3>
                       <h5 className="team_card_type_name">Leadership</h5>
                       <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 15</span></h3>
-                      <div class="scroll-container">
-                          <div class="scroll-content">
-                            With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business. With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business
-                          </div>
-                        </div>
-                      <h3 className="team_card_consult_fee_title">CONSULTANCY FEE : <span className="team_card_consult_fee">$250</span></h3>
                     </div>
                   </div>
                 </div>
@@ -216,19 +174,12 @@ function Team(){
                         </div>
                         <h5 className="team_card_name">Sultan Singh Rana</h5>
                         <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
-                        <button className="team_card_free_report">CREATE A FREE REPORT</button>
                       </center>
                     </div>
                     <div className="team_card_inner_2">
-                      <h3 className="team_card_type">SPECIALITY</h3>
-                      <h5 className="team_card_type_name">Leadership</h5>
-                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 15</span></h3>
-                      <div class="scroll-container">
-                          <div class="scroll-content">
-                            With an unwavering commitment toexcellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business. With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business
-                          </div>
-                        </div>
-                      <h3 className="team_card_consult_fee_title">CONSULTANCY FEE : <span className="team_card_consult_fee">$250</span></h3>
+                      <h3 className="team_card_type">LANGUAGES</h3>
+                      <h5 className="team_card_type_name">English/Hindi/Punjabi/Urdu</h5>
+                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 3</span></h3>
                     </div>
                   </div>
                 </div>
@@ -244,19 +195,13 @@ function Team(){
                         </div>
                         <h5 className="team_card_name">Piyush Jain</h5>
                         <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
-                        <button className="team_card_free_report">CREATE A FREE REPORT</button>
+
                       </center>
                     </div>
                     <div className="team_card_inner_2">
-                      <h3 className="team_card_type">SPECIALITY</h3>
-                      <h5 className="team_card_type_name">Leadership</h5>
-                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 15</span></h3>
-                      <div class="scroll-container">
-                          <div class="scroll-content">
-                            With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business. With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business
-                          </div>
-                        </div>
-                      <h3 className="team_card_consult_fee_title">CONSULTANCY FEE : <span className="team_card_consult_fee">$250</span></h3>
+                      <h3 className="team_card_type">LANGUAGES</h3>
+                      <h5 className="team_card_type_name">English/Hindi/Punjabi</h5>
+                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 4</span></h3>
                     </div>
                   </div>
                 </div>
@@ -270,19 +215,13 @@ function Team(){
                         </div>
                         <h5 className="team_card_name">Simer Gill</h5>
                         <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
-                        <button className="team_card_free_report">CREATE A FREE REPORT</button>
+
                       </center>
                     </div>
                     <div className="team_card_inner_2">
-                      <h3 className="team_card_type">SPECIALITY</h3>
+                      <h3 className="team_card_type">LANGUAGES</h3>
                       <h5 className="team_card_type_name">Leadership</h5>
                       <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 15</span></h3>
-                      <div class="scroll-container">
-                          <div class="scroll-content">
-                            With an unwavering commitment toexcellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business. With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business
-                          </div>
-                        </div>
-                      <h3 className="team_card_consult_fee_title">CONSULTANCY FEE : <span className="team_card_consult_fee">$250</span></h3>
                     </div>
                   </div>
                 </div>
@@ -298,19 +237,13 @@ function Team(){
                         </div>
                         <h5 className="team_card_name">Tamanna Mudgal</h5>
                         <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
-                        <button className="team_card_free_report">CREATE A FREE REPORT</button>
+
                       </center>
                     </div>
                     <div className="team_card_inner_2">
-                      <h3 className="team_card_type">SPECIALITY</h3>
+                      <h3 className="team_card_type">LANGUAGES</h3>
                       <h5 className="team_card_type_name">Leadership</h5>
                       <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 15</span></h3>
-                      <div class="scroll-container">
-                          <div class="scroll-content">
-                            With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business. With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business
-                          </div>
-                        </div>
-                      <h3 className="team_card_consult_fee_title">CONSULTANCY FEE : <span className="team_card_consult_fee">$250</span></h3>
                     </div>
                   </div>
                 </div>
@@ -324,23 +257,82 @@ function Team(){
                         </div>
                         <h5 className="team_card_name">Sukhwinder Singh</h5>
                         <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
-                        <button className="team_card_free_report">CREATE A FREE REPORT</button>
+
                       </center>
                     </div>
                     <div className="team_card_inner_2">
-                      <h3 className="team_card_type">SPECIALITY</h3>
-                      <h5 className="team_card_type_name">Leadership</h5>
-                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 15</span></h3>
-                      <div class="scroll-container">
-                          <div class="scroll-content">
-                            With an unwavering commitment toexcellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business. With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business With an unwavering commitment to excellence, Mr. Vinay Sachdeva founded Growing Globe Immigration, a pioneering organization that has expanded its business
-                          </div>
-                        </div>
-                      <h3 className="team_card_consult_fee_title">CONSULTANCY FEE : <span className="team_card_consult_fee">$250</span></h3>
+                      <h3 className="team_card_type">LANGUAGES</h3>
+                      <h5 className="team_card_type_name">English/Hindi/Punjabi</h5>
+                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 2</span></h3>
                     </div>
                   </div>
                 </div>
               </div>
+              <div className="row mt_30">
+                <div className="col-md-6">
+                  <div className="team_card">
+                    <div className="team_card_inner_1">
+                      <center>
+                        <div class="image-container">
+                          <img alt="" src={Img.team_13} className="team_card_img"></img>
+                          <div class="opacity-layer"></div>
+                        </div>
+                        <h5 className="team_card_name">Ebhote Francis</h5>
+                        <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
+
+                      </center>
+                    </div>
+                    <div className="team_card_inner_2">
+                      <h3 className="team_card_type">LANGUAGES</h3>
+                      <h5 className="team_card_type_name">English/Esan/ Yoruba</h5>
+                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 11</span></h3>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6">
+                  <div className="team_card">
+                    <div className="team_card_inner_1">
+                      <center>
+                        <div class="image-container">
+                          <img alt="" src={Img.team_14} className="team_card_img"></img>
+                          <div class="opacity-layer"></div>
+                        </div>
+                        <h5 className="team_card_name">Karan Suri</h5>
+                        <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
+
+                      </center>
+                    </div>
+                    <div className="team_card_inner_2">
+                      <h3 className="team_card_type">LANGUAGES</h3>
+                      <h5 className="team_card_type_name">English/Hindi/Punjabi</h5>
+                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 7</span></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="row mt_30">
+                <div className="col-md-6">
+                  <div className="team_card">
+                    <div className="team_card_inner_1">
+                      <center>
+                        <div class="image-container">
+                          <div class="opacity-layer"></div>
+                        </div>
+                        <h5 className="team_card_name">Parminder Singh Chahal</h5>
+                        <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
+
+                      </center>
+                    </div>
+                    <div className="team_card_inner_2">
+                      <h3 className="team_card_type">LANGUAGES</h3>
+                      <h5 className="team_card_type_name">English/Hindi/Punjabi/Marathi</h5>
+                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box">4</span></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
 
