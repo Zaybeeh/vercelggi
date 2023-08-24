@@ -55,18 +55,18 @@ function ContactUs(){
         <div className="contact_section">
           <div className="container">
             <div className="row">
-              <div class="col-md-12">
+              <div className="col-md-12">
                 <h2 className="contact_section_title">Contact Us</h2>
               </div>
             </div>
             <div className="row ">
-              <div class="col-md-4">
-                <div class="contact-card contact-card-contact">
-                  <div class="contact-card-image">
-                    <img class="img" src={Img.contact_canada} ></img>
+              <div className="col-md-4">
+                <div className="contact-card contact-card-contact">
+                  <div className="contact-card-image">
+                    <img className="img" src={Img.contact_canada} ></img>
                   </div>
-                  <div class="contact-table">
-                    <h4 class="contact-card-caption mb_30">
+                  <div className="contact-table">
+                    <h4 className="contact-card-caption mb_30">
                       Canada Offices
                     </h4>
                     <div className="conatact_add_box">
@@ -74,8 +74,8 @@ function ContactUs(){
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
                       <div>
-                        <p class="contact-card-description"> 99 Yorkville Avenue, Suite 200, Toronto, ON Canada M5R 1C1</p>
-                        <p class="contact-card-description">Phone No.: +1 647 705 5403</p>
+                        <p className="contact-card-description"> 99 Yorkville Avenue, Suite 200, Toronto, ON Canada M5R 1C1</p>
+                        <p className="contact-card-description">Phone No.: +1 647 705 5403</p>
                       </div>
                     </div>
                     <hr className="hr_sty"/>
@@ -84,8 +84,8 @@ function ContactUs(){
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
                       <div>
-                        <p class="contact-card-description">2 County Court Blvd, Suite 215, Brampton, ON Canada L6W 3W8</p>
-                        <p class="contact-card-description">Phone No.: +1 647 705 5403</p>
+                        <p className="contact-card-description">2 County Court Blvd, Suite 215, Brampton, ON Canada L6W 3W8</p>
+                        <p className="contact-card-description">Phone No.: +1 647 705 5403</p>
                       </div>
                     </div>
                     <hr className="hr_sty"/>
@@ -94,8 +94,8 @@ function ContactUs(){
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
                       <div>
-                        <p class="contact-card-description">218 Export Blvd Mississauga Suite 301</p>
-                        <p class="contact-card-description">Phone No.: +1 647 705 5403</p>
+                        <p className="contact-card-description">218 Export Blvd Mississauga Suite 301</p>
+                        <p className="contact-card-description">Phone No.: +1 647 705 5403</p>
                       </div>
                     </div>
                     <hr className="hr_sty"/>
@@ -104,7 +104,7 @@ function ContactUs(){
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
                       <div>
-                        <p class="contact-card-description">2 Robert speck parkways, Suite 732, Mississauga, Ontario</p>
+                        <p className="contact-card-description">2 Robert speck parkways, Suite 732, Mississauga, Ontario</p>
                       </div>
                     </div>
                     <hr className="hr_sty"/>
@@ -113,21 +113,21 @@ function ContactUs(){
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
                       <div>
-                        <p class="contact-card-description">4907 52 Ave, Whitecourt, Alberta</p>
-                        <p class="contact-card-description">Phone No.: +1(437) 770-7953, +1(647) 207-6121</p>
+                        <p className="contact-card-description">4907 52 Ave, Whitecourt, Alberta</p>
+                        <p className="contact-card-description">Phone No.: +1(437) 770-7953, +1(647) 207-6121</p>
                       </div>
                     </div>
 
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="contact-card contact-card-contact">
-                  <div class="contact-card-image">
-                    <img class="img" src={Img.contact_india} ></img>
+              <div className="col-md-4">
+                <div className="contact-card contact-card-contact">
+                  <div className="contact-card-image">
+                    <img className="img" src={Img.contact_india} ></img>
                   </div>
-                  <div class="contact-table">
-                    <h4 class="contact-card-caption mb_30">
+                  <div className="contact-table">
+                    <h4 className="contact-card-caption mb_30">
                       India Offices
                     </h4>
 
@@ -136,8 +136,8 @@ function ContactUs(){
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
                       <div>
-                        <p class="contact-card-description">Second Floor, 33 Ajay Tower, Wazirpur, New Delhi 110052</p>
-                        <p class="contact-card-description">Phone No. : 1800-889-0542</p>
+                        <p className="contact-card-description">Second Floor, 33 Ajay Tower, Wazirpur, New Delhi 110052</p>
+                        <p className="contact-card-description">Phone No. : 1800-889-0542</p>
                       </div>
                     </div>
                     <hr className="hr_sty"/>
@@ -146,8 +146,8 @@ function ContactUs(){
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
                       <div>
-                        <p class="contact-card-description">Shop no. 5 AGI Business center, Ground floor, near bus stand, Jalandhar, punjab</p>
-                        <p class="contact-card-description">Phone No.: 1800-889-0542</p>
+                        <p className="contact-card-description">Shop no. 5 AGI Business center, Ground floor, near bus stand, Jalandhar, punjab</p>
+                        <p className="contact-card-description">Phone No.: 1800-889-0542</p>
                       </div>
                     </div>
                     <hr className="hr_sty"/>
@@ -156,21 +156,21 @@ function ContactUs(){
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
                       <div>
-                        <p class="contact-card-description">304 Shakti Extol, Nr Zydus Hospital, Thaltej, Ahmedabad 380054</p>
-                        <p class="contact-card-description">Phone No.: 1800-889-0542</p>
+                        <p className="contact-card-description">304 Shakti Extol, Nr Zydus Hospital, Thaltej, Ahmedabad 380054</p>
+                        <p className="contact-card-description">Phone No.: 1800-889-0542</p>
                       </div>
                     </div>
 
                   </div>
                 </div>
               </div>
-              <div class="col-md-4">
-                <div class="contact-card contact-card-contact">
-                  <div class="contact-card-image">
-                    <img class="img" src={Img.contact_uae} ></img>
+              <div className="col-md-4">
+                <div className="contact-card contact-card-contact">
+                  <div className="contact-card-image">
+                    <img className="img" src={Img.contact_uae} ></img>
                   </div>
-                  <div class="contact-table">
-                    <h4 class="contact-card-caption mb_30">
+                  <div className="contact-table">
+                    <h4 className="contact-card-caption mb_30">
                       UAE Offices
                     </h4>
 
@@ -179,8 +179,8 @@ function ContactUs(){
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
                       <div>
-                        <p class="contact-card-description">Office No. 1, Unit 2102, 21st Floor Metropolis Tower Al Abraj Street, Dubai, UAE</p>
-                        <p class="contact-card-description">Phone No. : +971 50 132 8189</p>
+                        <p className="contact-card-description">Office No. 1, Unit 2102, 21st Floor Metropolis Tower Al Abraj Street, Dubai, UAE</p>
+                        <p className="contact-card-description">Phone No. : +971 50 132 8189</p>
                       </div>
                     </div>
 

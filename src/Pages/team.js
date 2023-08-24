@@ -22,9 +22,9 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                        <div class="image-container">
+                        <div className="image-container">
                           <img alt="" src={Img.team_1} className="team_card_img"></img>
-                          <div class="opacity-layer"></div>
+                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Vinay Sachdeva</h5>
                       </center>
@@ -41,9 +41,9 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                        <div class="image-container">
+                        <div className="image-container">
                           <img alt="" src={Img.team_2} className="team_card_img"></img>
-                          <div class="opacity-layer"></div>
+                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Tabinda Khan</h5>
                       </center>
@@ -68,9 +68,9 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                        <div class="image-container">
+                        <div className="image-container">
                           <img alt="" src={Img.team_3} className="team_card_img"></img>
-                          <div class="opacity-layer"></div>
+                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Amandeep Kaur</h5>
                       </center>
@@ -94,9 +94,9 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                        <div class="image-container">
+                        <div className="image-container">
                           <img alt="" src={Img.team_4} className="team_card_img"></img>
-                          <div class="opacity-layer"></div>
+                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Victoria</h5>
                       </center>
@@ -115,9 +115,9 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                          <div class="image-container">
+                          <div className="image-container">
                             <img alt="" src={Img.team_5} className="team_card_img"></img>
-                            <div class="opacity-layer"></div>
+                            <div className="opacity-layer"></div>
                           </div>
                         <h5 className="team_card_name">Umer Sheikh</h5>
                       </center>
@@ -140,9 +140,9 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                        <div class="image-container">
+                        <div className="image-container">
                           <img alt="" src={Img.team_6} className="team_card_img"></img>
-                          <div class="opacity-layer"></div>
+                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Bhavuk Arora</h5>
                       </center>
@@ -166,9 +166,9 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                        <div class="image-container">
+                        <div className="image-container">
                           <img alt="" src={Img.team_7} className="team_card_img"></img>
-                          <div class="opacity-layer"></div>
+                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Harinder Kahlon</h5>
                       </center>
@@ -185,9 +185,9 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                        <div class="image-container">
+                        <div className="image-container">
                           <img alt="" src={Img.team_8} className="team_card_img"></img>
-                          <div class="opacity-layer"></div>
+                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Sultan Singh Rana</h5>
                       </center>
@@ -213,9 +213,9 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                        <div class="image-container">
+                        <div className="image-container">
                           <img alt="" src={Img.team_9} className="team_card_img"></img>
-                          <div class="opacity-layer"></div>
+                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Piyush Jain</h5>
                       </center>
@@ -238,9 +238,9 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                        <div class="image-container">
+                        <div className="image-container">
                           <img alt="" src={Img.team_10} className="team_card_img"></img>
-                          <div class="opacity-layer"></div>
+                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Simer Gill</h5>
                       </center>
@@ -259,9 +259,9 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                        <div class="image-container">
+                        <div className="image-container">
                           <img alt="" src={Img.team_11} className="team_card_img"></img>
-                          <div class="opacity-layer"></div>
+                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Tamanna Mudgal</h5>
                       </center>
@@ -278,9 +278,9 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                        <div class="image-container">
+                        <div className="image-container">
                           <img alt="" src={Img.team_12} className="team_card_img"></img>
-                          <div class="opacity-layer"></div>
+                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Sukhwinder Singh</h5>
                       </center>
@@ -305,9 +305,9 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                        <div class="image-container">
+                        <div className="image-container">
                           <img alt="" src={Img.team_13} className="team_card_img"></img>
-                          <div class="opacity-layer"></div>
+                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Ebhote Francis</h5>
                       </center>
@@ -330,9 +330,9 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                        <div class="image-container">
+                        <div className="image-container">
                           <img alt="" src={Img.team_14} className="team_card_img"></img>
-                          <div class="opacity-layer"></div>
+                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Karan Suri</h5>
                       </center>
@@ -358,8 +358,8 @@ function Team(){
                   <div className="team_card">
                     <div className="team_card_inner_1">
                       <center>
-                        <div class="image-container">
-                          <div class="opacity-layer"></div>
+                        <div className="image-container">
+                          <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Parminder Singh Chahal</h5>
                       </center>

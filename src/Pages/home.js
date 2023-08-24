@@ -104,35 +104,35 @@ function Home(){
               <div className="col-md-12">
                 <Carousel responsive={responsive} showDots={true}>
                   <div>
-                    <img src={Img.immigrate_canada_img_1} alt="" className=""></img>
+                    <img src={Img.immigrate_canada_img_1} alt="" className="carousel_img"></img>
                     <div className="text-center">
                        <Link to="/visit_visa"> <h3 className="permanent_resident_visa_text">Visit Visa</h3></Link>
                       <Link to="/visit_visa"> <button className="learn_more_btn">Learn More</button></Link>
                     </div>
                   </div>
                   <div>
-                    <img src={Img.immigrate_canada_img_2} alt="" className=""></img>
+                    <img src={Img.immigrate_canada_img_2} alt="" className="carousel_img"></img>
                     <div className="text-center">
                        <Link to="/study_permit"> <h3 className="permanent_resident_visa_text">Study Permit</h3></Link>
                        <Link to="/study_permit"><button className="learn_more_btn">Learn More</button></Link>
                     </div>
                   </div>
                   <div>
-                    <img src={Img.immigrate_canada_img_3} alt="" className=""></img>
+                    <img src={Img.immigrate_canada_img_3} alt="" className="carousel_img"></img>
                     <div className="text-center">
                        <Link to="/work_visa"> <h3 className="permanent_resident_visa_text">Work Visa</h3></Link>
                        <Link to="/work_visa"><button className="learn_more_btn">Learn More</button></Link>
                     </div>
                   </div>
                   <div>
-                    <img src={Img.immigrate_canada_img_4} alt="" className=""></img>
+                    <img src={Img.immigrate_canada_img_4} alt="" className="carousel_img"></img>
                     <div className="text-center">
                        <Link to="/business_visa"> <h3 className="permanent_resident_visa_text">Business Visa</h3></Link>
                        <Link to="/business_visa"><button className="learn_more_btn">Learn More</button></Link>
                     </div>
                   </div>
                   <div>
-                    <img src={Img.immigrate_canada_img_5} alt="" className=""></img>
+                    <img src={Img.immigrate_canada_img_5} alt="" className="carousel_img"></img>
                     <div className="text-center">
                        <Link to="/immigrate"> <h3 className="permanent_resident_visa_text">Immigration</h3></Link>
                        <Link to="/immigrate"><button className="learn_more_btn">Learn More</button></Link>
@@ -189,45 +189,45 @@ function Home(){
         </div>
         <div className="testimonials_sec">
           <div className="container-fluid">
-            <section class="row testimonials">
+            <section className="row testimonials">
             	<h2>Testimonials</h2>
-            	<div class="owl-carousel">
-            	  <div class="item">
+            	<div className="owl-carousel">
+            	  <div className="item">
             		  <h3>Shriya Jain</h3>
             		  <p>I found out about Growing Globe Immigration post COVID. Sargun has vast knowledge about the whole situation from his practical experience and guides you very well at every step. He also shared tips and things I should be doing before I land. I Would definitely recommend them to my friends and it’s a 5-star rating for me.</p> </div>
-            		<div class="item">
+            		<div className="item">
             		  <h3>Piyush Miglani</h3>
             		  <p>I applied through this immigration consultant for my wife’s spousal visa in January and before 6 months of completion got the passport request. everything went so smoothly during this process. We were a newly married couple and after only 3 months of separation got my spouse’s PR. Thank you Growing globe immigration.</p> </div>
-            		<div class="item">
+            		<div className="item">
             		  <h3>Randeep Sidhu</h3>
             		  <p>I recommend Growing globe immigration for any kind of immigration service. They listen to their Clients very patiently. I got my LMIA work permit approval this week which was very complicated. Of course, I will process my PR file with them as they are good and always give quick responses and keep Clint updated.</p> </div>
-            		<div class="item">
+            		<div className="item">
             		  <h3>Akshay Singh</h3>
             		  <p>7 months ago, I wouldn’t say I had all the documents ready when I approached Growing Globe Immigration to file my PR. This team gave me confidence and helped me step by step. They were prompt in communicating with me at all times and were on top of my document submissions on time. I owe it to them!</p> </div>
-            		 <div class="item">
+            		 <div className="item">
             		  <h3>Sonia Gill</h3>
             		  <p>Such a good experience to visit the growing globe immigration. Ms. Neetu explained to me very well about the process. She has a piece of good knowledge about immigration as my old experience was not good with other immigration companies but this consultancy changed my thoughts I want to start the procedure with them only.</p> </div>
-            		 <div class="item">
+            		 <div className="item">
             		  <h3>Jarnail Singh</h3>
             		  <p>I really want to appreciate the Growing Globe team for giving a positive response on my file because I was having a Refusal before I came to them. I was a truck driver in Dubai and now I am happy to say that I got a work permit in Ontario. Thank you GGI for the seamless assistance and understanding me.</p>
                  </div>
-            		 <div class="item">
+            		 <div className="item">
             		  <h3>Freya</h3>
             		  <p>Growing Globe immigration is best in their field. I meet with Mr. Sargun Singh and handover my case for Canada Work Permit. The way he explains me was very good. I hope to get positive response related to my profile. Their experience offer you a great faith in them and always encourages you to believe in the positive.</p>
                  </div>
-            		 <div class="item">
+            		 <div className="item">
             		  <h3>Atul Wankhade</h3>
             		  <p>Three months before, my spouse's sponsorship application was get cancelled, then luckily I reached out to Mr. Vinay and Sargun. After the agreement, they asked me ONLY those docs, which are required, and my application is ready within 7 days to submit. I got positive news from them. They are professional and experienced in this field.</p>
                  </div>
-            		 <div class="item">
+            		 <div className="item">
             		  <h3>Gursagar Singh</h3>
             		  <p>I was a former student in Canada 🇨🇦 and my work permit was about to expire. I am really grateful to Mr. Sargun as he helped me in renewing my work permit which was approved for another year and a half and also I received my provincial nomination for permanent residency. I would highly recommend him for all immigration needs.</p>
                  </div>
-            		 <div class="item">
+            		 <div className="item">
             		  <h3>Akanksha Sobti</h3>
             		  <p>I had my outland sponsorship with some other lawyer! But he stopped picking up my call and attending to my concerns and inquiries then I came to know about sargun and Vinay. They were very prompt with their replies and extremely helpful. Highly recommend sargun and Vinay for any type of immigration help!</p>
                  </div>
-            		 <div class="item">
+            		 <div className="item">
             		  <h3>Aaliya Pathan</h3>
             		  <p>Best place for all your immigration needs! Mr. Vinay and Sargun are knowledgeable and kind and you can count on them to get your work done in a prompt and professional manner. The process is convenient and transparent so you don’t feel left out. They make you feel comfortable and you can trust them completely.</p>
                  </div>

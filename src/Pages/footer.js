@@ -13,17 +13,17 @@ import {Link} from 'react-router-dom';
 
 function Footer(){
   return(
-    <footer id="footer" class="footer">
-      <div class="container-fluid">
-        <div class="row gy-4">
-          <div class="col-lg-3 col-md-12 footer-info">
+    <footer id="footer" className="footer">
+      <div className="container-fluid">
+        <div className="row gy-4">
+          <div className="col-lg-3 col-md-12 footer-info">
             <center>
-              <Link  class="logo align-items-center">
+              <Link className="logo align-items-center">
                 <img src={Logo.footer_logo} alt=""></img>
               </Link>
             </center>
           </div>
-          <div class="col-lg-2 col-6 footer-links">
+          <div className="col-lg-2 col-6 footer-links">
             <h4>Quick Links</h4>
             <div className="flex_this">
               <ul>
@@ -40,7 +40,7 @@ function Footer(){
               </ul>
             </div>
           </div>
-          <div class="col-lg-2 col-6 footer-links">
+          <div className="col-lg-2 col-6 footer-links">
             <h4>Contact</h4>
             <ul>
               <li><Link>Canada : +16477055403</Link></li>
@@ -48,7 +48,7 @@ function Footer(){
               <li><Link>India : 18008890542</Link></li>
             </ul>
           </div>
-          <div class="col-lg-2 col-6 footer-links">
+          <div className="col-lg-2 col-6 footer-links">
             <h4>Locations</h4>
             <div className="flex_this">
             <ul>
@@ -66,7 +66,7 @@ function Footer(){
             </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <div>
               <img src={FooterImg.footer_img4} className="footer_img" alt=""></img>
               <img src={FooterImg.footer_img} className="footer_img" alt=""></img>
@@ -77,8 +77,8 @@ function Footer(){
           </div>
         </div>
       </div>
-      <div class="container-fluid mt-4">
-        <div class="copyright">
+      <div className="container-fluid mt-4">
+        <div className="copyright">
           &copy; Copyright <strong><span>Growing Globe Immigration</span></strong>. All Rights Reserved | Designed by <a href="https://rajarshisolutions/">Rajarshi Solutions</a>
         </div>
       </div>
