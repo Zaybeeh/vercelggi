@@ -6,7 +6,7 @@ import VideoPlayer from "react-background-video-player";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-function Home(){
+function Immigrate(){
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -51,7 +51,7 @@ function Home(){
           <img src={Img.immigrate_banner} className="banner_img" alt=""></img>
           <div className="banner_content">
             <a href="https://calendly.com/growingglobeimmigration">
-              <button className="embark_book_appoint">Book An Appointment</button>
+              <button className="embark_book_appoint_2">Book An Appointment</button>
             </a>
           </div>
         </div>
@@ -62,7 +62,7 @@ function Home(){
                 <h3 className="study_permit_title">Immigrate</h3>
               </div>
               <div className="col-md-6">
-                <p className="study_permit_para mt_100">Welcome to Growing Globe immigration, your trusted partner in helping you navigate the Canadian immigration landscape. We understand that pursuing your Canadian dreams involves exploring various immigration programs, and we're here to provide you with comprehensive information about the programs offered at both the federal and provincial levels.</p>
+                <p className="immigrate_para ">Welcome to Growing Globe immigration, your trusted partner in helping you navigate the Canadian immigration landscape. We understand that pursuing your Canadian dreams involves exploring various immigration programs, and we're here to provide you with comprehensive information about the programs offered at both the federal and provincial levels.</p>
               </div>
               <div className="col-md-6">
                 <img src={Img.immigrate} className="study_permit_img" alt=""></img>
@@ -300,4 +300,4 @@ function Home(){
   );
 }
 
-export default Home;
+export default Immigrate;

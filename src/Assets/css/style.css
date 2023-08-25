@@ -1368,6 +1368,17 @@
   letter-spacing: 0.5px;
   border: 2px solid #d80100;
 }
+.embark_book_appoint_2{
+  font-family: "Helvetica";
+  background: transparent;
+  font-weight:500;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px 50px 10px 55px;
+  letter-spacing: 0.5px;
+  border: 2px solid #d80100;
+}
 .embark_free_report{
   font-family: "Helvetica";
   background: #d80100;
@@ -2016,6 +2027,7 @@ ul.who_we_are_ul li::before {
   padding: 10px 25px;
   color: #ffffff;
   border-radius: 20px;
+  margin-bottom: 20px;
 }
 .meet_team{
   position: absolute;
@@ -2601,6 +2613,16 @@ ul.who_we_are_ul li::before {
   margin-bottom: 25px;
 }
 /*-----------------------------------------Contact Page End-----------------------------------------*/
-/*-----------------------------------------Modal Start-----------------------------------------*/
+/*-----------------------------------------visit Visa Start-----------------------------------------*/
+.banner_section{
+  margin-top: 0px;
+}
+.immigrate_para{
+  font-family: "Helvetica";
+  font-size: 16px;
+  color: #fff;
+  text-align: justify;
+  margin-top: 100px;
+}
 
-/*------------------------------------------Modal End------------------------------------------*/
+/*------------------------------------------Visit Visa End------------------------------------------*/

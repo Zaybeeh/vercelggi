@@ -6,7 +6,7 @@ import VideoPlayer from "react-background-video-player";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-function Home(){
+function Study_permit(){
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -51,7 +51,7 @@ function Home(){
           <img src={Img.student_visa_banner} className="banner_img" alt=""></img>
           <div className="banner_content">
             <a href="https://calendly.com/growingglobeimmigration">
-              <button className="embark_book_appoint">Book An Appointment</button>
+              <button className="embark_book_appoint_2">Book An Appointment</button>
             </a>
           </div>
         </div>
@@ -144,4 +144,4 @@ function Home(){
   );
 }
 
-export default Home;
+export default Study_permit;

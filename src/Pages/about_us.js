@@ -7,7 +7,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import {Link} from 'react-router-dom';
 
-function Home(){
+function About_us(){
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -52,7 +52,7 @@ function Home(){
           <img src={Img.about_us_banner} className="banner_img" alt=""></img>
           <div className="banner_content">
               <a href="https://calendly.com/growingglobeimmigration">
-                 <button className="embark_book_appoint">Book An Appointment</button>
+                 <button className="embark_book_appoint_2">Book An Appointment</button>
               </a>
           </div>
         </div>
@@ -62,8 +62,8 @@ function Home(){
               <div className="col-md-6">
                 <h3 className="about_growing_head mt_50">About Growing Globe Immigration</h3>
                 <p className="study_permit_para">At Growing Globe Immigration, we offer different and most suitable immigration processes for our clients. As regulated Immigration consultants and Immigrants to Canada we understand the needs of clients and are committed and immigrant to Canada understands the needs of his clients and is committed to helping them achieve their dream of living, working, studying, investing, or visiting Canada. We aims to help people across the world immigrate to Canada. We at Growing Globe believe in fairness, ethics, and values and are honored to be regulated by the Immigration Consultants of Canada Regulatory Council (ICCRC).</p>
-                <button className="book_an_appointment_btn">Book An Appointment</button>
-                <button className="book_an_appointment_btn ml_15">Create A Free Report</button>
+                <button className="book_an_appointment_btn mr_15">Book An Appointment</button>
+                <button className="book_an_appointment_btn">Create A Free Report</button>
               </div>
               <div className="col-md-6">
                 <img src={Img.about} className="study_permit_img" alt=""></img>
@@ -165,4 +165,4 @@ function Home(){
   );
 }
 
-export default Home;
+export default About_us;

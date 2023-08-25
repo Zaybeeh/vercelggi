@@ -276,6 +276,177 @@
       border: 2px solid #d80100;
     }
   /*--------------------------------Home page End--------------------------------*/
+  /*--------------------------------Visit Visa Page Start--------------------------------*/
+  .banner_section {
+      margin-top: 89px!important;
+  }
+  .banner_content {
+    position: inherit;
+    bottom: 65%;
+    left: 6%;
+    margin-top: -52px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+  }
+  .embark_book_appoint_2 {
+    font-family: "Helvetica";
+    background: transparent;
+    font-weight: 500;
+    font-size: 9px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 10px 7px 10px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .immigrate_canada_section {
+    background: #101822;
+    padding: 50px 20px 50px 20px;
+  }
+  .let_us_introduce_title {
+    font-family: "Helvetica";
+    font-size: 18px;
+    color: #D80000;
+  }
+  .why_glowing_section {
+    background-color: #101822;
+    padding: 50px 20px;
+  }
+  .why_glowing_ul li {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .contact_us_today_text {
+    font-family: "Helvetica-Bold";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+  /*---------------------------------Visit Visa Page End---------------------------------*/
+  /*--------------------------------Study Permit Page Start--------------------------------*/
+  .study_permit_title {
+    font-family: "Helvetica";
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .study_permit_para {
+    font-family: "Helvetica";
+    font-size: 15px;
+    color: #fff;
+    text-align: justify;
+  }
+  .sdm_box {
+    background-color: rgba(216, 0, 0, 0.27);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .requirements_title {
+    font-family: "Helvetica";
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .sdm_stream_title {
+    font-family: "Helvetica";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sdm_stream_ul_li {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  /*---------------------------------Study Permit Page End---------------------------------*/
+  /*--------------------------------immigrate Page Start--------------------------------*/
+  .immigrate_para{
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .unlock_additional_para {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+  }
+  /*---------------------------------immigrate Page End---------------------------------*/
+  /*--------------------------------Contact Page Start--------------------------------*/
+  .contact-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  .contact-card-description {
+    font-family: "Helvetica";
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #212020;
+    margin-bottom: 10px;
+  }
+  .contact-card .contact-table {
+    padding: 15px 22px 20px 22px;
+  }
+  .contact-card-caption, .contact-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    padding-top: 30px;
+  }
+  /*---------------------------------Contact Page End---------------------------------*/
+  /*--------------------------------Blog Page Start--------------------------------*/
+
+  .blog-card .blog-table {
+    padding: 15px 20px 20px 20px;
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    line-height: 20px;
+  }
+  .blog-card .blog-card-image {
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 13px;
+    font-family: "Helvetica";
+    font-weight: 600;
+  }
+  .blog_author_name {
+    font-family: "Helvetica";
+    font-size: 14px;
+  }
+  /*---------------------------------Blog Page End---------------------------------*/
   /*--------------------------------Footer page start--------------------------------*/
   .footer {
     font-size: 14px;
@@ -713,6 +884,179 @@
       border: 2px solid #d80100;
     }
   /*--------------------------------Home page End--------------------------------*/
+  /*--------------------------------Visit Visa Page Start--------------------------------*/
+  .banner_section {
+      margin-top: 89px!important;
+  }
+  .banner_content {
+    position: inherit;
+    bottom: 65%;
+    left: 6%;
+    margin-top: -60px;
+    margin-left: 18px;
+    margin-bottom: 15px;
+  }
+  .embark_book_appoint_2 {
+    font-family: "Helvetica";
+    background: transparent;
+    font-weight: 500;
+    font-size: 9px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 10px 7px 10px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .immigrate_canada_section {
+    background: #101822;
+    padding: 50px 20px 50px 20px;
+  }
+  .let_us_introduce_title {
+    font-family: "Helvetica";
+    font-size: 18px;
+    color: #D80000;
+  }
+  .why_glowing_section {
+    background-color: #101822;
+    padding: 50px 20px;
+  }
+  .why_glowing_ul li {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .contact_us_today_text {
+    font-family: "Helvetica-Bold";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+  /*---------------------------------Visit Visa Page End---------------------------------*/
+
+  /*--------------------------------Study Permit Page Start--------------------------------*/
+  .study_permit_title {
+    font-family: "Helvetica";
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .study_permit_para {
+    font-family: "Helvetica";
+    font-size: 15px;
+    color: #fff;
+    text-align: justify;
+  }
+  .sdm_box {
+    background-color: rgba(216, 0, 0, 0.27);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .requirements_title {
+    font-family: "Helvetica";
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .sdm_stream_title {
+    font-family: "Helvetica";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sdm_stream_ul_li {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  /*---------------------------------Study Permit Page End---------------------------------*/
+  /*--------------------------------immigrate Page Start--------------------------------*/
+  .immigrate_para{
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .unlock_additional_para {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+  }
+  /*---------------------------------immigrate Page End---------------------------------*/
+  /*--------------------------------Contact Page Start--------------------------------*/
+  .contact-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  .contact-card-description {
+    font-family: "Helvetica";
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #212020;
+    margin-bottom: 10px;
+  }
+  .contact-card .contact-table {
+    padding: 15px 22px 20px 22px;
+  }
+  .contact-card-caption, .contact-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    padding-top: 30px;
+  }
+  /*---------------------------------Contact Page End---------------------------------*/
+  /*--------------------------------Blog Page Start--------------------------------*/
+
+  .blog-card .blog-table {
+    padding: 15px 20px 20px 20px;
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    line-height: 20px;
+  }
+  .blog-card .blog-card-image {
+    height: 158px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 13px;
+    font-family: "Helvetica";
+    font-weight: 600;
+  }
+  .blog_author_name {
+    font-family: "Helvetica";
+    font-size: 14px;
+  }
+  /*---------------------------------Blog Page End---------------------------------*/
+
   /*--------------------------------Footer page start--------------------------------*/
   .footer {
     font-size: 14px;
@@ -1150,6 +1494,177 @@
       border: 2px solid #d80100;
     }
   /*--------------------------------Home page End--------------------------------*/
+  /*--------------------------------Visit Visa Page Start--------------------------------*/
+  .banner_section {
+      margin-top: 89px!important;
+  }
+  .banner_content {
+    position: inherit;
+    bottom: 60%;
+    left: 6%;
+    margin-top: -70px;
+    margin-left: 18px;
+    margin-bottom: 20px;
+  }
+  .embark_book_appoint_2 {
+    font-family: "Helvetica";
+    background: transparent;
+    font-weight: 500;
+    font-size: 9px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 10px 7px 10px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .immigrate_canada_section {
+    background: #101822;
+    padding: 50px 20px 50px 20px;
+  }
+  .let_us_introduce_title {
+    font-family: "Helvetica";
+    font-size: 18px;
+    color: #D80000;
+  }
+  .why_glowing_section {
+    background-color: #101822;
+    padding: 50px 20px;
+  }
+  .why_glowing_ul li {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .contact_us_today_text {
+    font-family: "Helvetica-Bold";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+  /*---------------------------------Visit Visa Page End---------------------------------*/
+  /*--------------------------------Study Permit Page Start--------------------------------*/
+  .study_permit_title {
+    font-family: "Helvetica";
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .study_permit_para {
+    font-family: "Helvetica";
+    font-size: 15px;
+    color: #fff;
+    text-align: justify;
+  }
+  .sdm_box {
+    background-color: rgba(216, 0, 0, 0.27);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .requirements_title {
+    font-family: "Helvetica";
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .sdm_stream_title {
+    font-family: "Helvetica";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sdm_stream_ul_li {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  /*---------------------------------Study Permit Page End---------------------------------*/
+  /*--------------------------------immigrate Page Start--------------------------------*/
+  .immigrate_para{
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .unlock_additional_para {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+  }
+  /*---------------------------------immigrate Page End---------------------------------*/
+  /*--------------------------------Contact Page Start--------------------------------*/
+  .contact-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  .contact-card-description {
+    font-family: "Helvetica";
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #212020;
+    margin-bottom: 10px;
+  }
+  .contact-card .contact-table {
+    padding: 15px 22px 20px 22px;
+  }
+  .contact-card-caption, .contact-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    padding-top: 30px;
+  }
+  /*---------------------------------Contact Page End---------------------------------*/
+  /*--------------------------------Blog Page Start--------------------------------*/
+
+  .blog-card .blog-table {
+    padding: 15px 20px 20px 20px;
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    line-height: 20px;
+  }
+  .blog-card .blog-card-image {
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 13px;
+    font-family: "Helvetica";
+    font-weight: 600;
+  }
+  .blog_author_name {
+    font-family: "Helvetica";
+    font-size: 14px;
+  }
+  /*---------------------------------Blog Page End---------------------------------*/
   /*--------------------------------Footer page start--------------------------------*/
   .footer {
     font-size: 14px;
@@ -1587,6 +2102,177 @@
       border: 2px solid #d80100;
     }
   /*--------------------------------Home page End--------------------------------*/
+  /*--------------------------------Visit Visa Page Start--------------------------------*/
+  .banner_section {
+      margin-top: 89px!important;
+  }
+  .banner_content {
+    position: inherit;
+    bottom: 53%;
+    left: 6%;
+    margin-top: -52px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+  }
+  .embark_book_appoint_2 {
+    font-family: "Helvetica";
+    background: transparent;
+    font-weight: 500;
+    font-size: 9px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 10px 7px 10px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .immigrate_canada_section {
+    background: #101822;
+    padding: 50px 20px 50px 20px;
+  }
+  .let_us_introduce_title {
+    font-family: "Helvetica";
+    font-size: 18px;
+    color: #D80000;
+  }
+  .why_glowing_section {
+    background-color: #101822;
+    padding: 50px 20px;
+  }
+  .why_glowing_ul li {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .contact_us_today_text {
+    font-family: "Helvetica-Bold";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+  /*---------------------------------Visit Visa Page End---------------------------------*/
+  /*--------------------------------Study Permit Page Start--------------------------------*/
+  .study_permit_title {
+    font-family: "Helvetica";
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .study_permit_para {
+    font-family: "Helvetica";
+    font-size: 15px;
+    color: #fff;
+    text-align: justify;
+  }
+  .sdm_box {
+    background-color: rgba(216, 0, 0, 0.27);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .requirements_title {
+    font-family: "Helvetica";
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .sdm_stream_title {
+    font-family: "Helvetica";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sdm_stream_ul_li {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  /*---------------------------------Study Permit Page End---------------------------------*/
+  /*--------------------------------immigrate Page Start--------------------------------*/
+  .immigrate_para{
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .unlock_additional_para {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+  }
+  /*---------------------------------immigrate Page End---------------------------------*/
+  /*--------------------------------Contact Page Start--------------------------------*/
+  .contact-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  .contact-card-description {
+    font-family: "Helvetica";
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #212020;
+    margin-bottom: 10px;
+  }
+  .contact-card .contact-table {
+    padding: 15px 22px 20px 22px;
+  }
+  .contact-card-caption, .contact-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    padding-top: 30px;
+  }
+  /*---------------------------------Contact Page End---------------------------------*/
+  /*--------------------------------Blog Page Start--------------------------------*/
+
+  .blog-card .blog-table {
+    padding: 15px 20px 20px 20px;
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    line-height: 20px;
+  }
+  .blog-card .blog-card-image {
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 13px;
+    font-family: "Helvetica";
+    font-weight: 600;
+  }
+  .blog_author_name {
+    font-family: "Helvetica";
+    font-size: 14px;
+  }
+  /*---------------------------------Blog Page End---------------------------------*/
   /*--------------------------------Footer page start--------------------------------*/
   .footer {
     font-size: 14px;
@@ -2024,6 +2710,177 @@
       border: 2px solid #d80100;
     }
   /*--------------------------------Home page End--------------------------------*/
+  /*--------------------------------Visit Visa Page Start--------------------------------*/
+  .banner_section {
+      margin-top: 89px!important;
+  }
+  .banner_content {
+    position: inherit;
+    bottom: 53%;
+    left: 6%;
+    margin-top: -52px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+  }
+  .embark_book_appoint_2 {
+    font-family: "Helvetica";
+    background: transparent;
+    font-weight: 500;
+    font-size: 9px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 10px 7px 10px;
+    letter-spacing: 0.5px;
+    border: 2px solid #d80100;
+  }
+  .immigrate_canada_section {
+    background: #101822;
+    padding: 50px 20px 50px 20px;
+  }
+  .let_us_introduce_title {
+    font-family: "Helvetica";
+    font-size: 18px;
+    color: #D80000;
+  }
+  .why_glowing_section {
+    background-color: #101822;
+    padding: 50px 20px;
+  }
+  .why_glowing_ul li {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .contact_us_today_text {
+    font-family: "Helvetica-Bold";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+  /*---------------------------------Visit Visa Page End---------------------------------*/
+  /*--------------------------------Study Permit Page Start--------------------------------*/
+  .study_permit_title {
+    font-family: "Helvetica";
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .study_permit_para {
+    font-family: "Helvetica";
+    font-size: 15px;
+    color: #fff;
+    text-align: justify;
+  }
+  .sdm_box {
+    background-color: rgba(216, 0, 0, 0.27);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .requirements_title {
+    font-family: "Helvetica";
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .sdm_stream_title {
+    font-family: "Helvetica";
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sdm_stream_ul_li {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+  }
+  /*---------------------------------Study Permit Page End---------------------------------*/
+  /*--------------------------------immigrate Page Start--------------------------------*/
+  .immigrate_para{
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .unlock_additional_para {
+    font-family: "Helvetica";
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+  }
+  /*---------------------------------immigrate Page End---------------------------------*/
+  /*--------------------------------Contact Page Start--------------------------------*/
+  .contact-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  }
+  .contact-card-description {
+    font-family: "Helvetica";
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #212020;
+    margin-bottom: 10px;
+  }
+  .contact-card .contact-table {
+    padding: 15px 22px 20px 22px;
+  }
+  .contact-card-caption, .contact-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    padding-top: 30px;
+  }
+  /*---------------------------------Contact Page End---------------------------------*/
+  /*--------------------------------Blog Page Start--------------------------------*/
+
+  .blog-card .blog-table {
+    padding: 15px 20px 20px 20px;
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    line-height: 20px;
+  }
+  .blog-card .blog-card-image {
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 13px;
+    font-family: "Helvetica";
+    font-weight: 600;
+  }
+  .blog_author_name {
+    font-family: "Helvetica";
+    font-size: 14px;
+  }
+  /*---------------------------------Blog Page End---------------------------------*/
   /*--------------------------------Footer page start--------------------------------*/
   .footer {
     font-size: 14px;
