@@ -191,47 +191,131 @@ function Home(){
           <div className="container-fluid">
             <section className="row testimonials">
             	<h2>Testimonials</h2>
-            	<div className="owl-carousel">
-            	  <div className="item">
-            		  <h3>Shriya Jain</h3>
-            		  <p>I found out about Growing Globe Immigration post COVID. Sargun has vast knowledge about the whole situation from his practical experience and guides you very well at every step. He also shared tips and things I should be doing before I land. I Would definitely recommend them to my friends and it’s a 5-star rating for me.</p> </div>
-            		<div className="item">
-            		  <h3>Piyush Miglani</h3>
-            		  <p>I applied through this immigration consultant for my wife’s spousal visa in January and before 6 months of completion got the passport request. everything went so smoothly during this process. We were a newly married couple and after only 3 months of separation got my spouse’s PR. Thank you Growing globe immigration.</p> </div>
-            		<div className="item">
-            		  <h3>Randeep Sidhu</h3>
-            		  <p>I recommend Growing globe immigration for any kind of immigration service. They listen to their Clients very patiently. I got my LMIA work permit approval this week which was very complicated. Of course, I will process my PR file with them as they are good and always give quick responses and keep Clint updated.</p> </div>
-            		<div className="item">
-            		  <h3>Akshay Singh</h3>
-            		  <p>7 months ago, I wouldn’t say I had all the documents ready when I approached Growing Globe Immigration to file my PR. This team gave me confidence and helped me step by step. They were prompt in communicating with me at all times and were on top of my document submissions on time. I owe it to them!</p> </div>
-            		 <div className="item">
-            		  <h3>Sonia Gill</h3>
-            		  <p>Such a good experience to visit the growing globe immigration. Ms. Neetu explained to me very well about the process. She has a piece of good knowledge about immigration as my old experience was not good with other immigration companies but this consultancy changed my thoughts I want to start the procedure with them only.</p> </div>
-            		 <div className="item">
-            		  <h3>Jarnail Singh</h3>
-            		  <p>I really want to appreciate the Growing Globe team for giving a positive response on my file because I was having a Refusal before I came to them. I was a truck driver in Dubai and now I am happy to say that I got a work permit in Ontario. Thank you GGI for the seamless assistance and understanding me.</p>
-                 </div>
-            		 <div className="item">
-            		  <h3>Freya</h3>
-            		  <p>Growing Globe immigration is best in their field. I meet with Mr. Sargun Singh and handover my case for Canada Work Permit. The way he explains me was very good. I hope to get positive response related to my profile. Their experience offer you a great faith in them and always encourages you to believe in the positive.</p>
-                 </div>
-            		 <div className="item">
-            		  <h3>Atul Wankhade</h3>
-            		  <p>Three months before, my spouse's sponsorship application was get cancelled, then luckily I reached out to Mr. Vinay and Sargun. After the agreement, they asked me ONLY those docs, which are required, and my application is ready within 7 days to submit. I got positive news from them. They are professional and experienced in this field.</p>
-                 </div>
-            		 <div className="item">
-            		  <h3>Gursagar Singh</h3>
-            		  <p>I was a former student in Canada 🇨🇦 and my work permit was about to expire. I am really grateful to Mr. Sargun as he helped me in renewing my work permit which was approved for another year and a half and also I received my provincial nomination for permanent residency. I would highly recommend him for all immigration needs.</p>
-                 </div>
-            		 <div className="item">
-            		  <h3>Akanksha Sobti</h3>
-            		  <p>I had my outland sponsorship with some other lawyer! But he stopped picking up my call and attending to my concerns and inquiries then I came to know about sargun and Vinay. They were very prompt with their replies and extremely helpful. Highly recommend sargun and Vinay for any type of immigration help!</p>
-                 </div>
-            		 <div className="item">
-            		  <h3>Aaliya Pathan</h3>
-            		  <p>Best place for all your immigration needs! Mr. Vinay and Sargun are knowledgeable and kind and you can count on them to get your work done in a prompt and professional manner. The process is convenient and transparent so you don’t feel left out. They make you feel comfortable and you can trust them completely.</p>
-                 </div>
-            	</div>
+              <div className="blog-slider">
+                <div className="blog-slider__wrp swiper-wrapper">
+                  <div className="blog-slider__item swiper-slide">
+                    <div className="blog-slider__img img_shadow">
+                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp" alt=""></img>
+                    </div>
+                    <div className="blog-slider__content">
+                      <div className="blog-slider__title">Shriya Jain</div>
+                      <div className="blog-slider__text">I found out about Growing Globe Immigration post COVID. Sargun has vast knowledge about the whole situation from his practical experience and guides you very well at every step. He also shared tips and things I should be doing before I land. I Would definitely recommend them to my friends and it’s a 5-star rating for me.</div>
+                      <a href="#" className="blog-slider__button">READ MORE</a>
+                    </div>
+                  </div>
+                  <div className="blog-slider__item swiper-slide">
+                    <div className="blog-slider__img ">
+                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/jason-leung-798979-unsplash.webp" alt=""></img>
+                    </div>
+                    <div className="blog-slider__content">
+                      <div className="blog-slider__title">Piyush Miglani</div>
+                      <div className="blog-slider__text">I applied through this immigration consultant for my wife’s spousal visa in January and before 6 months of completion got the passport request. everything went so smoothly during this process. We were a newly married couple and after only 3 months of separation got my spouse’s PR. Thank you Growing globe immigration.</div>
+                      <a href="#" className="blog-slider__button">READ MORE</a>
+                    </div>
+                  </div>
+
+                  <div className="blog-slider__item swiper-slide">
+                    <div className="blog-slider__img ">
+                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                    </div>
+                    <div className="blog-slider__content">
+                      <div className="blog-slider__title">Randeep Sidhu</div>
+                      <div className="blog-slider__text">I recommend Growing globe immigration for any kind of immigration service. They listen to their Clients very patiently. I got my LMIA work permit approval this week which was very complicated. Of course, I will process my PR file with them as they are good and always give quick responses and keep Clint updated.</div>
+                      <a href="#" className="blog-slider__button">READ MORE</a>
+                    </div>
+                  </div>
+
+                  <div className="blog-slider__item swiper-slide">
+                    <div className="blog-slider__img ">
+                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                    </div>
+                    <div className="blog-slider__content">
+                      <div className="blog-slider__title">Akshay Singh</div>
+                      <div className="blog-slider__text">7 months ago, I wouldn’t say I had all the documents ready when I approached Growing Globe Immigration to file my PR. This team gave me confidence and helped me step by step. They were prompt in communicating with me at all times and were on top of my document submissions on time. I owe it to them!</div>
+                      <a href="#" className="blog-slider__button">READ MORE</a>
+                    </div>
+                  </div>
+
+                  <div className="blog-slider__item swiper-slide">
+                    <div className="blog-slider__img ">
+                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                    </div>
+                    <div className="blog-slider__content">
+                      <div className="blog-slider__title">Sonia Gill</div>
+                      <div className="blog-slider__text">Such a good experience to visit the growing globe immigration. Ms. Neetu explained to me very well about the process. She has a piece of good knowledge about immigration as my old experience was not good with other immigration companies but this consultancy changed my thoughts I want to start the procedure with them only.</div>
+                      <a href="#" className="blog-slider__button">READ MORE</a>
+                    </div>
+                  </div>
+
+                  <div className="blog-slider__item swiper-slide">
+                    <div className="blog-slider__img ">
+                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                    </div>
+                    <div className="blog-slider__content">
+                      <div className="blog-slider__title">Jarnail Singh</div>
+                      <div className="blog-slider__text">I really want to appreciate the Growing Globe team for giving a positive response on my file because I was having a Refusal before I came to them. I was a truck driver in Dubai and now I am happy to say that I got a work permit in Ontario. Thank you GGI for the seamless assistance and understanding me.</div>
+                      <a href="#" className="blog-slider__button">READ MORE</a>
+                    </div>
+                  </div>
+
+                  <div className="blog-slider__item swiper-slide">
+                    <div className="blog-slider__img ">
+                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                    </div>
+                    <div className="blog-slider__content">
+                      <div className="blog-slider__title">Freya</div>
+                      <div className="blog-slider__text">I really want to appreciate the Growing Globe team for giving a positive response on my file because I was having a Refusal before I came to them. I was a truck driver in Dubai and now I am happy to say that I got a work permit in Ontario. Thank you GGI for the seamless assistance and understanding me.</div>
+                      <a href="#" className="blog-slider__button">READ MORE</a>
+                    </div>
+                  </div>
+
+                  <div className="blog-slider__item swiper-slide">
+                    <div className="blog-slider__img ">
+                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                    </div>
+                    <div className="blog-slider__content">
+                      <div className="blog-slider__title">Atul Wankhade</div>
+                      <div className="blog-slider__text">Three months before, my spouse's sponsorship application was get cancelled, then luckily I reached out to Mr. Vinay and Sargun. After the agreement, they asked me ONLY those docs, which are required, and my application is ready within 7 days to submit. I got positive news from them. They are professional and experienced in this field.</div>
+                      <a href="#" className="blog-slider__button">READ MORE</a>
+                    </div>
+                  </div>
+
+                  <div className="blog-slider__item swiper-slide">
+                    <div className="blog-slider__img ">
+                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                    </div>
+                    <div className="blog-slider__content">
+                      <div className="blog-slider__title">Gursagar Singh</div>
+                      <div className="blog-slider__text">I was a former student in Canada 🇨🇦 and my work permit was about to expire. I am really grateful to Mr. Sargun as he helped me in renewing my work permit which was approved for another year and a half and also I received my provincial nomination for permanent residency. I would highly recommend him for all immigration needs.</div>
+                      <a href="#" className="blog-slider__button">READ MORE</a>
+                    </div>
+                  </div>
+
+                  <div className="blog-slider__item swiper-slide">
+                    <div className="blog-slider__img ">
+                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                    </div>
+                    <div className="blog-slider__content">
+                      <div className="blog-slider__title">Akanksha Sobti</div>
+                      <div className="blog-slider__text">I had my outland sponsorship with some other lawyer! But he stopped picking up my call and attending to my concerns and inquiries then I came to know about sargun and Vinay. They were very prompt with their replies and extremely helpful. Highly recommend sargun and Vinay for any type of immigration help!</div>
+                      <a href="#" className="blog-slider__button">READ MORE</a>
+                    </div>
+                  </div>
+
+                  <div className="blog-slider__item swiper-slide">
+                    <div className="blog-slider__img ">
+                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                    </div>
+                    <div className="blog-slider__content">
+                      <div className="blog-slider__title">Aaliya Pathan</div>
+                      <div className="blog-slider__text">Best place for all your immigration needs! Mr. Vinay and Sargun are knowledgeable and kind and you can count on them to get your work done in a prompt and professional manner. The process is convenient and transparent so you don’t feel left out. They make you feel comfortable and you can trust them completely.</div>
+                      <a href="#" className="blog-slider__button">READ MORE</a>
+                    </div>
+                  </div>
+
+                </div>
+                <div className="blog-slider__pagination"></div>
+              </div>
             </section>
           </div>
         </div>

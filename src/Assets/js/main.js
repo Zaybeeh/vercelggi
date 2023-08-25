@@ -1,13 +1,5 @@
 /* global jQuery, padding, GLightbox, PureCounter, Swiper, Isotope, AOS */
 
-import React from "react";
-import "./../vendor/bootstrap/js/bootstrap.bundle.min.js";
-import "./../vendor/aos/aos.js";
-import "./../vendor/glightbox/js/glightbox.min.js";
-import "./../vendor/purecounter/purecounter_vanilla.js";
-import "./../vendor/swiper/swiper-bundle.min.js";
-import "./../vendor/isotope-layout/isotope.pkgd.min.js";
-import "./../vendor/php-email-form/validate.js";
 
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
@@ -90,20 +82,20 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Hide mobile nav on same-page/hash links
    */
-  document.querySelectorAll('#navbar a').forEach(navbarlink => {
-
-    if (!navbarlink.hash) return;
-
-    let section = document.querySelector(navbarlink.hash);
-    if (!section) return;
-
-    navbarlink.addEventListener('click', () => {
-      if (document.querySelector('.mobile-nav-active')) {
-        mobileNavToogle();
-      }
-    });
-
-  });
+  // document.querySelectorAll('#navbar a').forEach(navbarlink => {
+  //
+  //   if (!navbarlink.hash) return;
+  //
+  //   let section = document.querySelector(navbarlink.hash);
+  //   if (!section) return;
+  //
+  //   navbarlink.addEventListener('click', () => {
+  //     if (document.querySelector('.mobile-nav-active')) {
+  //       mobileNavToogle();
+  //     }
+  //   });
+  //
+  // });
 
   /**
    * Toggle mobile nav dropdowns

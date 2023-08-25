@@ -104,6 +104,11 @@
       justify-content: center;
       row-gap: 20px!important;
     }
+    .testimonials_sec {
+        background-color: #101822;
+        padding: 60px 20px!important;
+        box-sizing: border-box;
+    }
   /*--------------------------------Home page End--------------------------------*/
   /*--------------------------------Footer page start--------------------------------*/
   .footer {
