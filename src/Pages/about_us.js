@@ -79,13 +79,13 @@ function About_us(){
                 <p className="we_are_a_global_para">We are a global immigration company that is making a mark in every country that we settle in to help people immigrate to Canada - the country where dream turns into reality. Growing Globe Immigration is a team of stupendously talented and hardworking professionals with ample amount of transparency, who are very much client oriented. Our executive staff has the knowledge, enthusiasm, and commitment that fosters success. Our dedication to creating innovative products and investing in both the company and its people has helped us improve lives in the past.</p>
               </div>
               <div className="col-md-6">
-                 <ul className="who_we_are_ul">
+                 <ul className="who_we_are_ul_2">
                     <li>Minimizing challenges associated with immigration and visa issuance</li>
                     <li>Collaborators from over 25 different countries</li>
                  </ul>
               </div>
               <div className="col-md-6">
-                 <ul className="who_we_are_ul">
+                 <ul className="who_we_are_ul_2">
                     <li>Over 500 success stories and dream fulfilled</li>
                     <li>Get support in more 18 languages</li>
                  </ul>

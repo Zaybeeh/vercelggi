@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
+
 /*------------------------------------------Margin Top Start------------------------------------------------*/
 .mt_5 {
   margin-top: 5px;
@@ -1122,8 +1124,8 @@
 }
 /*------------------------------------------padding Top End--------------------------------------------------*/
 /*------------------------------------------Fonts Start--------------------------------------------------*/
-@font-face {
-  font-family: "Helvetica";
+/* @font-face {
+  font-family: "Montserrat";
   src: url('../fonts/Helvetica.ttf');
 }
 @font-face {
@@ -1137,7 +1139,7 @@
 @font-face {
   font-family: "Helvetica-Oblique";
   src: url('../fonts/Helvetica-Oblique.ttf');
-}
+} */
 /*------------------------------------------Fonts End--------------------------------------------------*/
 
 /*---------------------------------Extra Code Start---------------------------------*/
@@ -1152,7 +1154,7 @@
 /*---------------------------------Top Bar Start---------------------------------*/
 .topbar_title{
   margin-bottom: 0;
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   text-transform: uppercase;
   color: #f30302;
   font-size: 22px;
@@ -1161,8 +1163,8 @@
 }
 .topbar_text{
   color: #fff;
-  font-family: "helvetica";
-  font-size: 18px;
+  font-family: "Montserrat";
+  font-size: 16px;
   margin-bottom: 0;
 }
 .topbar_title_box{
@@ -1182,8 +1184,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 3px;
-  font-family: "helvetica";
-  font-size: 22px;
+  font-family: "Montserrat";
+  font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.5px;
   color: #fff;
@@ -1195,7 +1197,8 @@
   flex-basis: 8%;
 }
 .navbar_nav_box{
-  flex-basis: 80%;
+  /* flex-basis: 80%; */
+  flex-basis: 69%;
 }
 /*---------------------------------NavBar End---------------------------------*/
 /*---------------------------------Home Page Start---------------------------------*/
@@ -1233,7 +1236,7 @@
   margin-top: 50px;
 }
 .video_book_appoint{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   background: transparent;
   font-weight: 500;
   font-size: 16px;
@@ -1244,7 +1247,7 @@
   border: 2px solid #fff;
 }
 .video_free_report{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   background: transparent;
   font-weight: 500;
   font-size: 16px;
@@ -1256,13 +1259,13 @@
   width: 280px;
 }
 .video_sec_counter_title{
-  font-family: "helvetica";
+  font-family: "Montserrat";
   font-size: 42px;
   color: #fff;
   text-align: center;
 }
 .video_sec_counter_subtitle{
-  font-family: "helvetica";
+  font-family: "Montserrat";
   font-size: 20px;
   color: #fff;
   text-align: center;
@@ -1273,7 +1276,7 @@
   padding: 80px 20px 80px 20px;
 }
 .immigrate_canada_sec_title{
-  font-family: "helvetica";
+  font-family: "Montserrat";
   font-size: 25px;
   font-weight: 600;
  text-transform: uppercase;
@@ -1285,7 +1288,7 @@
   height: 771px;
 }
 .permanent_resident_visa_text{
-  font-family: "helvetica";
+  font-family: "Montserrat";
   font-size: 20px;
   position: relative;
   color: white;
@@ -1295,7 +1298,7 @@
   width: 95%;
 }
 .learn_more_btn{
-  font-family: "helvetica";
+  font-family: "Montserrat";
   font-size: 18px;
   position: relative;
   z-index: 99999;
@@ -1312,11 +1315,12 @@
   padding: 50px 100px;
 }
 .book_appoint_section_title{
-  font-family: "helvetica";
+  font-family: "Montserrat";
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
   margin-right: 20px;
+  line-height: 25px;
 }
 .book_appoint_box {
   column-gap: 20px;
@@ -1324,7 +1328,7 @@
   justify-content: center;
 }
 .book_appoint_appointment{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   background: #d80100;
   font-weight:500;
   font-size: 16px;
@@ -1335,7 +1339,7 @@
   border: 2px solid #d80100;
 }
 .book_appoint_learn_more{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   background: #fff;
   font-weight:500;
   font-size: 16px;
@@ -1358,7 +1362,7 @@
   justify-content: center;
 }
 .embark_book_appoint{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   background: transparent;
   font-weight:500;
   font-size: 16px;
@@ -1369,7 +1373,7 @@
   border: 2px solid #d80100;
 }
 .embark_book_appoint_2{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   background: transparent;
   font-weight:500;
   font-size: 16px;
@@ -1380,7 +1384,7 @@
   border: 2px solid #d80100;
 }
 .embark_free_report{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   background: #d80100;
   font-weight:500;
   font-size: 16px;
@@ -1394,7 +1398,7 @@
   height: 300px;
   overflow-y: scroll;
   position: relative;
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 16px;
   padding-right: 50px;
   margin-right: 15px;
@@ -1499,7 +1503,7 @@
   padding: 50px;
 }
 .team_title{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   text-transform: uppercase;
   color:#fff;
   font-size: 45px;
@@ -1523,14 +1527,14 @@
   width: 100%;
 }
 .team_card_name{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   color: #000;
   font-size: 18px;
   text-align: center;
   margin-bottom:15px;
 }
 .team_card_appointment{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   background: #d80100;
   font-weight:500;
   font-size: 12px;
@@ -1542,7 +1546,7 @@
   margin-bottom: 10px;
 }
 .team_card_free_report{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   background: #fff;
   font-weight:600;
   font-size: 12px;
@@ -1553,14 +1557,14 @@
   border: 2px solid #d80100;
 }
 .team_card_type{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   color: #000;
   font-size: 18px;
   text-align: left;
   margin-bottom: 15px;
 }
 .team_card_type_name{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   color: #000;
   font-weight:500;
   font-size: 15px;
@@ -1568,14 +1572,14 @@
   margin-bottom: 19px;
 }
 .team_card_experience{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   color: #000;
   font-size: 16px;
   text-align: left;
   margin-bottom: 30px;
 }
 .team_card_experience_box{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   background: #d80100;
   font-weight: 500;
   padding: 5px 8px;
@@ -1587,7 +1591,7 @@
   margin-left: 5px;
 }
 .team_card_consult_fee_title{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   color: #000;
   font-size: 18px;
   text-align: left;
@@ -1595,7 +1599,7 @@
   margin-top: 20px;
 }
 .team_card_consult_fee{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 18px;
   color: #d80100;
 }
@@ -1603,7 +1607,7 @@
   height: 100px;
   overflow-y: scroll;
   position: relative;
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 14px;
   padding-right: 20px;
   margin-right: 15px;
@@ -1769,7 +1773,7 @@
   margin-bottom: -55px;
 }
 .consultants_sec_title {
-    font-family: "helvetica";
+    font-family: "Montserrat";
     font-size: 25px;
     font-weight: 600;
     text-transform: capitalize;
@@ -1820,7 +1824,7 @@
 }
 
 .meet_the_team_btn{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   position: relative;
   top: -40px;
   border: none;
@@ -1859,7 +1863,7 @@
 }
 
 .student_visa_text{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 14px;
   position: relative;
   color: #fff;
@@ -1869,16 +1873,17 @@
 }
 
 .study_permit_title{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 30px;
   /* color: #D80000; */
-  color: #fff;
+  color: #D80000;
   text-align: center;
   margin-bottom: 50px;
+  font-weight: 600;
 }
 
 .study_permit_para{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 16px;
   color: #fff;
   text-align: justify;
@@ -1895,7 +1900,7 @@
 }
 
 .requirements_title{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 30px;
   color: #ffffff;
   text-align: center;
@@ -1908,25 +1913,27 @@
 }
 
 .sdm_stream_title{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 23px;
   color: #ffffff;
   text-align: center;
 }
 .sdm_stream_ul_li{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 16px;
   color: #ffffff;
 }
 
 .why_glowing_section{
-  background-color: #101822;
+  background-color: #fff;
+  /* background-color: #101822; */
   padding: 50px 35px;
 }
 .why_glowing_ul li{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 16px;
-  color: #ffffff;
+  color: #000;
+  font-weight: 500;
 }
 ul.why_glowing_ul {
   list-style-image:url('../img/Hand_Left.png');
@@ -1945,7 +1952,7 @@ ul.why_glowing_ul {
   margin-bottom: 15px;
 }
 .let_us_introduce_title{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 22px;
   color: #D80000;
 }
@@ -1962,48 +1969,67 @@ ul.why_glowing_ul {
   padding: 15px;
 }
 .visa_title{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 700;
   text-align: center;
 }
 .visa_para{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 14px;
   text-align: justify;
+  font-weight: 500;
 }
 .if_you_are_para{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 12px;
   font-weight: 300;
   color: #ffffff;
 }
 .unlock_additional_para{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 16px;
   color: #ffffff;
   text-align: center;
 }
 .about_growing_head{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 22px;
   color: #ffffff;
   margin-bottom: 35px;
 }
 .we_are_a_global_para{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 16px;
   font-weight: 300;
   color: #ffffff;
   text-align: center;
 }
 .who_we_are_ul li{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 16px;
-  color: #ffffff;
+  color: #000;
   list-style-type: none;
+  font-weight: 500;
 }
 ul.who_we_are_ul li::before {
+  content: "";
+  background-image: url(../img/Checked_Checkbox.png);
+  background-size: contain;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  position: relative;
+  top: 0.5rem;
+  margin-right: 0.5rem;
+}
+.who_we_are_ul_2 li{
+  font-family: "Montserrat";
+  font-size: 16px;
+  color: #fff;
+  list-style-type: none;
+}
+ul.who_we_are_ul_2 li::before {
   content: "";
   background-image: url(../img/Checked_Checkbox.png);
   background-size: contain;
@@ -2020,7 +2046,7 @@ ul.who_we_are_ul li::before {
   margin: 25px 0;
 }
 .book_an_appointment_btn{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 14px;
   border: none;
   background: #D80000;
@@ -2046,6 +2072,11 @@ ul.who_we_are_ul li::before {
     position: absolute;
     bottom: 9%;
     right: 11%;
+}
+.banner_content_3 {
+  position: absolute;
+  bottom: 32%;
+  left: 5%;
 }
 /*---------------------------------------------------------------------------------------------------------------------------*/
 .heading {
@@ -2101,7 +2132,7 @@ ul.who_we_are_ul li::before {
   font-weight: 600;
   font-size: 33px;
   letter-spacing: 0.5px;
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   text-align: center;
   margin-bottom: 40px;
 }
@@ -2278,13 +2309,13 @@ ul.who_we_are_ul li::before {
   font-weight: 700;
   color: #0d0925;
   margin-bottom: 20px;
-  font-family: "Helvetica";
+  font-family: "Montserrat";
 }
 .blog-slider__text {
   color: #4e4a67;
   margin-bottom: 30px;
   line-height: 1.5em;
-  font-family: "Helvetica";
+  font-family: "Montserrat";
 }
 .blog-slider__button {
   display: inline-flex;
@@ -2368,7 +2399,7 @@ ul.who_we_are_ul li::before {
   padding: 65px 20px 120px 20px;
 }
 .blog_section_title{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 35px;
   color: #fff;
   text-align: center;
@@ -2413,7 +2444,7 @@ ul.who_we_are_ul li::before {
     position: relative;
     line-height: 0;
     margin: 15px 0;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
 }
 .blog-text-success {
     color: #d80100!important;
@@ -2426,7 +2457,7 @@ ul.who_we_are_ul li::before {
 }
 .blog-card-caption {
     font-weight: 600;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
 }
 .fa {
     display: inline-block;
@@ -2439,7 +2470,7 @@ ul.who_we_are_ul li::before {
 .blog-card-caption, .blog-card-caption a {
     color: #000;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
     padding-bottom: 10px;
     text-transform: capitalize;
 }
@@ -2464,22 +2495,22 @@ ul.who_we_are_ul li::before {
     position: relative;
     top: 1px;
     font-size: 14px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-weight: 600;
 }
 .blog-card .ftr .stats {
     float: right;
     line-height: 30px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
 }
 .blog-card-description{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   padding-bottom: 12px;
   font-weight: 500;
   font-size: 14px;
 }
 .blog_author_name{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
 }
 /*-----------------------------------------Blog Page End-----------------------------------------*/
 /*----------------------------------------Contact Page Start----------------------------------------*/
@@ -2488,7 +2519,7 @@ ul.who_we_are_ul li::before {
   padding: 65px 20px 120px 20px;
 }
 .contact_section_title{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 35px;
   color: #fff;
   text-align: center;
@@ -2533,7 +2564,7 @@ ul.who_we_are_ul li::before {
     position: relative;
     line-height: 0;
     margin: 15px 0;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
 }
 .contact-text-success {
     color: #d80100!important;
@@ -2546,7 +2577,7 @@ ul.who_we_are_ul li::before {
 }
 .contact-card-caption {
     font-weight: 600;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
 }
 .fa {
     display: inline-block;
@@ -2585,16 +2616,16 @@ ul.who_we_are_ul li::before {
     position: relative;
     top: 1px;
     font-size: 14px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-weight: 600;
 }
 .contact-card .ftr .stats {
     float: right;
     line-height: 30px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
 }
 .contact-card-description{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   padding-bottom: 0px;
   font-weight: 600;
   font-size: 16px;
@@ -2602,7 +2633,7 @@ ul.who_we_are_ul li::before {
   margin-bottom: 10px;
 }
 .contact_author_name{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
 }
 .conatact_add_box{
   display: flex;
@@ -2618,11 +2649,98 @@ ul.who_we_are_ul li::before {
   margin-top: 0px;
 }
 .immigrate_para{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 16px;
   color: #fff;
   text-align: justify;
   margin-top: 100px;
 }
-
 /*------------------------------------------Visit Visa End------------------------------------------*/
+/*-----------------------------------------Blog Details Start-----------------------------------------*/
+
+.blog_detail_section_title{
+  font-family: "Montserrat";
+  font-size: 30px;
+  color: #fff;
+  text-align: left;
+  margin-bottom:30px;
+}
+.blog_hr{
+  border-top: 1px solid #d80100;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  opacity: 1;
+}
+.blog_detail_img{
+  margin-bottom:20px;
+  width: -webkit-fill-available;
+}
+.blog_detail_para {
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.blog_detail_head{
+  font-family: "Montserrat";
+  font-size: 17px;
+  color: #d80100;
+  font-weight: 600;
+  text-align: justify;
+}
+.blog_detail_side_box{
+  padding: 0px 20px 20px 25px;
+}
+.blog_detail_side_section_title{
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: #fff;
+  text-align: left;
+  margin-bottom:30px;
+}
+.blog_detail_side_inner{
+  display: flex;
+  column-gap: 17px;
+}
+.blog_detail_side_img_box{
+  overflow: hidden;
+  width: 250px;
+}
+.blog_detail_side_img{
+  width: 130px;
+}
+.blog_detail_side_div_1{
+  width: 100%;
+}
+.blog_detail_side_div_2{
+  width: 100%;
+}
+.blog_detail_side_title{
+  font-family: "Montserrat";
+  font-size: 14px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 5px;
+  line-height: 20px;
+}
+.blog_date{
+  float: right;
+  line-height: 30px;
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 12px;
+}
+.blog_detail_side_hr{
+  border-top: 1px solid #d80100;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  opacity: 1;
+}
+.blog_detail_side_breadcrumn{
+  font-family: "Montserrat";
+  font-size:18px;
+  color: #fff;
+  text-align: left;
+  margin-bottom:30px;
+}
+/*------------------------------------------Blog Details End------------------------------------------*/

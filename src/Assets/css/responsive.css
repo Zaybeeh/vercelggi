@@ -446,6 +446,41 @@
     font-family: "Helvetica";
     font-size: 14px;
   }
+  .banner_content_3{
+    display: none;
+  }
+  .blog_detail_side_box {
+    padding: 30px 0px 20px 0px;
+  }
+  .blog_detail_side_inner {
+    display: flow-root;
+    column-gap: 17px;
+    row-gap: 20px;
+  }
+  .blog_detail_side_img_box {
+    overflow: visible;
+    width: -webkit-fill-available;
+  }
+  .blog_detail_side_img {
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+  }
+  .blog_date {
+    float: right;
+    line-height: 30px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .blog_detail_section_title {
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
   /*---------------------------------Blog Page End---------------------------------*/
   /*--------------------------------Footer page start--------------------------------*/
   .footer {
@@ -1054,6 +1089,41 @@
   .blog_author_name {
     font-family: "Helvetica";
     font-size: 14px;
+  }
+  .banner_content_3{
+    display: none;
+  }
+  .blog_detail_side_box {
+    padding: 30px 0px 20px 0px;
+  }
+  .blog_detail_side_inner {
+    display: flow-root;
+    column-gap: 17px;
+    row-gap: 20px;
+  }
+  .blog_detail_side_img_box {
+    overflow: visible;
+    width: -webkit-fill-available;
+  }
+  .blog_detail_side_img {
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+  }
+  .blog_date {
+    float: right;
+    line-height: 30px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .blog_detail_section_title {
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 30px;
   }
   /*---------------------------------Blog Page End---------------------------------*/
 
@@ -1664,6 +1734,41 @@
     font-family: "Helvetica";
     font-size: 14px;
   }
+  .banner_content_3{
+    display: none;
+  }
+  .blog_detail_side_box {
+    padding: 30px 0px 20px 0px;
+  }
+  .blog_detail_side_inner {
+    display: flow-root;
+    column-gap: 17px;
+    row-gap: 20px;
+  }
+  .blog_detail_side_img_box {
+    overflow: visible;
+    width: -webkit-fill-available;
+  }
+  .blog_detail_side_img {
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+  }
+  .blog_date {
+    float: right;
+    line-height: 30px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .blog_detail_section_title {
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
   /*---------------------------------Blog Page End---------------------------------*/
   /*--------------------------------Footer page start--------------------------------*/
   .footer {
@@ -2272,6 +2377,41 @@
     font-family: "Helvetica";
     font-size: 14px;
   }
+  .banner_content_3{
+    display: none;
+  }
+  .blog_detail_side_box {
+    padding: 30px 0px 20px 0px;
+  }
+  .blog_detail_side_inner {
+    display: flow-root;
+    column-gap: 17px;
+    row-gap: 20px;
+  }
+  .blog_detail_side_img_box {
+    overflow: visible;
+    width: -webkit-fill-available;
+  }
+  .blog_detail_side_img {
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+  }
+  .blog_date {
+    float: right;
+    line-height: 30px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .blog_detail_section_title {
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
   /*---------------------------------Blog Page End---------------------------------*/
   /*--------------------------------Footer page start--------------------------------*/
   .footer {
@@ -2879,6 +3019,41 @@
   .blog_author_name {
     font-family: "Helvetica";
     font-size: 14px;
+  }
+  .banner_content_3{
+    display: none;
+  }
+  .blog_detail_side_box {
+    padding: 30px 0px 20px 0px;
+  }
+  .blog_detail_side_inner {
+    display: flow-root;
+    column-gap: 17px;
+    row-gap: 20px;
+  }
+  .blog_detail_side_img_box {
+    overflow: visible;
+    width: -webkit-fill-available;
+  }
+  .blog_detail_side_img {
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+  }
+  .blog_date {
+    float: right;
+    line-height: 30px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  .blog_detail_section_title {
+    font-family: "Montserrat";
+    font-size: 22px;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 30px;
   }
   /*---------------------------------Blog Page End---------------------------------*/
   /*--------------------------------Footer page start--------------------------------*/
