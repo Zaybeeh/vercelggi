@@ -54,6 +54,9 @@ function Home(){
             <div className="video_box">
               <VideoPlayer
                 className="video"
+                autoPlay={true}
+                loop={true}
+                controls={false}
                 src={
                   "https://growingglobeimmigration.com/video/video.mp4"
                 }
