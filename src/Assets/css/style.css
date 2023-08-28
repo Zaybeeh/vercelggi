@@ -1496,6 +1496,81 @@
 .react-multiple-carousel__arrow{
   margin-top: -125px;
 }
+.newsletter_section{
+  padding: 100px 50px;
+  background-image: url('../img/newsletter.png');
+}
+.newsletter_section_title{
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 35px;
+}
+.newsletter_section_subtitle{
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-family: "Montserrat";
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 24px;
+}
+.form {
+  position: relative;
+  display: block;
+  height: 70px;
+  border-radius: 35px;
+  background: white;
+  margin: 0 auto;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+  overflow: hidden;
+  width: 35%;
+}
+.form input {
+  line-height: 70px;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: #eee;
+  letter-spacing: 0.02em;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.form input:not([type=submit]) {
+  width: 100%;
+  display: block;
+  padding: 0 150px 0 30px;
+}
+.form input:not([type=email]) {
+  position: absolute;
+  height: 50px;
+  line-height: 50px;
+  top: 10px;
+  right: 10px;
+  border-radius: 25px;
+  padding: 0 25px;
+  background: #d80100;
+  color: white;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.form input:not([type=email]):hover {
+  background: #f00c2c;
+}
+.form input:focus {
+  outline: none;
+  background: white;
+}
 /*---------------------------------Home Page End---------------------------------*/
 /*---------------------------------Team Start---------------------------------*/
 .team_section{
@@ -2744,3 +2819,15 @@ ul.who_we_are_ul_2 li::before {
   margin-bottom:30px;
 }
 /*------------------------------------------Blog Details End------------------------------------------*/
+/*------------------------------------------Footer Start------------------------------------------*/
+.footer_icon{
+  background-color: #212239;
+  border: none;
+  font-size: 15px;
+  padding: 11px 13px;
+  border-radius: 20px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+/*-------------------------------------------Footer End-------------------------------------------*/

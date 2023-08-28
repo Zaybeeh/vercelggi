@@ -319,6 +319,24 @@ function Home(){
             </section>
           </div>
         </div>
+        <div className="newsletter_section">
+          <div className="container-fluid">
+            <div className="row align_item_center">
+              <div className="col-md-12">
+                <h2 className="newsletter_section_title">Subscribe to Our Newsletter</h2>
+                <h4 className="newsletter_section_subtitle">Crossing Borders: Navigating the Pathways of Global Journeys <br/> Stay Informed with Our Immigration Insights  </h4>
+              </div>
+              <div className="col-md-12">
+                <center>
+                  <form className="form" action="">
+                    <input type="email" name="email" id="email" placeholder="example@example.com" />
+                    <input type="submit" name="submit" value="subscribe" />
+                  </form>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="book_appoint_section">
           <div className="container-fluid">
             <div className="row align_item_center">
@@ -336,6 +354,7 @@ function Home(){
             </div>
           </div>
         </div>
+
       <Footer />
     </div>
   );

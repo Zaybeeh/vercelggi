@@ -275,6 +275,71 @@
       letter-spacing: 0.5px;
       border: 2px solid #d80100;
     }
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 500px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
+    }
   /*--------------------------------Home page End--------------------------------*/
   /*--------------------------------Visit Visa Page Start--------------------------------*/
   .banner_section {
@@ -917,6 +982,204 @@
       padding: 6px 40px;
       letter-spacing: 0.5px;
       border: 2px solid #d80100;
+    }
+
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 500px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
+    }
+
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 500px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
+    }
+
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 500px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
     }
   /*--------------------------------Home page End--------------------------------*/
   /*--------------------------------Visit Visa Page Start--------------------------------*/
@@ -1563,6 +1826,72 @@
       letter-spacing: 0.5px;
       border: 2px solid #d80100;
     }
+
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 500px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
+    }
   /*--------------------------------Home page End--------------------------------*/
   /*--------------------------------Visit Visa Page Start--------------------------------*/
   .banner_section {
@@ -2206,6 +2535,72 @@
       letter-spacing: 0.5px;
       border: 2px solid #d80100;
     }
+
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 500px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
+    }
   /*--------------------------------Home page End--------------------------------*/
   /*--------------------------------Visit Visa Page Start--------------------------------*/
   .banner_section {
@@ -2848,6 +3243,72 @@
       padding: 6px 40px;
       letter-spacing: 0.5px;
       border: 2px solid #d80100;
+    }
+
+    .newsletter_section {
+      padding: 65px 20px!important;
+      height: 500px;
+    }
+    .newsletter_section_title {
+      color: #fff;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      font-family: "Montserrat";
+      text-align: center;
+      margin-bottom: 20px;
+      line-height: 30px;
+    }
+    .form {
+      position: inherit;
+      display: block;
+      height: 60px;
+      border-radius: 35px;
+      background: white;
+      margin: 0 auto;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.28);
+      overflow: visible;
+      width: 100%;
+    }
+    .form input:not([type=submit]) {
+      width: 100%;
+      display: block;
+      padding: 0 30px 0 30px;
+      border-radius: 50px;
+    }
+    .form input {
+      line-height: 60px;
+      padding: 0;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+      background: #eee;
+      letter-spacing: 0.02em;
+      font-family: "Montserrat";
+      font-weight: 500;
+    }
+    .form input:not([type=email]) {
+      position: relative;
+      height: 50px;
+      line-height: 50px;
+      top: 30px;
+      right: 0;
+      border-radius: 25px;
+      padding: 0 25px;
+      background: #101822;
+      color: white;
+      cursor: pointer;
+      font-family: "Montserrat";
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    .form input:not([type=email]):hover {
+      border:2px solid #101822;
+    }
+    .form input:focus {
+      outline: none;
+      background: white;
     }
   /*--------------------------------Home page End--------------------------------*/
   /*--------------------------------Visit Visa Page Start--------------------------------*/

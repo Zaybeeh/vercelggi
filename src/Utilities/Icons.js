@@ -105,6 +105,7 @@ export const Img = {
   contact_canada: require("../Assets/img/contactus/Canada.jpg"),
   contact_india: require("../Assets/img/contactus/India-map.jpg"),
   contact_uae: require("../Assets/img/contactus/UAE.jpg"),
+  newsletter_bg: require("../Assets/img/newsletter.png"),
 };
 
 export const Icons = {
