@@ -63,13 +63,13 @@ function Blogs(){
               <div className="col-md-4">
                 <div className="blog-card blog-card-blog">
                   <div className="blog-card-image">
-                    <a href="#"> <img className="img" src={Blogs_img.blogs_1} ></img> </a>
+                    <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_1} ></img> </a>
                     <div className="ripple-cont"></div>
                   </div>
                   <div className="blog-table">
                     <h6 className="blog-category blog-text-success"><i className="far fa-newspaper"></i> News</h6>
                     <h4 className="blog-card-caption">
-                      <a href="#">Advancement of Technology in Canadian Immigration</a>
+                      <a href="/blog_details">Advancement of Technology in Canadian Immigration</a>
                     </h4>
                     <p className="blog-card-description">When it comes to the usage of technology, Canada is off to a great start. This will ultimately reduce processing...</p>
                     <div className="ftr">
