@@ -25,9 +25,9 @@ function Header(){
 		 </section>
 		 <header id="header" className="header d-flex align-items-center">
 			 <div className="container-fluid d-flex align-items-center justify-content-md-between mobile_nav">
-				 <Link to="/" className="logo d-flex align-items-center navbar_logo_box">
+				 <a href="/" className="logo d-flex align-items-center navbar_logo_box">
 					 <img src={Logo.logo} alt=""></img>
-				 </Link>
+				 </a>
 				 <nav id="navbar" className="navbar navbar_nav_box">
 					 <ul>
 						 <li><a href="/visit_visa">Visit Visa</a></li>
