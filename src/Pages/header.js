@@ -30,14 +30,14 @@ function Header(){
 				 </Link>
 				 <nav id="navbar" className="navbar navbar_nav_box">
 					 <ul>
-						 <li><Link to="/visit_visa">Visit Visa</Link></li>
-						 <li><Link to="/study_permit">Study Permit</Link></li>
-						 <li><Link to="/work_visa">Work Visa</Link></li>
-						 <li><Link to="/business_visa">Business Visa</Link></li>
-						 <li><Link to="/immigrate">Immigration</Link></li>
-						 <li><Link to="/about_us">About Us</Link></li>
-						 <li><Link to="/contactus">Contact Us</Link></li>
-						 <li><Link to="/blogs">Blog</Link></li>
+						 <li><a href="/visit_visa">Visit Visa</a></li>
+						 <li><a href="/study_permit">Study Permit</a></li>
+						 <li><a href="/work_visa">Work Visa</a></li>
+						 <li><a href="/business_visa">Business Visa</a></li>
+						 <li><a href="/immigrate">Immigration</a></li>
+						 <li><a href="/about_us">About Us</a></li>
+						 <li><a href="/contactus">Contact Us</a></li>
+						 <li><a href="/blogs">Blog</a></li>
 
 					 </ul>
 				 </nav>
@@ -45,6 +45,8 @@ function Header(){
 				 <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 			 </div>
 		 </header>
+
+
 	 </section>
 
   );

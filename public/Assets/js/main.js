@@ -61,22 +61,50 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Mobile nav toggle
    */
+  // const mobileNavShow = document.querySelector('.mobile-nav-show');
+  // const mobileNavHide = document.querySelector('.mobile-nav-hide');
+  //
+  // document.querySelectorAll('.mobile-nav-toggle').forEach(el => {
+  //   el.addEventListener('click', function(event) {
+  //     event.preventDefault();
+  //     mobileNavToogle();
+  //   })
+  // });
+  //
+  // function mobileNavToogle() {
+  //   document.querySelector('body').classList.toggle('mobile-nav-active');
+  //   mobileNavShow.classList.toggle('d-none');
+  //   mobileNavHide.classList.toggle('d-none');
+  // }
   const mobileNavShow = document.querySelector('.mobile-nav-show');
   const mobileNavHide = document.querySelector('.mobile-nav-hide');
 
   document.querySelectorAll('.mobile-nav-toggle').forEach(el => {
     el.addEventListener('click', function(event) {
       event.preventDefault();
-      mobileNavToogle();
+      mobileNavToggle();
     })
   });
 
-  function mobileNavToogle() {
+  function mobileNavToggle() {
     document.querySelector('body').classList.toggle('mobile-nav-active');
     mobileNavShow.classList.toggle('d-none');
     mobileNavHide.classList.toggle('d-none');
+
+    // Store the mobile nav state in localStorage
+    const isActive = document.querySelector('body').classList.contains('mobile-nav-active');
+    localStorage.setItem('mobileNavState', isActive ? 'active' : 'inactive');
   }
 
+  // Check and apply the mobile nav state from localStorage when the page loads
+  window.addEventListener('load', function() {
+    const mobileNavState = localStorage.getItem('mobileNavState');
+    if (mobileNavState === 'active') {
+      document.querySelector('body').classList.add('mobile-nav-active');
+      mobileNavShow.classList.add('d-none');
+      mobileNavHide.classList.remove('d-none');
+    }
+  });
   /**
    * Hide mobile nav on same-page/hash links
    */
@@ -94,6 +122,30 @@ document.addEventListener('DOMContentLoaded', () => {
   //   });
   //
   // });
+
+  document.querySelectorAll('#navbar a').forEach(navbarlink => {
+
+    if (!navbarlink.hash) return;
+
+    let section = document.querySelector(navbarlink.hash);
+    if (!section) return;
+
+    navbarlink.addEventListener('click', () => {
+        if (document.querySelector('.mobile-nav-active')) {
+            mobileNavToogle();
+        }
+
+        // Close the currently open section
+        let currentlyOpenSection = document.querySelector('.open-section');
+        if (currentlyOpenSection) {
+            currentlyOpenSection.classList.remove('open-section');
+        }
+
+        // Open the clicked section
+        section.classList.add('open-section');
+    });
+
+});
 
   /**
    * Toggle mobile nav dropdowns
