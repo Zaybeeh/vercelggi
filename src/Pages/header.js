@@ -38,7 +38,6 @@ function Header(){
 						 <li><a href="/about_us">About Us</a></li>
 						 <li><a href="/contactus">Contact Us</a></li>
 						 <li><a href="/blogs">Blog</a></li>
-
 					 </ul>
 				 </nav>
 				 <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
