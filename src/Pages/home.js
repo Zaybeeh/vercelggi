@@ -182,7 +182,6 @@ function Home(){
                 <div className="consultants"><img src={Img.p5} className="embark_img" alt=""></img></div>
                 <div className="consultants"><img src={Img.p6} className="embark_img" alt=""></img></div>
                 <div className="consultants"><img src={Img.p7} className="embark_img" alt=""></img></div>
-                <div className="consultants"><img src={Img.p1} className="embark_img" alt=""></img></div>
               </Carousel>
               <center>
                 <Link to="/team"><button className="meet_the_team_btn">Meet the Team</button></Link>

@@ -227,8 +227,11 @@
       line-height: 30px;
       letter-spacing: 0.5px;
     }
-    .consultants .react-multi-carousel-item {
+    /* .consultants .react-multi-carousel-item {
       width: 161px!important;
+    } */
+    .consultants .react-multi-carousel-item {
+      height: 570px;
     }
     .meet_the_team_btn {
       font-family: "Helvetica";
@@ -935,8 +938,11 @@
       line-height: 30px;
       letter-spacing: 0.5px;
     }
-    .consultants .react-multi-carousel-item {
+    /* .consultants .react-multi-carousel-item {
       width: 197px!important;
+    } */
+    .consultants .react-multi-carousel-item {
+      height: 570px;
     }
     .meet_the_team_btn {
       font-family: "Helvetica";
@@ -1778,8 +1784,11 @@
       line-height: 30px;
       letter-spacing: 0.5px;
     }
-    .consultants .react-multi-carousel-item {
+    /* .consultants .react-multi-carousel-item {
       width: 207px!important;
+    } */
+    .consultants .react-multi-carousel-item {
+      height: 570px;
     }
     .meet_the_team_btn {
       font-family: "Helvetica";
@@ -2487,8 +2496,11 @@
       line-height: 30px;
       letter-spacing: 0.5px;
     }
-    .consultants .react-multi-carousel-item {
+    /* .consultants .react-multi-carousel-item {
       width: 161px!important;
+    } */
+    .consultants .react-multi-carousel-item {
+      height: 570px;
     }
     .meet_the_team_btn {
       font-family: "Helvetica";
@@ -3196,8 +3208,11 @@
       line-height: 30px;
       letter-spacing: 0.5px;
     }
-    .consultants .react-multi-carousel-item {
+    /* .consultants .react-multi-carousel-item {
       width: 161px!important;
+    } */
+    .consultants .react-multi-carousel-item {
+      height: 570px;
     }
     .meet_the_team_btn {
       font-family: "Helvetica";
