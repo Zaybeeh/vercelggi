@@ -63,6 +63,10 @@
   .blog-slider__img{
     height: 250px;
   }
+  .Blog_section {
+    background: #101822;
+    padding: 65px 20px 120px 20px;
+  }
   /*--------------------------------Header page End--------------------------------*/
   /*--------------------------------Home page start--------------------------------*/
     .video_sec_counter_box {
@@ -774,6 +778,10 @@
   }
   .blog-slider__img{
     height: 250px;
+  }
+  .Blog_section {
+    background: #101822;
+    padding: 65px 20px 120px 20px;
   }
   /*--------------------------------Header page End--------------------------------*/
   /*--------------------------------Home page start--------------------------------*/
@@ -1622,6 +1630,10 @@
   .blog-slider__img{
     height: 250px;
   }
+  .Blog_section {
+    background: #101822;
+    padding: 65px 20px 120px 20px;
+  }
   /*--------------------------------Header page End--------------------------------*/
   /*--------------------------------Home page start--------------------------------*/
     .video_sec_counter_box {
@@ -2109,6 +2121,7 @@
     margin-bottom: 30px;
     line-height: 30px;
   }
+
   /*---------------------------------Blog Page End---------------------------------*/
   /*--------------------------------Footer page start--------------------------------*/
   .footer {
@@ -3701,6 +3714,44 @@
 /*-----------------------------------------------Desktop and Laptop Media Query Start-------------------------------------------------------------*/
 @media only screen and (min-width: 768px)  and (max-width: 870px)
 {
+  .blog-card .blog-card-image {
+    height: 155px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  }
+  .blog-card-blog .blog-card-caption {
+    margin-top: 5px;
+    height: auto; 
+  }
+  .blog-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    height: -webkit-fill-available;
+  }
+  .blog-card-caption, .blog-card-caption a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+  }
+  .blog-card-description {
+    font-family: "Montserrat";
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 11px;
+  }
   .team_title {
     font-family: "Helvetica";
     text-transform: uppercase;
@@ -3756,6 +3807,16 @@
       background: #fff;
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
       height: -webkit-fill-available;
+  }
+  .blog-card .blog-card-image {
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
   }
   .blog-card-blog .blog-card-caption {
       margin-top: 5px;
