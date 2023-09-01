@@ -133,7 +133,9 @@ function Study_permit(){
               <div className="row align_item_center">
                 <div className="col-md-12">
                   <h3 className="contact_us_today_text">Contact us today to start your journey <br /> towards a world-class education in Canada.</h3>
-                  <button className="video_book_appoint mt_10">Book An Appointment</button>
+                  <a href="https://calendly.com/growingglobeimmigration">
+                     <button className="video_book_appoint mt_10">Book An Appointment</button>
+                  </a>
                 </div>
               </div>
            </div>

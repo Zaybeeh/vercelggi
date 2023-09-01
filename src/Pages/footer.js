@@ -28,16 +28,16 @@ function Footer(){
             <h4>Quick Links</h4>
             <div className="flex_this">
               <ul>
+                <li><Link to="/about_us">About Us</Link></li>
                 <li><Link to="/visit_visa">Visit Visa</Link></li>
                 <li><Link to="/study_permit">study Permit</Link></li>
-                <li><Link to="/work_visa">Work Visa</Link></li>
-                <li><Link to="/business_visa">Business Visa</Link></li>
+                <li><Link to="/work_visa">Work Visa</Link></li>               
               </ul>
               <ul>
-                <li><Link to="/immigrate">Immigration</Link></li>
-                <li><Link to="/about_us">About Us</Link></li>
-                <li><Link to="#portfolio">Contact Us</Link></li>
-                <li><Link to="#portfolio">Blog</Link></li>
+                <li><Link to="/business_visa">Business Visa</Link></li>
+                <li><Link to="/immigrate">Immigration</Link></li>               
+                <li><Link to="/contactus">Contact Us</Link></li>
+                <li><Link to="/blogs">Blog</Link></li>
               </ul>
             </div>
             <div><br/>
@@ -66,6 +66,8 @@ function Footer(){
               <li><Link>Brampton</Link></li>
               <li><Link>ON Canada</Link></li>
               <li><Link className="footer_subtitle">UAE</Link></li>
+              <li><Link>Dubai</Link></li>
+
             </ul>
             <ul>
               <li><Link className="footer_subtitle">India</Link></li>
@@ -75,7 +77,7 @@ function Footer(){
             </ul>
             </div>
           </div>
-          <div className="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <div className="col-lg-3 col-md-6 footer-contact text-center text-md-start">
             <div>
               <img src={FooterImg.footer_img4} className="footer_img" alt=""></img>
               <img src={FooterImg.footer_img} className="footer_img" alt=""></img>

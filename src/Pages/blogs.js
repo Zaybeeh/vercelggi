@@ -53,7 +53,7 @@ function Blogs(){
           </div>
         </div>
         <div className="Blog_section">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-md-12">
                 <h2 className="blog_section_title">Latest Blogs</h2>

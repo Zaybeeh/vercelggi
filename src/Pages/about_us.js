@@ -62,7 +62,9 @@ function About_us(){
               <div className="col-md-6">
                 <h3 className="about_growing_head mt_50">About Growing Globe Immigration</h3>
                 <p className="study_permit_para">At Growing Globe Immigration, we offer different and most suitable immigration processes for our clients. As regulated Immigration consultants and Immigrants to Canada we understand the needs of clients and are committed and immigrant to Canada understands the needs of his clients and is committed to helping them achieve their dream of living, working, studying, investing, or visiting Canada. We aims to help people across the world immigrate to Canada. We at Growing Globe believe in fairness, ethics, and values and are honored to be regulated by the Immigration Consultants of Canada Regulatory Council (ICCRC).</p>
-                <button className="book_an_appointment_btn mr_15">Book An Appointment</button>
+                <a href="https://calendly.com/growingglobeimmigration">
+                   <button className="book_an_appointment_btn mr_15">Book An Appointment</button>
+                </a>
                 <button className="book_an_appointment_btn">Create A Free Report</button>
               </div>
               <div className="col-md-6">
@@ -154,7 +156,7 @@ function About_us(){
               <div className="row align_item_center">
                 <div className="col-md-12">
                   <h3 className="contact_us_today_text">Feel free to reach out to us for personalized support and guidance.</h3>
-                  <button className="video_book_appoint mt_10">Book An Appointment</button>
+                  <a href="https://calendly.com/growingglobeimmigration"><button className="video_book_appoint mt_10">Book An Appointment</button></a>
                 </div>
               </div>
            </div>

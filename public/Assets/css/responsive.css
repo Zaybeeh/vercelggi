@@ -311,6 +311,11 @@
     transition: 0.3s;
     position: relative;
   }
+  .banner_content {
+      position: absolute;
+      bottom: 16%;
+      left: 5%;
+  }
   /*--------------------------------------Header End--------------------------------------*/
   /*--------------------------------------Team Start--------------------------------------*/
   .team_card_box {
@@ -410,6 +415,11 @@
     -o-transition: 0.3s;
     transition: 0.3s;
     position: relative;
+  }
+  .banner_content {
+      position: absolute;
+      bottom: 16%;
+      left: 5%;
   }
   /*--------------------------------------Header End--------------------------------------*/
   /*--------------------------------------Team Start--------------------------------------*/

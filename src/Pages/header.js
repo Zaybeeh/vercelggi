@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from 'react-router-dom'
 import "./../Assets/css/style.css";
 import "./../Assets/css/responsive.css";
 import "./../Assets/css/slider.css";
@@ -30,14 +31,14 @@ function Header(){
 				 </a>
 				 <nav id="navbar" className="navbar navbar_nav_box">
 					 <ul>
-						 <li><a href="/visit_visa">Visit Visa</a></li>
-						 <li><a href="/study_permit">Study Permit</a></li>
-						 <li><a href="/work_visa">Work Visa</a></li>
-						 <li><a href="/business_visa">Business Visa</a></li>
-						 <li><a href="/immigrate">Immigration</a></li>
-						 <li><a href="/about_us">About Us</a></li>
-						 <li><a href="/contactus">Contact Us</a></li>
-						 <li><a href="/blogs">Blog</a></li>
+						 <li><NavLink  href="/visit_visa" exact activeClassName="active" to='/visit_visa'>Visit Visa</NavLink></li>
+						 <li><NavLink  href="/study_permit" activeClassName="active" to='/study_permit'>Study Permit</NavLink></li>
+						 <li><NavLink  href="/work_visa" activeClassName="active" to='/work_visa'>Work Visa</NavLink></li>
+						 <li><NavLink  href="/business_visa" activeClassName="active" to='/business_visa'>Business Visa</NavLink></li>
+						 <li><NavLink  href="/immigrate" activeClassName="active" to='/immigrate'>Immigration</NavLink></li>
+						 <li><NavLink  href="/about_us" activeClassName="active" to='/about_us'>About Us</NavLink></li>
+						 <li><NavLink  href="/contactus" activeClassName="active" to='/contactus'>Contact Us</NavLink></li>
+						 <li><NavLink  href="/blogs" activeClassName="active" to='/blogs'>Blog</NavLink></li>
 					 </ul>
 				 </nav>
 				 <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
