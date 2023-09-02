@@ -93,7 +93,7 @@ function Visit_visa(){
                    <img src={Img.business_visitor_visa} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Business Visitor Visa</h3>
-                      <p className="visa_para">This visa is for individuals visiting Canada for business-related purposes, such as attending conferences, negotiating contracts, or exploring investment opportunities. It is essential to have a letter of invitation from a Canadian organization and provide... Read More</p>
+                      <p className="visa_para">This visa is for individuals visiting Canada for business-related purposes, such as attending conferences, negotiating contracts, or exploring investment opportunities. It is essential to have a letter of invitation from a Canadian organization and provide... <a className="open-modal read_more_btn" href="#modal">Read More</a></p>
                    </div>
                 </div>
               </div>
@@ -164,6 +164,26 @@ function Visit_visa(){
                 </div>
               </div>
            </div>
+        </div>
+
+        <div id="modal">
+          <div className="modal-content">
+            <div className="row">
+              <div className="col-md-7">
+                 <img src={Img.business_visitor_visa} className="express_entry_img" alt=""></img>
+              </div>
+              <div className="col-md-5">
+                 <div className="p-3">
+                    <h3 className="express_entry_title">Business Visitor Visa</h3>
+                    <p className="get_ready_para">This visa is for individuals visiting Canada for business-related purposes, such as attending conferences, negotiating contracts, or exploring investment opportunities. It is essential to have a letter of invitation from a Canadian organization and provide documentation demonstrating the business nature of the visit.</p>
+                    
+                 </div>
+              </div>
+            </div>
+            <a href="#" title="Back" class="close">
+                <img src={Img.back} className="" alt=""></img>
+            </a>
+          </div>
         </div>
 
       <Footer />

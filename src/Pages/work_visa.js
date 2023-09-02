@@ -83,7 +83,7 @@ function Work_visa(){
               <div className="col-md-6">
                 <div className="sdm_box">
                   <h3 className="sdm_stream_title">Vulnerable Workers</h3>
-                  <p className="if_you_are_para">Canada is committed to protecting the rights and well-being of vulnerable workers, including those employed in low-wage or precarious jobs. The government has implemented measures to ensure fair treatment, safe working conditions, and appropriate compensation for these individuals. If you believe you are a vulnerable worker or have concerns about your working conditions, it is important to seek assistance and report any.... Read More </p>
+                  <p className="if_you_are_para">Canada is committed to protecting the rights and well-being of vulnerable workers, including those employed in low-wage or precarious jobs. The government has implemented measures to ensure fair treatment, safe working conditions, and appropriate compensation for these individuals. If you believe you are a vulnerable worker or have concerns about your working conditions, it is important to seek assistance and report any.... <a className="open-modal read_more_btn" href="#modal5">Read More</a> </p>
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@ function Work_visa(){
                    <img src={Img.temporary_work_permit} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Temporary Work Permit</h3>
-                      <p className="visa_para">If you're looking to work in Canada for a specific period, the Temporary Work Permit is the perfect fit. This permit allows you to join a Canadian employer in a specific occupation for a defined duration. Depending on the job offer,... Read More</p>
+                      <p className="visa_para">If you're looking to work in Canada for a specific period, the Temporary Work Permit is the perfect fit. This permit allows you to join a Canadian employer in a specific occupation for a defined duration. Depending on the job offer,... <a className="open-modal read_more_btn" href="#modal">Read More</a></p>
                    </div>
                 </div>
               </div>
@@ -110,7 +110,7 @@ function Work_visa(){
                    <img src={Img.international_mobility_program} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">International Mobility Program (IMP)</h3>
-                      <p className="visa_para">The IMP is designed to facilitate the entry of certain foreign workers into Canada, making it easier for you to contribute your skills and expertise. This program covers a wide range of categories, including intra-company... Read More</p>
+                      <p className="visa_para">The IMP is designed to facilitate the entry of certain foreign workers into Canada, making it easier for you to contribute your skills and expertise. This program covers a wide range of categories, including intra-company... <a className="open-modal read_more_btn" href="#modal2">Read More</a></p>
                    </div>
                 </div>
               </div>
@@ -119,7 +119,7 @@ function Work_visa(){
                    <img src={Img.gobal_talent_stream} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Global Talent Stream</h3>
-                      <p className="visa_para">Are you a highly skilled worker in the fields of science, technology, engineering, or mathematics? The Global Talent Stream provides an expedited and simplified application process, allowing you to join the Canadian... Read More</p>
+                      <p className="visa_para">Are you a highly skilled worker in the fields of science, technology, engineering, or mathematics? The Global Talent Stream provides an expedited and simplified application process, allowing you to join the Canadian... <a className="open-modal read_more_btn" href="#modal3">Read More</a></p>
                    </div>
                 </div>
               </div>
@@ -128,16 +128,7 @@ function Work_visa(){
                    <img src={Img.provincial_nominee_program} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Provincial Nominee Program (PNP)</h3>
-                      <p className="visa_para">Canada's provinces and territories have unique labor market needs, and the PNP enables them to nominate foreign workers with specific skills and experience. This program offers you a chance to contribute to the local... Read More </p>
-                   </div>
-                </div>
-              </div>
-              <div className="col-md-4 d-flex">
-                <div className="visa_card">
-                   <img src={Img.parents_grandparents_visitor_visa} className="visa_img"></img>
-                   <div className="visa_content">
-                      <h3 className="visa_title">Parent and Grandparent Visitor Visa</h3>
-                      <p className="visa_para">This visa allows parents and grandparents of Canadian citizens or permanent residents to visit Canada for extended periods. It requires sponsorship from their Canadian family member and meeting certain financial criteria.</p>
+                      <p className="visa_para">Canada's provinces and territories have unique labor market needs, and the PNP enables them to nominate foreign workers with specific skills and experience. This program offers you a chance to contribute to the local... <a className="open-modal read_more_btn" href="#modal4">Read More</a></p>
                    </div>
                 </div>
               </div>
@@ -147,6 +138,15 @@ function Work_visa(){
                    <div className="visa_content">
                       <h3 className="visa_title">Spousal Work Permit</h3>
                       <p className="visa_para">If your spouse or common-law partner is studying or working in Canada, you may be eligible for an open work permit. This allows you to work for any employer in Canada without needing a job offer.</p>
+                   </div>
+                </div>
+              </div>
+              <div className="col-md-4 d-flex">
+                <div className="visa_card">
+                   <img src={Img.post_graduation_work_permit} className="visa_img"></img>
+                   <div className="visa_content">
+                      <h3 className="visa_title">Post-Graduation Work Permit (PGWP)</h3>
+                      <p className="visa_para">If you have completed a program of study at a designated Canadian educational institution, you may be eligible for a PGWP. This permit allows you to work in Canada after graduation and gain valuable Canadian work experience.</p>
                    </div>
                 </div>
               </div>
@@ -205,6 +205,103 @@ function Work_visa(){
                 </div>
               </div>
            </div>
+        </div>
+
+        <div id="modal">
+          <div className="modal-content">
+            <div className="row">
+              <div className="col-md-7">
+                 <img src={Img.temporary_work_permit} className="express_entry_img" alt=""></img>
+              </div>
+              <div className="col-md-5">
+                 <div className="p-3">
+                    <h3 className="express_entry_title">Temporary Work Permit</h3>
+                    <p className="get_ready_para">If you're looking to work in Canada for a specific period, the Temporary Work Permit is the perfect fit. This permit allows you to join a Canadian employer in a specific occupation for a defined duration. Depending on the job offer, you may require a Labour Market Impact Assessment (LMIA) or qualify for a LMIA-exempt work permit.</p>
+                    
+                 </div>
+              </div>
+            </div>
+            <a href="#" title="Back" class="close">
+                <img src={Img.back} className="" alt=""></img>
+            </a>
+          </div>
+        </div>
+
+        <div id="modal2" class="modal">
+          <div className="modal-content">
+            <div className="row">
+              <div className="col-md-7">
+                 <img src={Img.international_mobility_program} className="express_entry_img" alt=""></img>
+              </div>
+              <div className="col-md-5">
+                 <div className="p-3">
+                    <h3 className="express_entry_title">International Mobility Program (IMP)</h3>
+                    <p className="get_ready_para">The IMP is designed to facilitate the entry of certain foreign workers into Canada, making it easier for you to contribute your skills and expertise. This program covers a wide range of categories, including intra-company transfers and reciprocal employment opportunities. Depending on the specific program stream, you may or may not require an LMIA. </p>
+                    
+                 </div>
+              </div>
+            </div>
+            <a href="#" title="Back" class="close">
+                <img src={Img.back} className="" alt=""></img>
+            </a>
+          </div>
+        </div>
+
+        <div id="modal3" class="modal">
+          <div className="modal-content">
+            <div className="row">
+              <div className="col-md-7">
+                 <img src={Img.gobal_talent_stream} className="express_entry_img" alt=""></img>
+              </div>
+              <div className="col-md-5">
+                 <div className="p-3">
+                    <h3 className="express_entry_title">Global Talent Stream</h3>
+                    <p className="get_ready_para">Are you a highly skilled worker in the fields of science, technology, engineering, or mathematics? The Global Talent Stream provides an expedited and simplified application process, allowing you to join the Canadian workforce more swiftly. This program falls under the IMP and may require an LMIA or fall under the LMIA exemption. </p>
+                    
+                 </div>
+              </div>
+            </div>
+            <a href="#" title="Back" class="close">
+                <img src={Img.back} className="" alt=""></img>
+            </a>
+          </div>
+        </div>
+
+        <div id="modal4" class="modal">
+          <div className="modal-content">
+            <div className="row">
+              <div className="col-md-7">
+                 <img src={Img.provincial_nominee_program} className="express_entry_img" alt=""></img>
+              </div>
+              <div className="col-md-5">
+                 <div className="p-3">
+                    <h3 className="express_entry_title">Provincial Nominee Program (PNP)</h3>
+                    <p className="get_ready_para">Canada's provinces and territories have unique labor market needs, and the PNP enables them to nominate foreign workers with specific skills and experience. This program offers you a chance to contribute to the local economy while enjoying the benefits of living in a specific province or territory. Depending on the specific stream within the PNP, an LMIA may or may not be required.</p>
+                    
+                 </div>
+              </div>
+            </div>
+            <a href="#" title="Back" class="close">
+                <img src={Img.back} className="" alt=""></img>
+            </a>
+          </div>
+        </div>
+
+        <div id="modal5" class="modal">
+          <div className="modal-content">
+            <div className="row">
+              <div className="col-md-12">
+                 <div className="p-3">
+                    <h3 className="express_entry_title">Vulnerable Workers</h3>
+                    <p className="get_ready_para">Canada is committed to protecting the rights and well-being of vulnerable workers, including those employed in low-wage or precarious jobs. The government has implemented measures to ensure fair treatment, safe working conditions, and appropriate compensation for these individuals. If you believe you are a vulnerable worker or have concerns about your working conditions, it is important to seek assistance and report any issues to the appropriate authorities. Our consultancy can provide guidance on your rights as a worker, connect you with resources to address concerns, and ensure that your work visa application aligns with fair and ethical employment practices.</p>
+                    
+                 </div>
+              </div>
+            </div>
+            <a href="#" title="Back" class="close">
+                <img src={Img.back} className="" alt=""></img>
+            </a>
+          </div>
         </div>
 
       <Footer />

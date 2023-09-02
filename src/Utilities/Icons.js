@@ -67,7 +67,7 @@ export const Img = {
 	spousel_work_permit: require("../Assets/img/work_visa/spousel_work_permit.png"),
 	post_graduation_work_permit: require("../Assets/img/work_visa/post_graduation_work_permit.png"),
 	parents_grandparents_visitor_visa: require("../Assets/img/work_visa/parents_grandparents_visitor_visa.jpg"),
-	spousal_work_permit: require("../Assets/img/work_visa/spousal_work_permit.jpg"),
+	spousal_work_permit: require("../Assets/img/work_visa/spousel_work_permit.png"),
 	bringing_work_permit: require("../Assets/img/work_visa/bringing_work_permit.png"),
 	international_experiance_canada: require("../Assets/img/work_visa/international_experiance_canada.png"),
 	immigrate: require("../Assets/img/immigrate.png"),
@@ -107,6 +107,9 @@ export const Img = {
   contact_india: require("../Assets/img/contactus/India-map.jpg"),
   contact_uae: require("../Assets/img/contactus/UAE.jpg"),
   newsletter_bg: require("../Assets/img/newsletter.png"),
+  express_entry: require("../Assets/img/Express_Entry.png"),
+  back: require("../Assets/img/BACK.png"),
+
 };
 
 export const Icons = {

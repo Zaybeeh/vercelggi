@@ -124,7 +124,7 @@ function Business_visa(){
                    <img src={Img.self_employed_visa} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Self-Employed Visa</h3>
-                      <p className="visa_para">Are you a cultural, artistic, or athletic professional with aspirations to become self-employed in Canada? The Self-Employed Visa provides the opportunity to showcase your talent and contribute to the vibrant Canadian landscape. Our consultancy... Read More</p>
+                      <p className="visa_para">Are you a cultural, artistic, or athletic professional with aspirations to become self-employed in Canada? The Self-Employed Visa provides the opportunity to showcase your talent and contribute to the vibrant Canadian landscape. Our consultancy... <a className="open-modal read_more_btn" href="#modal">Read More</a></p>
                    </div>
                 </div>
               </div>
@@ -157,6 +157,26 @@ function Business_visa(){
                 </div>
               </div>
            </div>
+        </div>
+
+        <div id="modal">
+          <div className="modal-content">
+            <div className="row">
+              <div className="col-md-7">
+                 <img src={Img.self_employed_visa} className="express_entry_img" alt=""></img>
+              </div>
+              <div className="col-md-5">
+                 <div className="p-3">
+                    <h3 className="express_entry_title">Self-Employed Visa</h3>
+                    <p className="get_ready_para">Are you a cultural, artistic, or athletic professional with aspirations to become self-employed in Canada? The Self-Employed Visa provides the opportunity to showcase your talent and contribute to the vibrant Canadian landscape. Our consultancy will guide you through the application process, highlighting your unique abilities.</p>
+                    
+                 </div>
+              </div>
+            </div>
+            <a href="#" title="Back" class="close">
+                <img src={Img.back} className="" alt=""></img>
+            </a>
+          </div>
         </div>
 
       <Footer />

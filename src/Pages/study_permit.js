@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useCallback } from "react";
+import Modal from "react-modal";
 import Header from "./header.js";
 import Footer from "./footer.js";
 import {Img} from "../Utilities/Icons.js";
@@ -43,6 +44,9 @@ function Study_permit(){
       items: 1
     }
   };
+  const [isOpen, setIsOpen] = useState(false);
+  const openModal = useCallback(() => setIsOpen(true), []);
+  const closeModal = useCallback(() => setIsOpen(false), []);
 
   return(
     <div>
@@ -64,7 +68,7 @@ function Study_permit(){
               <div className="col-md-6">
                 <p className="study_permit_para">A study permit is a document issued by the Canadian government that allows foreign nationals to study at designated learning institutions (DLIs) in the country. It serves as an essential requirement for most international students planning to pursue their academic aspirations in Canada.</p>
                 <p className="study_permit_para">To ensure a smooth and successful study permit application process, it is imperative to have all the required documents ready beforehand.</p>
-                <p className="study_permit_para">The specific documents necessary may vary depending on your unique circumstances, including whether you are applying through the Student Direct Stream (SDS) or the regular non-SDS stream.</p>
+                <p className="study_permit_para">The specific documents necessary may vary depending on your unique circumstances, including whether you are applying through the Student Direct Stream (SDS) or the regular non-SDS stream... <a className="open-modal read_more_btn" href="#modal">Read More</a></p>
               </div>
               <div className="col-md-6">
                 <img src={Img.study_permit} className="study_permit_img" alt=""></img>
@@ -139,6 +143,35 @@ function Study_permit(){
                 </div>
               </div>
            </div>
+        </div>
+
+        <div id="modal">
+          <div className="modal-content">
+            <div className="row">
+              <div className="col-md-7">
+                 <img src={Img.study_permit} className="express_entry_img" alt=""></img>
+              </div>
+              <div className="col-md-5">
+                 <div className="p-3">
+                    <h3 className="express_entry_title">Study Permit</h3>
+                    <p className="get_ready_para">A study permit is a document issued by the Canadian government that allows foreign nationals to study at designated learning institutions (DLIs) in the country. It serves as an essential requirement for most international students planning to pursue their academic aspirations in Canada.</p>
+                    <p className="get_ready_para">To ensure a smooth and successful study permit application process, it is imperative to have all the required documents ready beforehand. The specific documents necessary may vary depending on your unique circumstances, including whether you are applying through the Student Direct Stream (SDS) or the regular non-SDS stream.</p>
+                 </div>
+              </div>
+              <div className="col-md-12">
+                 <div className="p-3">
+                    <p className="get_ready_para">AIf you are eligible for the SDS stream, you will need to meet specific requirements, such as language proficiency tests, financial documents, and an acceptance letter from a designated learning institution. Our team of experts is well-versed in the SDS stream requirements and can provide tailored guidance to help you meet these criteria efficiently.</p>
+                    <p className="get_ready_para">For those applying through the non-SDS stream, the documentation requirements may differ slightly. Our consultancy is experienced in handling both SDS and non-SDS applications and can provide you with personalized solutions based on your stream.</p>
+                    <p className="get_ready_para">At our consultancy, we understand the intricacies of the study permit application process for both SDS and non-SDS streams and are here to assist you every step of the way. Our knowledgeable consultants will ensure that you have a smooth experience, from document preparation to submitting your application.</p>
+                    <p className="get_ready_para">Contact us today to start your journey towards a world-class education in Canada. Our team of experts is ready to provide you with the guidance and support you need to navigate the study permit application process, tailored to your specific circumstances and stream. Let us help you turn your aspirations of studying in Canada into a reality.</p>
+
+                 </div>
+              </div>
+            </div>
+            <a href="#" title="Close Modal" class="close">
+                <img src={Img.back} className="" alt=""></img>
+            </a>
+          </div>
         </div>
 
       <Footer />
