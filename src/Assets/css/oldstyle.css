@@ -1325,7 +1325,7 @@
   border: none;
   color: #fff;
   border-radius: 8px;
-  padding: 5px 8px 5px 8px;
+  padding: 5px 8px 10px 8px;
 /*  margin-left: 15px;*/
 }
 .book_appoint_section{
@@ -2027,12 +2027,6 @@
 .study_permit_img{
   background: white;
   width: 100%;
-}
-
-.read_more_btn{
-  font-family: "Montserrat";
-  font-size: 14px;
-  color: #D80000;
 }
 
 .requirements_section{
@@ -2914,95 +2908,3 @@ ul.who_we_are_ul_2 li::before {
 /*--------------------------------------------------------------------------------------------*/
 
 /*-------------------------------------------Footer End-------------------------------------------*/
-
-#modal  {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 99999999;
-  position: fixed;
-  background: rgba(0, 0, 0, 0.63);
-  transition: all 0.5s;
-  display: grid;
-  place-content: center;
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
-#modal:target {
-  visibility: visible;
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.modal  {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 99999999;
-  position: fixed;
-  background: rgba(0, 0, 0, 0.63);
-  transition: all 0.5s;
-  display: grid;
-  place-content: center;
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
-.modal:target {
-  visibility: visible;
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.modal-content {
-  margin: 0.5em;
-/*  padding: 1.2em;*/
-  background: #ffffff;
-  border-radius: 10px;
-  width: 82vw;
-  max-width: 1200px!important;
-  overflow-y: scroll;
-  overflow-x: hidden;  
-  height: 100%;
-}
-
-.modal-content .close {
-  display: inline-block;
-  text-decoration: none;
-/*  background-color: #a079e9;*/
-  padding: 0.8em 1.2em;
-  border-radius: 5px;
-  color: #fff;
-  position: relative;
-  font-size: 0.9rem;
-  text-align: center;
-}
-.modal-content .close:hover {
-/*  background-color: #7c68ea;*/
-}
-.modal-content .close:active {
-  top: 1px;
-}
-
-.express_entry_img{
-  width: 100%;
-}
-
-.express_entry_title{
-  font-family: "Montserrat";
-  font-size: 18px;
-  text-align: center;
-}
-
-.ul li{
-  font-family: "Montserrat";
-  font-size: 14px;
-}
-
-.get_ready_para{
-  font-family: "Montserrat";
-  font-size: 14px;
-}

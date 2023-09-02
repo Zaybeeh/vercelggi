@@ -108,7 +108,7 @@
       width: 280px;
     }
     .carousel_img{
-      width: 265px;
+      width: 100%;
     }
     .permanent_resident_visa_text {
       font-family: "helvetica";
@@ -183,8 +183,8 @@
       border: none;
       color: #fff;
       border-radius: 8px;
-      padding: 5px 8px 10px 8px;
-      margin-left: 7px;
+      padding: 5px 8px 5px 8px;
+      margin-left: 0px;
     }
     .embark_book_appoint {
       font-family: "Helvetica";
@@ -270,6 +270,7 @@
       color: #000;
       margin-right: 0px;
       margin-bottom: 25px;
+      text-align: justify;
     }
     .book_appoint_appointment {
       font-family: "Helvetica";
@@ -381,13 +382,13 @@
     color: #D80000;
   }
   .why_glowing_section {
-    background-color: #101822;
+    background-color: #ffffff;
     padding: 50px 20px;
   }
   .why_glowing_ul li {
     font-family: "Helvetica";
     font-size: 14px;
-    color: #ffffff;
+    color: #000;
   }
   .contact_us_today_text {
     font-family: "Helvetica-Bold";
@@ -402,7 +403,7 @@
   .study_permit_title {
     font-family: "Helvetica";
     font-size: 24px;
-    color: #fff;
+    color: #D80000;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -824,7 +825,7 @@
       width: 280px;
     }
     .carousel_img{
-      width: 325px;
+      width: 100%;
     }
     .permanent_resident_visa_text {
       font-family: "helvetica";
@@ -899,7 +900,7 @@
       border: none;
       color: #fff;
       border-radius: 8px;
-      padding: 5px 8px 10px 8px;
+      padding: 5px 8px 5px 8px;
       margin-left: 7px;
     }
     .embark_book_appoint {
@@ -986,6 +987,7 @@
       color: #000;
       margin-right: 0px;
       margin-bottom: 25px;
+      text-align: justify;
     }
     .book_appoint_appointment {
       font-family: "Helvetica";
@@ -1230,13 +1232,13 @@
     color: #D80000;
   }
   .why_glowing_section {
-    background-color: #101822;
+    background-color: #ffffff;
     padding: 50px 20px;
   }
   .why_glowing_ul li {
     font-family: "Helvetica";
     font-size: 14px;
-    color: #ffffff;
+    color: #000;
   }
   .contact_us_today_text {
     font-family: "Helvetica-Bold";
@@ -1252,7 +1254,7 @@
   .study_permit_title {
     font-family: "Helvetica";
     font-size: 24px;
-    color: #fff;
+    color: #D80000;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -1674,8 +1676,8 @@
       border: 2px solid #fff;
       width: 280px;
     }
-    .carousel_img{
-      width: 365px;
+    .carousel_img {
+        width: 100%;
     }
     .permanent_resident_visa_text {
       font-family: "helvetica";
@@ -1750,7 +1752,7 @@
       border: none;
       color: #fff;
       border-radius: 8px;
-      padding: 5px 8px 10px 8px;
+      padding: 5px 8px 5px 8px;
       margin-left: 7px;
     }
     .embark_book_appoint {
@@ -1837,6 +1839,7 @@
       color: #000;
       margin-right: 0px;
       margin-bottom: 25px;
+      text-align: justify;
     }
     .book_appoint_appointment {
       font-family: "Helvetica";
@@ -1949,13 +1952,13 @@
     color: #D80000;
   }
   .why_glowing_section {
-    background-color: #101822;
+    background-color: #ffffff;
     padding: 50px 20px;
   }
   .why_glowing_ul li {
     font-family: "Helvetica";
     font-size: 14px;
-    color: #ffffff;
+    color: #000;
   }
   .contact_us_today_text {
     font-family: "Helvetica-Bold";
@@ -1970,7 +1973,7 @@
   .study_permit_title {
     font-family: "Helvetica";
     font-size: 24px;
-    color: #fff;
+    color: #D80000;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -2389,7 +2392,7 @@
       width: 280px;
     }
     .carousel_img{
-      width: 265px;
+      width: 100%;
     }
     .permanent_resident_visa_text {
       font-family: "helvetica";
@@ -2464,7 +2467,7 @@
       border: none;
       color: #fff;
       border-radius: 8px;
-      padding: 5px 8px 10px 8px;
+      padding: 5px 8px 5px 8px;
       margin-left: 7px;
     }
     .embark_book_appoint {
@@ -2551,6 +2554,7 @@
       color: #000;
       margin-right: 0px;
       margin-bottom: 25px;
+      text-align: justify;
     }
     .book_appoint_appointment {
       font-family: "Helvetica";
@@ -2663,13 +2667,13 @@
     color: #D80000;
   }
   .why_glowing_section {
-    background-color: #101822;
+    background-color: #ffffff;
     padding: 50px 20px;
   }
   .why_glowing_ul li {
     font-family: "Helvetica";
     font-size: 14px;
-    color: #ffffff;
+    color: #000;
   }
   .contact_us_today_text {
     font-family: "Helvetica-Bold";
@@ -2684,7 +2688,7 @@
   .study_permit_title {
     font-family: "Helvetica";
     font-size: 24px;
-    color: #fff;
+    color: #D80000;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -3102,7 +3106,7 @@
       width: 280px;
     }
     .carousel_img{
-      width: 265px;
+      width: 100%;
     }
     .permanent_resident_visa_text {
       font-family: "helvetica";
@@ -3177,7 +3181,7 @@
       border: none;
       color: #fff;
       border-radius: 8px;
-      padding: 5px 8px 10px 8px;
+      padding: 5px 8px 5px 8px;
       margin-left: 7px;
     }
     .embark_book_appoint {
@@ -3264,6 +3268,7 @@
       color: #000;
       margin-right: 0px;
       margin-bottom: 25px;
+      text-align: justify;
     }
     .book_appoint_appointment {
       font-family: "Helvetica";
@@ -3376,13 +3381,13 @@
     color: #D80000;
   }
   .why_glowing_section {
-    background-color: #101822;
+    background-color: #ffffff;
     padding: 50px 20px;
   }
   .why_glowing_ul li {
     font-family: "Helvetica";
     font-size: 14px;
-    color: #ffffff;
+    color: #000;
   }
   .contact_us_today_text {
     font-family: "Helvetica-Bold";
@@ -3397,7 +3402,7 @@
   .study_permit_title {
     font-family: "Helvetica";
     font-size: 24px;
-    color: #fff;
+    color: #D80000;
     text-align: center;
     margin-bottom: 20px;
   }
@@ -3834,7 +3839,7 @@
 }
 @media only screen and (min-width: 1200px) and (max-width:1359px)
 {
-  /*--------------------------------------Header Start--------------------------------------
+  /*--------------------------------------Header Start--------------------------------------*/
   .navbar a, .navbar a:focus {
     display: -ms-flexbox;
     display: flex;
