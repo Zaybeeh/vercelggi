@@ -210,6 +210,9 @@ function Work_visa(){
         <div id="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.temporary_work_permit} className="express_entry_img" alt=""></img>
               </div>
@@ -221,8 +224,8 @@ function Work_visa(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -230,6 +233,9 @@ function Work_visa(){
         <div id="modal2" class="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.international_mobility_program} className="express_entry_img" alt=""></img>
               </div>
@@ -241,8 +247,8 @@ function Work_visa(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -250,6 +256,9 @@ function Work_visa(){
         <div id="modal3" class="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.gobal_talent_stream} className="express_entry_img" alt=""></img>
               </div>
@@ -261,8 +270,8 @@ function Work_visa(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -270,6 +279,9 @@ function Work_visa(){
         <div id="modal4" class="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.provincial_nominee_program} className="express_entry_img" alt=""></img>
               </div>
@@ -281,8 +293,8 @@ function Work_visa(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -291,6 +303,9 @@ function Work_visa(){
           <div className="modal-content">
             <div className="row">
               <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
+              <div className="col-md-12">
                  <div className="p-3">
                     <h3 className="express_entry_title">Vulnerable Workers</h3>
                     <p className="get_ready_para">Canada is committed to protecting the rights and well-being of vulnerable workers, including those employed in low-wage or precarious jobs. The government has implemented measures to ensure fair treatment, safe working conditions, and appropriate compensation for these individuals. If you believe you are a vulnerable worker or have concerns about your working conditions, it is important to seek assistance and report any issues to the appropriate authorities. Our consultancy can provide guidance on your rights as a worker, connect you with resources to address concerns, and ensure that your work visa application aligns with fair and ethical employment practices.</p>
@@ -298,8 +313,8 @@ function Work_visa(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>

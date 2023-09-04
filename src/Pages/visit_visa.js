@@ -169,6 +169,9 @@ function Visit_visa(){
         <div id="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.business_visitor_visa} className="express_entry_img" alt=""></img>
               </div>
@@ -180,8 +183,8 @@ function Visit_visa(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>

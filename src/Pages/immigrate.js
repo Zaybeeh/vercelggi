@@ -300,6 +300,9 @@ function Immigrate(){
         <div id="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.express_entry} className="express_entry_img" alt=""></img>
               </div>
@@ -318,8 +321,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -327,6 +330,9 @@ function Immigrate(){
         <div id="modal2" className="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.athlentic_immigration_program} className="express_entry_img" alt=""></img>
               </div>
@@ -338,8 +344,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -347,6 +353,9 @@ function Immigrate(){
         <div id="modal3" className="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.caregiver_programs} className="express_entry_img" alt=""></img>
               </div>
@@ -358,8 +367,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -367,6 +376,9 @@ function Immigrate(){
         <div id="modal4" className="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.quebec_skilled_worker_program} className="express_entry_img" alt=""></img>
               </div>
@@ -378,8 +390,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -387,6 +399,9 @@ function Immigrate(){
         <div id="modal5" className="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.ontario_immigrant_nominee_program} className="express_entry_img" alt=""></img>
               </div>
@@ -398,8 +413,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -407,6 +422,9 @@ function Immigrate(){
         <div id="modal6" className="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.british_columbia_provincial_nominee_program} className="express_entry_img" alt=""></img>
               </div>
@@ -418,8 +436,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -427,6 +445,9 @@ function Immigrate(){
         <div id="modal7" className="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.AINP} className="express_entry_img" alt=""></img>
               </div>
@@ -438,8 +459,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -447,6 +468,9 @@ function Immigrate(){
         <div id="modal8" className="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.SINP} className="express_entry_img" alt=""></img>
               </div>
@@ -458,8 +482,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -467,6 +491,9 @@ function Immigrate(){
         <div id="modal9" className="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.MPNP} className="express_entry_img" alt=""></img>
               </div>
@@ -478,8 +505,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -487,6 +514,9 @@ function Immigrate(){
         <div id="modal10" className="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.NSNP} className="express_entry_img" alt=""></img>
               </div>
@@ -498,8 +528,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -507,6 +537,9 @@ function Immigrate(){
         <div id="modal11" className="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.new_brunswick_provincial_nominee_program} className="express_entry_img" alt=""></img>
               </div>
@@ -518,8 +551,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -527,6 +560,9 @@ function Immigrate(){
         <div id="modal12" className="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.NLPNP} className="express_entry_img" alt=""></img>
               </div>
@@ -538,8 +574,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -547,6 +583,9 @@ function Immigrate(){
         <div id="modal13" className="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.YNP} className="express_entry_img" alt=""></img>
               </div>
@@ -558,8 +597,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -567,6 +606,9 @@ function Immigrate(){
         <div id="modal14" className="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.NTNP} className="express_entry_img" alt=""></img>
               </div>
@@ -578,8 +620,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>
@@ -587,6 +629,9 @@ function Immigrate(){
         <div id="modal15" className="modal">
           <div className="modal-content">
             <div className="row">
+              <div className="col-md-12">
+                   <a href="#close" title="Close" className="close close-top">X</a>
+              </div>
               <div className="col-md-7">
                  <img src={Img.NNP} className="express_entry_img" alt=""></img>
               </div>
@@ -598,8 +643,8 @@ function Immigrate(){
                  </div>
               </div>
             </div>
-            <a href="#" title="Back" class="close">
-                <img src={Img.back} className="" alt=""></img>
+            <a href="#close" title="Back" class="close">
+                <img src={Img.back} className="back_img" alt=""></img>
             </a>
           </div>
         </div>        

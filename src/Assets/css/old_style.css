@@ -2966,7 +2966,7 @@ ul.who_we_are_ul_2 li::before {
   max-width: 1200px!important;
   overflow-y: scroll;
   overflow-x: hidden;  
-  height: auto;
+  height: 100%;
 }
 
 .modal-content .close {
@@ -2977,15 +2977,8 @@ ul.who_we_are_ul_2 li::before {
   border-radius: 5px;
   color: #fff;
   position: relative;
-  font-size: 18px;
+  font-size: 0.9rem;
   text-align: center;
-}
-.close-top{
-  float: right;
-  color: #000!important;
-}
-.back_img{
-  height: 12px;
 }
 .modal-content .close:hover {
 /*  background-color: #7c68ea;*/
