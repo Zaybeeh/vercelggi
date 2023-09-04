@@ -146,6 +146,26 @@ $(document).on('resize', function(){
 });
 </script>
 
+<script>
+$(function(){
+    var current = location.pathname;
+    // Check if the current URL is blank, "/", or a space
+    if (current === "" || current === "/" || current.trim() === "/") {
+        // Handle the case when the URL is blank or "/"
+        // For example, you can set a default active state for a specific link or do nothing
+        $('#navbar li a.default-link').addClass('active'); // Change 'default-link' to the appropriate link class
+    } else {
+        $('#navbar li a').each(function(){
+            var $this = $(this);
+            // if the current path is like this link, make it active
+            if($this.attr('href').indexOf(current) !== -1){
+                $this.addClass('active');
+            }
+        });
+    }
+});
+
+</script>
 
   </body>
 </html>
