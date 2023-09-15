@@ -1159,7 +1159,7 @@
   color: #f30302;
   font-size: 22px;
   padding: 10px 0;
-  margin-top: 4px;
+/*  margin-top: 4px;*/
 }
 .topbar_text{
   color: #fff;
@@ -1175,6 +1175,7 @@
 }
 .marquee_box{
   width: -webkit-fill-available;
+  line-height: 0px;
 }
 /*---------------------------------Top Bar End---------------------------------*/
 /*---------------------------------NavBar Start---------------------------------*/
@@ -1251,26 +1252,51 @@
 }
 .video_book_appoint{
   font-family: "Montserrat";
-  background: transparent;
+  background: #fff;
   font-weight: 500;
   font-size: 16px;
-  color: #fff;
+  color: #f30302;
   border-radius: 6px;
   padding: 10px 50px 10px 55px;
   letter-spacing: 0.5px;
   border: 2px solid #fff;
 }
-.video_free_report{
+.video_book_appoint:hover{
   font-family: "Montserrat";
-  background: transparent;
+  background: #f30302;
   font-weight: 500;
   font-size: 16px;
   color: #fff;
   border-radius: 6px;
   padding: 10px 50px 10px 55px;
   letter-spacing: 0.5px;
+  border: 2px solid #f30302;
+  transition: border-color 0.5s, background-color 0.5s, color 0.5s
+}
+.video_free_report{
+  font-family: "Montserrat";
+  background: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  color: #f30302;
+  border-radius: 6px;
+  padding: 10px 50px 10px 55px;
+  letter-spacing: 0.5px;
   border: 2px solid #fff;
   width: 280px;
+}
+.video_free_report:hover{
+  font-family: "Montserrat";
+  background: #f30302;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px 50px 10px 55px;
+  letter-spacing: 0.5px;
+  border: 2px solid #f30302;
+  width: 280px;
+  transition: border-color 0.5s, background-color 0.5s, color 0.5s
 }
 .video_sec_counter_title{
   font-family: "Montserrat";
@@ -1306,12 +1332,12 @@
 }
 .permanent_resident_visa_text{
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 24px;
   position: relative;
   color: white;
   z-index: 99999;
   top: -140px;
-  left: 10px;
+  left: 5px;
   width: 95%;
 }
 .learn_more_btn{
@@ -1326,6 +1352,7 @@
   color: #fff;
   border-radius: 8px;
   padding: 5px 8px 5px 8px;
+  margin-left: -5px;
 /*  margin-left: 15px;*/
 }
 .book_appoint_section{
@@ -1380,7 +1407,18 @@
 }
 .embark_book_appoint{
   font-family: "Montserrat";
-  background: transparent;
+  background: #fff;
+  font-weight:500;
+  font-size: 16px;
+  color: #d80100;
+  border-radius: 6px;
+  padding: 10px 50px 10px 55px;
+  letter-spacing: 0.5px;
+  border: 2px solid #fff;
+}
+.embark_book_appoint:hover{
+  font-family: "Montserrat";
+  background: #d80100;
   font-weight:500;
   font-size: 16px;
   color: #fff;
@@ -1388,10 +1426,23 @@
   padding: 10px 50px 10px 55px;
   letter-spacing: 0.5px;
   border: 2px solid #d80100;
+  transition: border-color 0.5s, background-color 0.5s, color 0.5s
+
 }
 .embark_book_appoint_2{
   font-family: "Montserrat";
-  background: transparent;
+  background: #fff;
+  font-weight:500;
+  font-size: 16px;
+  color: #d80100;
+  border-radius: 6px;
+  padding: 10px 50px 10px 55px;
+  letter-spacing: 0.5px;
+  border: 2px solid #fff;
+}
+.embark_book_appoint_2:hover{
+  font-family: "Montserrat";
+  background: #d80100;
   font-weight:500;
   font-size: 16px;
   color: #fff;
@@ -1399,6 +1450,8 @@
   padding: 10px 50px 10px 55px;
   letter-spacing: 0.5px;
   border: 2px solid #d80100;
+  transition: border-color 0.5s, background-color 0.5s, color 0.5s
+
 }
 .embark_free_report{
   font-family: "Montserrat";
@@ -1696,6 +1749,9 @@
   font-size: 18px;
   color: #d80100;
 }
+.languages_ul li{
+  font-family: "Montserrat";
+}
 .scroll-container {
   height: 100px;
   overflow-y: scroll;
@@ -1965,7 +2021,7 @@
   border: none;
   color: #ffffff;
   background: #ff0000;
-  padding: 10px 45px 14px 45px;
+  padding: 12px 45px 12px 45px;
   border-radius: 4px;
   font-size: 18px;
   text-transform: capitalize;
@@ -2108,24 +2164,26 @@ ul.why_glowing_ul {
 }
 .let_us_introduce_title{
   font-family: "Montserrat";
-  font-size: 22px;
+  font-size: 18px;
   color: #D80000;
 }
 .visa_card{
   background-color: #ffffff;
   width: 100%;
   margin: 15px 0;
+  border-radius: 6px;
 /*  min-height: 415px;*/
 }
 .visa_img{
   width: 100%;
+  border-radius: 6px 6px 0 0;
 }
 .visa_content{
   padding: 15px;
 }
 .visa_title{
   font-family: "Montserrat";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   text-align: center;
 }
@@ -2158,7 +2216,7 @@ ul.why_glowing_ul {
   font-size: 16px;
   font-weight: 300;
   color: #ffffff;
-  text-align: center;
+  text-align: justify;
 }
 .who_we_are_ul li{
   font-family: "Montserrat";
@@ -3012,4 +3070,47 @@ ul.who_we_are_ul_2 li::before {
 .get_ready_para{
   font-family: "Montserrat";
   font-size: 14px;
+}
+
+.indicator {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+}
+
+.indicator span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  animation: animate 5s linear infinite;
+  transition: all 0.6s ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    border-color: #fff;
+    transform: translate(0, 0);
+  }
+  20% {
+    border-color: #fff;
+    transform: translate(15px, 15px);
+  }
+  20.1%,
+  100% {
+    border-color: #fff;
+  }
+}
+
+.twitter_img{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 3px;
+  margin-right: 10px;
 }

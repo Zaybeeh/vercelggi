@@ -30,7 +30,7 @@ function Footer(){
               <ul>
                 <li><Link to="/about_us">About Us</Link></li>
                 <li><Link to="/visit_visa">Visit Visa</Link></li>
-                <li><Link to="/study_permit">study Permit</Link></li>
+                <li><Link to="/study_permit">Study Permit</Link></li>
                 <li><Link to="/work_visa">Work Visa</Link></li>               
               </ul>
               <ul>
@@ -43,7 +43,7 @@ function Footer(){
             <div><br/>
               <h4>Follow Us</h4>
               <a href="https://www.facebook.com/GrowingGlobeImmigration/"><i class="fa fa-facebook footer_icon" aria-hidden="true"></i></a>
-              <a href="https://twitter.com/growing_globe"><i class="fa fa-twitter footer_icon" aria-hidden="true"></i></a>
+              <a href="https://twitter.com/growing_globe"><img src={Logo.twitter_logo} className="twitter_img mr-3" alt=""></img></a>
               <a href="https://instagram.com/growingglobeimmigration?igshid=MmIxOGMzMTU="><i class="fa fa-instagram footer_icon" aria-hidden="true"></i></a>
               <a href="https://www.linkedin.com/company/growing-globe-immigration-inc/"><i class="fa fa-linkedin footer_icon" aria-hidden="true"></i></a>
             </div>
@@ -52,9 +52,9 @@ function Footer(){
           <div className="col-lg-2 col-6 footer-links">
             <h4>Contact</h4>
             <ul>
-              <li><Link>Canada : +16477055403</Link></li>
-              <li><Link>UAE : +971501328189</Link></li>
-              <li><Link>India : 18008890542</Link></li>
+              <li><Link to="tel:16477055403">Canada : +16477055403</Link></li>
+              <li><Link to="tel:971501328189">UAE : +971501328189</Link></li>
+              <li><Link to="tel:18008890542">India : 18008890542</Link></li>
             </ul>
           </div>
           <div className="col-lg-2 col-6 footer-links">
@@ -62,18 +62,18 @@ function Footer(){
             <div className="flex_this">
             <ul>
               <li><Link className="footer_subtitle">Canada</Link></li>
-              <li><Link>Toronto </Link></li>
-              <li><Link>Brampton</Link></li>
-              <li><Link>ON Canada</Link></li>
+              <li><Link to="/contactus">Toronto </Link></li>
+              <li><Link to="/contactus">Brampton</Link></li>
+              <li><Link to="/contactus">ON Canada</Link></li>
               <li><Link className="footer_subtitle">UAE</Link></li>
-              <li><Link>Dubai</Link></li>
+              <li><Link to="/contactus">Dubai</Link></li>
 
             </ul>
             <ul>
               <li><Link className="footer_subtitle">India</Link></li>
-              <li><Link>New Delhi</Link></li>
-              <li><Link>Jalandhar</Link></li>
-              <li><Link>Ahmedabad</Link></li>
+              <li><Link to="/contactus">New Delhi</Link></li>
+              <li><Link to="/contactus">Jalandhar</Link></li>
+              <li><Link to="/contactus">Ahmedabad</Link></li>
             </ul>
             </div>
           </div>

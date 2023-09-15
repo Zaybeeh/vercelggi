@@ -15,7 +15,7 @@
   }
   .topbar_title {
     margin-bottom: 0;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     text-transform: uppercase;
     color: #f30302;
     font-size: 16px;
@@ -24,7 +24,7 @@
   }
   .topbar_text {
     color: #fff;
-    font-family: "helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     margin-bottom: 0;
     margin-top: 13px;
@@ -78,13 +78,13 @@
       row-gap: 25px;
     }
     .video_sec_counter_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 25px!important;
       color: #fff;
       text-align: center;
     }
     .video_book_appoint {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 10px!important;
@@ -96,7 +96,7 @@
       width: -webkit-fill-available;
     }
     .video_free_report {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 10px!important;
@@ -111,7 +111,7 @@
       width: 100%;
     }
     .permanent_resident_visa_text {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       position: relative;
       color: white;
@@ -121,7 +121,7 @@
       width: 95%;
     }
     .immigrate_canada_sec_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       font-weight: 600;
       text-transform: uppercase;
@@ -157,7 +157,7 @@
       height: 300px;
       overflow-y: scroll;
       position: relative;
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       font-size: 13px;
       padding-right: 5px;
       margin-right: 1px;
@@ -173,7 +173,7 @@
       /* background: #d80100; */
     }
     .learn_more_btn {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 14px;
       position: relative;
       z-index: 99999;
@@ -187,7 +187,7 @@
       margin-left: 0px;
     }
     .embark_book_appoint {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 14px!important;
@@ -204,7 +204,7 @@
       row-gap: 20px;
     }
     .embark_free_report {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: #d80100;
       font-weight: 500;
       font-size: 14px!important;
@@ -221,7 +221,7 @@
       row-gap: 20px!important;
     }
     .consultants_sec_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       font-weight: 600;
       text-transform: capitalize;
@@ -238,7 +238,7 @@
       height: 570px;
     }
     .meet_the_team_btn {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       position: relative;
       top: -40px;
       border: none;
@@ -256,7 +256,7 @@
       font-weight: 600;
       font-size: 20px;
       letter-spacing: 0.5px;
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       text-align: center;
       margin-bottom: 40px;
     }
@@ -264,7 +264,7 @@
       padding: 50px 20px;
     }
     .book_appoint_section_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px!important;
       font-weight: 500;
       color: #000;
@@ -273,7 +273,7 @@
       text-align: justify;
     }
     .book_appoint_appointment {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: #d80100;
       font-weight: 500;
       font-size: 14px;
@@ -362,7 +362,7 @@
     margin-bottom: 10px;
   }
   .embark_book_appoint_2 {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: transparent;
     font-weight: 500;
     font-size: 9px;
@@ -377,7 +377,7 @@
     padding: 50px 20px 80px 20px;
   }
   .let_us_introduce_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 18px;
     color: #D80000;
   }
@@ -386,12 +386,12 @@
     padding: 50px 20px;
   }
   .why_glowing_ul li {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #000;
   }
   .contact_us_today_text {
-    font-family: "Helvetica-Bold";
+    font-family: "Montserrat-Bold";
     font-size: 20px;
     color: #ffffff;
     text-align: center;
@@ -401,14 +401,14 @@
   /*---------------------------------Visit Visa Page End---------------------------------*/
   /*--------------------------------Study Permit Page Start--------------------------------*/
   .study_permit_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 24px;
     color: #D80000;
     text-align: center;
     margin-bottom: 20px;
   }
   .study_permit_para {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 15px;
     color: #fff;
     text-align: justify;
@@ -419,35 +419,35 @@
     margin-bottom: 20px;
   }
   .requirements_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 24px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 35px;
   }
   .sdm_stream_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 20px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 20px;
   }
   .sdm_stream_ul_li {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #ffffff;
   }
   /*---------------------------------Study Permit Page End---------------------------------*/
   /*--------------------------------immigrate Page Start--------------------------------*/
   .immigrate_para{
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #fff;
     text-align: justify;
     margin-top: 10px;
   }
   .unlock_additional_para {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #ffffff;
     text-align: center;
@@ -466,7 +466,7 @@
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   }
   .contact-card-description {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     padding-bottom: 0px;
     font-weight: 600;
     font-size: 14px;
@@ -512,11 +512,11 @@
     position: relative;
     top: 1px;
     font-size: 13px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-weight: 600;
   }
   .blog_author_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
   }
   .banner_content_3{
@@ -568,7 +568,7 @@
     font-weight: 500;
     position: relative;
     padding-bottom: 12px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .footer-links ul a {
     color: rgba(255, 255, 255, 0.7);
@@ -578,11 +578,11 @@
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .copyright {
     text-align: center;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 12px;
   }
   .footer_img{
@@ -599,7 +599,7 @@
     padding: 50px 20px;
   }
   .team_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     text-transform: uppercase;
     color: #fff;
     font-size: 27px;
@@ -620,14 +620,14 @@
     height: auto;
   }
   .team_card_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
   }
   .team_card_appointment {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #d80100;
     font-weight: 500;
     font-size: 11px;
@@ -639,7 +639,7 @@
     margin-bottom: 10px;
   }
   .team_card_free_report {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #fff;
     font-weight: 600;
     font-size: 11px;
@@ -655,14 +655,14 @@
     margin-top: 20px;
   }
   .team_card_type {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 16px;
     text-align: left;
     margin-bottom: 15px;
   }
   .team_card_type_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-weight: 500;
     font-size: 14px;
@@ -670,14 +670,14 @@
     margin-bottom: 19px;
   }
   .team_card_experience {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 18px;
     text-align: left;
     margin-bottom: 30px;
   }
   .team_card_experience_box {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #d80100;
     font-weight: 500;
     padding: 5px 8px;
@@ -689,7 +689,7 @@
     margin-left: 5px;
   }
   .team_card_consult_fee_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 16px;
     text-align: left;
@@ -697,7 +697,7 @@
     margin-top: 20px;
   }
   .team_card_consult_fee {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 16px;
     color: #d80100;
   }
@@ -705,7 +705,7 @@
     height: 100px;
     overflow-y: scroll;
     position: relative;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     padding-right: 10px;
     margin-right: 0px;
@@ -732,7 +732,7 @@
   }
   .topbar_title {
     margin-bottom: 0;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     text-transform: uppercase;
     color: #f30302;
     font-size: 16px;
@@ -741,7 +741,7 @@
   }
   .topbar_text {
     color: #fff;
-    font-family: "helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     margin-bottom: 0;
     margin-top: 13px;
@@ -795,13 +795,13 @@
       row-gap: 25px;
     }
     .video_sec_counter_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 25px!important;
       color: #fff;
       text-align: center;
     }
     .video_book_appoint {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 10px!important;
@@ -813,7 +813,7 @@
       width: -webkit-fill-available;
     }
     .video_free_report {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 10px!important;
@@ -828,7 +828,7 @@
       width: 100%;
     }
     .permanent_resident_visa_text {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       position: relative;
       color: white;
@@ -838,7 +838,7 @@
       width: 95%;
     }
     .immigrate_canada_sec_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       font-weight: 600;
       text-transform: uppercase;
@@ -874,7 +874,7 @@
       height: 300px;
       overflow-y: scroll;
       position: relative;
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       font-size: 13px;
       padding-right: 5px;
       margin-right: 1px;
@@ -890,7 +890,7 @@
       /* background: #d80100; */
     }
     .learn_more_btn {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 14px;
       position: relative;
       z-index: 99999;
@@ -904,7 +904,7 @@
       margin-left: 7px;
     }
     .embark_book_appoint {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 14px!important;
@@ -921,7 +921,7 @@
       row-gap: 20px;
     }
     .embark_free_report {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: #d80100;
       font-weight: 500;
       font-size: 14px!important;
@@ -938,7 +938,7 @@
       row-gap: 20px!important;
     }
     .consultants_sec_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       font-weight: 600;
       text-transform: capitalize;
@@ -955,7 +955,7 @@
       height: 570px;
     }
     .meet_the_team_btn {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       position: relative;
       top: -40px;
       border: none;
@@ -973,7 +973,7 @@
       font-weight: 600;
       font-size: 20px;
       letter-spacing: 0.5px;
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       text-align: center;
       margin-bottom: 40px;
     }
@@ -981,7 +981,7 @@
       padding: 50px 20px;
     }
     .book_appoint_section_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px!important;
       font-weight: 500;
       color: #000;
@@ -990,7 +990,7 @@
       text-align: justify;
     }
     .book_appoint_appointment {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: #d80100;
       font-weight: 500;
       font-size: 14px;
@@ -1212,7 +1212,7 @@
     margin-bottom: 15px;
   }
   .embark_book_appoint_2 {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: transparent;
     font-weight: 500;
     font-size: 9px;
@@ -1227,7 +1227,7 @@
     padding: 50px 20px 80px 20px;
   }
   .let_us_introduce_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 18px;
     color: #D80000;
   }
@@ -1236,12 +1236,12 @@
     padding: 50px 20px;
   }
   .why_glowing_ul li {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #000;
   }
   .contact_us_today_text {
-    font-family: "Helvetica-Bold";
+    font-family: "Montserrat-Bold";
     font-size: 20px;
     color: #ffffff;
     text-align: center;
@@ -1252,14 +1252,14 @@
 
   /*--------------------------------Study Permit Page Start--------------------------------*/
   .study_permit_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 24px;
     color: #D80000;
     text-align: center;
     margin-bottom: 20px;
   }
   .study_permit_para {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 15px;
     color: #fff;
     text-align: justify;
@@ -1270,35 +1270,35 @@
     margin-bottom: 20px;
   }
   .requirements_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 24px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 35px;
   }
   .sdm_stream_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 20px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 20px;
   }
   .sdm_stream_ul_li {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #ffffff;
   }
   /*---------------------------------Study Permit Page End---------------------------------*/
   /*--------------------------------immigrate Page Start--------------------------------*/
   .immigrate_para{
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #fff;
     text-align: justify;
     margin-top: 10px;
   }
   .unlock_additional_para {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #ffffff;
     text-align: center;
@@ -1317,7 +1317,7 @@
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   }
   .contact-card-description {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     padding-bottom: 0px;
     font-weight: 600;
     font-size: 14px;
@@ -1363,11 +1363,11 @@
     position: relative;
     top: 1px;
     font-size: 13px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-weight: 600;
   }
   .blog_author_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
   }
   .banner_content_3{
@@ -1420,7 +1420,7 @@
     font-weight: 500;
     position: relative;
     padding-bottom: 12px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .footer-links ul a {
     color: rgba(255, 255, 255, 0.7);
@@ -1430,11 +1430,11 @@
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .copyright {
     text-align: center;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 12px;
   }
   .footer_img{
@@ -1451,7 +1451,7 @@
     padding: 50px 20px;
   }
   .team_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     text-transform: uppercase;
     color: #fff;
     font-size: 27px;
@@ -1472,14 +1472,14 @@
     height: auto;
   }
   .team_card_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
   }
   .team_card_appointment {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #d80100;
     font-weight: 500;
     font-size: 11px;
@@ -1491,7 +1491,7 @@
     margin-bottom: 10px;
   }
   .team_card_free_report {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #fff;
     font-weight: 600;
     font-size: 11px;
@@ -1507,14 +1507,14 @@
     margin-top: 20px;
   }
   .team_card_type {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 16px;
     text-align: left;
     margin-bottom: 15px;
   }
   .team_card_type_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-weight: 500;
     font-size: 14px;
@@ -1522,14 +1522,14 @@
     margin-bottom: 19px;
   }
   .team_card_experience {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 18px;
     text-align: left;
     margin-bottom: 30px;
   }
   .team_card_experience_box {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #d80100;
     font-weight: 500;
     padding: 5px 8px;
@@ -1541,7 +1541,7 @@
     margin-left: 5px;
   }
   .team_card_consult_fee_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 16px;
     text-align: left;
@@ -1549,7 +1549,7 @@
     margin-top: 20px;
   }
   .team_card_consult_fee {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 16px;
     color: #d80100;
   }
@@ -1557,7 +1557,7 @@
     height: 100px;
     overflow-y: scroll;
     position: relative;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     padding-right: 10px;
     margin-right: 0px;
@@ -1584,7 +1584,7 @@
   }
   .topbar_title {
     margin-bottom: 0;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     text-transform: uppercase;
     color: #f30302;
     font-size: 16px;
@@ -1593,7 +1593,7 @@
   }
   .topbar_text {
     color: #fff;
-    font-family: "helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     margin-bottom: 0;
     margin-top: 13px;
@@ -1647,13 +1647,13 @@
       row-gap: 25px;
     }
     .video_sec_counter_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 25px!important;
       color: #fff;
       text-align: center;
     }
     .video_book_appoint {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 10px!important;
@@ -1665,7 +1665,7 @@
       width: -webkit-fill-available;
     }
     .video_free_report {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 10px!important;
@@ -1680,7 +1680,7 @@
         width: 100%;
     }
     .permanent_resident_visa_text {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       position: relative;
       color: white;
@@ -1690,7 +1690,7 @@
       width: 95%;
     }
     .immigrate_canada_sec_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       font-weight: 600;
       text-transform: uppercase;
@@ -1726,7 +1726,7 @@
       height: 300px;
       overflow-y: scroll;
       position: relative;
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       font-size: 13px;
       padding-right: 5px;
       margin-right: 1px;
@@ -1742,7 +1742,7 @@
       /* background: #d80100; */
     }
     .learn_more_btn {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 14px;
       position: relative;
       z-index: 99999;
@@ -1756,7 +1756,7 @@
       margin-left: 7px;
     }
     .embark_book_appoint {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 14px!important;
@@ -1773,7 +1773,7 @@
       row-gap: 20px;
     }
     .embark_free_report {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: #d80100;
       font-weight: 500;
       font-size: 14px!important;
@@ -1790,7 +1790,7 @@
       row-gap: 20px!important;
     }
     .consultants_sec_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       font-weight: 600;
       text-transform: capitalize;
@@ -1807,7 +1807,7 @@
       height: 570px;
     }
     .meet_the_team_btn {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       position: relative;
       top: -40px;
       border: none;
@@ -1825,7 +1825,7 @@
       font-weight: 600;
       font-size: 20px;
       letter-spacing: 0.5px;
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       text-align: center;
       margin-bottom: 40px;
     }
@@ -1833,7 +1833,7 @@
       padding: 50px 20px;
     }
     .book_appoint_section_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px!important;
       font-weight: 500;
       color: #000;
@@ -1842,7 +1842,7 @@
       text-align: justify;
     }
     .book_appoint_appointment {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: #d80100;
       font-weight: 500;
       font-size: 14px;
@@ -1932,7 +1932,7 @@
     margin-bottom: 20px;
   }
   .embark_book_appoint_2 {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: transparent;
     font-weight: 500;
     font-size: 9px;
@@ -1947,7 +1947,7 @@
     padding: 50px 20px 80px 20px;
   }
   .let_us_introduce_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 18px;
     color: #D80000;
   }
@@ -1956,12 +1956,12 @@
     padding: 50px 20px;
   }
   .why_glowing_ul li {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #000;
   }
   .contact_us_today_text {
-    font-family: "Helvetica-Bold";
+    font-family: "Montserrat-Bold";
     font-size: 20px;
     color: #ffffff;
     text-align: center;
@@ -1971,14 +1971,14 @@
   /*---------------------------------Visit Visa Page End---------------------------------*/
   /*--------------------------------Study Permit Page Start--------------------------------*/
   .study_permit_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 24px;
     color: #D80000;
     text-align: center;
     margin-bottom: 20px;
   }
   .study_permit_para {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 15px;
     color: #fff;
     text-align: justify;
@@ -1989,35 +1989,35 @@
     margin-bottom: 20px;
   }
   .requirements_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 24px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 35px;
   }
   .sdm_stream_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 20px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 20px;
   }
   .sdm_stream_ul_li {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #ffffff;
   }
   /*---------------------------------Study Permit Page End---------------------------------*/
   /*--------------------------------immigrate Page Start--------------------------------*/
   .immigrate_para{
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #fff;
     text-align: justify;
     margin-top: 10px;
   }
   .unlock_additional_para {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #ffffff;
     text-align: center;
@@ -2036,7 +2036,7 @@
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   }
   .contact-card-description {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     padding-bottom: 0px;
     font-weight: 600;
     font-size: 14px;
@@ -2082,11 +2082,11 @@
     position: relative;
     top: 1px;
     font-size: 13px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-weight: 600;
   }
   .blog_author_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
   }
   .banner_content_3{
@@ -2139,7 +2139,7 @@
     font-weight: 500;
     position: relative;
     padding-bottom: 12px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .footer-links ul a {
     color: rgba(255, 255, 255, 0.7);
@@ -2149,11 +2149,11 @@
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .copyright {
     text-align: center;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 12px;
   }
   .footer_img{
@@ -2170,7 +2170,7 @@
     padding: 50px 20px;
   }
   .team_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     text-transform: uppercase;
     color: #fff;
     font-size: 27px;
@@ -2191,14 +2191,14 @@
     height: auto;
   }
   .team_card_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
   }
   .team_card_appointment {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #d80100;
     font-weight: 500;
     font-size: 11px;
@@ -2210,7 +2210,7 @@
     margin-bottom: 10px;
   }
   .team_card_free_report {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #fff;
     font-weight: 600;
     font-size: 11px;
@@ -2226,14 +2226,14 @@
     margin-top: 20px;
   }
   .team_card_type {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 16px;
     text-align: left;
     margin-bottom: 15px;
   }
   .team_card_type_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-weight: 500;
     font-size: 14px;
@@ -2241,14 +2241,14 @@
     margin-bottom: 19px;
   }
   .team_card_experience {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 18px;
     text-align: left;
     margin-bottom: 30px;
   }
   .team_card_experience_box {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #d80100;
     font-weight: 500;
     padding: 5px 8px;
@@ -2260,7 +2260,7 @@
     margin-left: 5px;
   }
   .team_card_consult_fee_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 16px;
     text-align: left;
@@ -2268,7 +2268,7 @@
     margin-top: 20px;
   }
   .team_card_consult_fee {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 16px;
     color: #d80100;
   }
@@ -2276,7 +2276,7 @@
     height: 100px;
     overflow-y: scroll;
     position: relative;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     padding-right: 10px;
     margin-right: 0px;
@@ -2303,7 +2303,7 @@
   }
   .topbar_title {
     margin-bottom: 0;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     text-transform: uppercase;
     color: #f30302;
     font-size: 16px;
@@ -2312,7 +2312,7 @@
   }
   .topbar_text {
     color: #fff;
-    font-family: "helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     margin-bottom: 0;
     margin-top: 13px;
@@ -2362,13 +2362,13 @@
       row-gap: 25px;
     }
     .video_sec_counter_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 25px!important;
       color: #fff;
       text-align: center;
     }
     .video_book_appoint {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 10px!important;
@@ -2380,7 +2380,7 @@
       width: -webkit-fill-available;
     }
     .video_free_report {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 10px!important;
@@ -2395,7 +2395,7 @@
       width: 100%;
     }
     .permanent_resident_visa_text {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       position: relative;
       color: white;
@@ -2405,7 +2405,7 @@
       width: 95%;
     }
     .immigrate_canada_sec_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       font-weight: 600;
       text-transform: uppercase;
@@ -2441,7 +2441,7 @@
       height: 300px;
       overflow-y: scroll;
       position: relative;
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       font-size: 13px;
       padding-right: 5px;
       margin-right: 1px;
@@ -2457,7 +2457,7 @@
       /* background: #d80100; */
     }
     .learn_more_btn {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 14px;
       position: relative;
       z-index: 99999;
@@ -2471,7 +2471,7 @@
       margin-left: 7px;
     }
     .embark_book_appoint {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 14px!important;
@@ -2488,7 +2488,7 @@
       row-gap: 20px;
     }
     .embark_free_report {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: #d80100;
       font-weight: 500;
       font-size: 14px!important;
@@ -2505,7 +2505,7 @@
       row-gap: 20px!important;
     }
     .consultants_sec_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       font-weight: 600;
       text-transform: capitalize;
@@ -2522,7 +2522,7 @@
       height: 570px;
     }
     .meet_the_team_btn {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       position: relative;
       top: -40px;
       border: none;
@@ -2540,7 +2540,7 @@
       font-weight: 600;
       font-size: 20px;
       letter-spacing: 0.5px;
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       text-align: center;
       margin-bottom: 40px;
     }
@@ -2548,7 +2548,7 @@
       padding: 50px 20px;
     }
     .book_appoint_section_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px!important;
       font-weight: 500;
       color: #000;
@@ -2557,7 +2557,7 @@
       text-align: justify;
     }
     .book_appoint_appointment {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: #d80100;
       font-weight: 500;
       font-size: 14px;
@@ -2647,7 +2647,7 @@
     margin-bottom: 10px;
   }
   .embark_book_appoint_2 {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: transparent;
     font-weight: 500;
     font-size: 9px;
@@ -2662,7 +2662,7 @@
     padding: 50px 20px 80px 20px;
   }
   .let_us_introduce_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 18px;
     color: #D80000;
   }
@@ -2671,12 +2671,12 @@
     padding: 50px 20px;
   }
   .why_glowing_ul li {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #000;
   }
   .contact_us_today_text {
-    font-family: "Helvetica-Bold";
+    font-family: "Montserrat-Bold";
     font-size: 20px;
     color: #ffffff;
     text-align: center;
@@ -2686,14 +2686,14 @@
   /*---------------------------------Visit Visa Page End---------------------------------*/
   /*--------------------------------Study Permit Page Start--------------------------------*/
   .study_permit_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 24px;
     color: #D80000;
     text-align: center;
     margin-bottom: 20px;
   }
   .study_permit_para {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 15px;
     color: #fff;
     text-align: justify;
@@ -2704,35 +2704,35 @@
     margin-bottom: 20px;
   }
   .requirements_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 24px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 35px;
   }
   .sdm_stream_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 20px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 20px;
   }
   .sdm_stream_ul_li {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #ffffff;
   }
   /*---------------------------------Study Permit Page End---------------------------------*/
   /*--------------------------------immigrate Page Start--------------------------------*/
   .immigrate_para{
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #fff;
     text-align: justify;
     margin-top: 10px;
   }
   .unlock_additional_para {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #ffffff;
     text-align: center;
@@ -2751,7 +2751,7 @@
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   }
   .contact-card-description {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     padding-bottom: 0px;
     font-weight: 600;
     font-size: 14px;
@@ -2797,11 +2797,11 @@
     position: relative;
     top: 1px;
     font-size: 13px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-weight: 600;
   }
   .blog_author_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
   }
   .banner_content_3{
@@ -2853,7 +2853,7 @@
     font-weight: 500;
     position: relative;
     padding-bottom: 12px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .footer-links ul a {
     color: rgba(255, 255, 255, 0.7);
@@ -2863,11 +2863,11 @@
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .copyright {
     text-align: center;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 12px;
   }
   .footer_img{
@@ -2884,7 +2884,7 @@
     padding: 50px 20px;
   }
   .team_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     text-transform: uppercase;
     color: #fff;
     font-size: 27px;
@@ -2905,14 +2905,14 @@
     height: auto;
   }
   .team_card_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
   }
   .team_card_appointment {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #d80100;
     font-weight: 500;
     font-size: 11px;
@@ -2924,7 +2924,7 @@
     margin-bottom: 10px;
   }
   .team_card_free_report {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #fff;
     font-weight: 600;
     font-size: 11px;
@@ -2940,14 +2940,14 @@
     margin-top: 20px;
   }
   .team_card_type {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 16px;
     text-align: left;
     margin-bottom: 15px;
   }
   .team_card_type_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-weight: 500;
     font-size: 14px;
@@ -2955,14 +2955,14 @@
     margin-bottom: 19px;
   }
   .team_card_experience {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 18px;
     text-align: left;
     margin-bottom: 30px;
   }
   .team_card_experience_box {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #d80100;
     font-weight: 500;
     padding: 5px 8px;
@@ -2974,7 +2974,7 @@
     margin-left: 5px;
   }
   .team_card_consult_fee_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 16px;
     text-align: left;
@@ -2982,7 +2982,7 @@
     margin-top: 20px;
   }
   .team_card_consult_fee {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 16px;
     color: #d80100;
   }
@@ -2990,7 +2990,7 @@
     height: 100px;
     overflow-y: scroll;
     position: relative;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     padding-right: 10px;
     margin-right: 0px;
@@ -3017,7 +3017,7 @@
   }
   .topbar_title {
     margin-bottom: 0;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     text-transform: uppercase;
     color: #f30302;
     font-size: 16px;
@@ -3026,7 +3026,7 @@
   }
   .topbar_text {
     color: #fff;
-    font-family: "helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     margin-bottom: 0;
     margin-top: 13px;
@@ -3076,13 +3076,13 @@
       row-gap: 25px;
     }
     .video_sec_counter_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 25px!important;
       color: #fff;
       text-align: center;
     }
     .video_book_appoint {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 10px!important;
@@ -3094,7 +3094,7 @@
       width: -webkit-fill-available;
     }
     .video_free_report {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 10px!important;
@@ -3109,7 +3109,7 @@
       width: 100%;
     }
     .permanent_resident_visa_text {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       position: relative;
       color: white;
@@ -3119,7 +3119,7 @@
       width: 95%;
     }
     .immigrate_canada_sec_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       font-weight: 600;
       text-transform: uppercase;
@@ -3155,7 +3155,7 @@
       height: 300px;
       overflow-y: scroll;
       position: relative;
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       font-size: 13px;
       padding-right: 5px;
       margin-right: 1px;
@@ -3171,7 +3171,7 @@
       /* background: #d80100; */
     }
     .learn_more_btn {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 14px;
       position: relative;
       z-index: 99999;
@@ -3185,7 +3185,7 @@
       margin-left: 7px;
     }
     .embark_book_appoint {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: transparent;
       font-weight: 500;
       font-size: 14px!important;
@@ -3202,7 +3202,7 @@
       row-gap: 20px;
     }
     .embark_free_report {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: #d80100;
       font-weight: 500;
       font-size: 14px!important;
@@ -3219,7 +3219,7 @@
       row-gap: 20px!important;
     }
     .consultants_sec_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px;
       font-weight: 600;
       text-transform: capitalize;
@@ -3236,7 +3236,7 @@
       height: 570px;
     }
     .meet_the_team_btn {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       position: relative;
       top: -40px;
       border: none;
@@ -3254,7 +3254,7 @@
       font-weight: 600;
       font-size: 20px;
       letter-spacing: 0.5px;
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       text-align: center;
       margin-bottom: 40px;
     }
@@ -3262,7 +3262,7 @@
       padding: 50px 20px;
     }
     .book_appoint_section_title {
-      font-family: "helvetica";
+      font-family: "Montserrat";
       font-size: 18px!important;
       font-weight: 500;
       color: #000;
@@ -3271,7 +3271,7 @@
       text-align: justify;
     }
     .book_appoint_appointment {
-      font-family: "Helvetica";
+      font-family: "Montserrat";
       background: #d80100;
       font-weight: 500;
       font-size: 14px;
@@ -3361,7 +3361,7 @@
     margin-bottom: 10px;
   }
   .embark_book_appoint_2 {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: transparent;
     font-weight: 500;
     font-size: 9px;
@@ -3376,7 +3376,7 @@
     padding: 50px 20px 80px 20px;
   }
   .let_us_introduce_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 18px;
     color: #D80000;
   }
@@ -3385,12 +3385,12 @@
     padding: 50px 20px;
   }
   .why_glowing_ul li {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #000;
   }
   .contact_us_today_text {
-    font-family: "Helvetica-Bold";
+    font-family: "Montserrat-Bold";
     font-size: 20px;
     color: #ffffff;
     text-align: center;
@@ -3400,14 +3400,14 @@
   /*---------------------------------Visit Visa Page End---------------------------------*/
   /*--------------------------------Study Permit Page Start--------------------------------*/
   .study_permit_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 24px;
     color: #D80000;
     text-align: center;
     margin-bottom: 20px;
   }
   .study_permit_para {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 15px;
     color: #fff;
     text-align: justify;
@@ -3418,35 +3418,35 @@
     margin-bottom: 20px;
   }
   .requirements_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 24px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 35px;
   }
   .sdm_stream_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 20px;
     color: #ffffff;
     text-align: center;
     margin-bottom: 20px;
   }
   .sdm_stream_ul_li {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #ffffff;
   }
   /*---------------------------------Study Permit Page End---------------------------------*/
   /*--------------------------------immigrate Page Start--------------------------------*/
   .immigrate_para{
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #fff;
     text-align: justify;
     margin-top: 10px;
   }
   .unlock_additional_para {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     color: #ffffff;
     text-align: center;
@@ -3465,7 +3465,7 @@
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   }
   .contact-card-description {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     padding-bottom: 0px;
     font-weight: 600;
     font-size: 14px;
@@ -3511,11 +3511,11 @@
     position: relative;
     top: 1px;
     font-size: 13px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-weight: 600;
   }
   .blog_author_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
   }
   .banner_content_3{
@@ -3567,7 +3567,7 @@
     font-weight: 500;
     position: relative;
     padding-bottom: 12px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .footer-links ul a {
     color: rgba(255, 255, 255, 0.7);
@@ -3577,11 +3577,11 @@
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .copyright {
     text-align: center;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 12px;
   }
   .footer_img{
@@ -3598,7 +3598,7 @@
     padding: 50px 20px;
   }
   .team_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     text-transform: uppercase;
     color: #fff;
     font-size: 27px;
@@ -3619,14 +3619,14 @@
     height: auto;
   }
   .team_card_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
   }
   .team_card_appointment {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #d80100;
     font-weight: 500;
     font-size: 11px;
@@ -3638,7 +3638,7 @@
     margin-bottom: 10px;
   }
   .team_card_free_report {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #fff;
     font-weight: 600;
     font-size: 11px;
@@ -3654,14 +3654,14 @@
     margin-top: 20px;
   }
   .team_card_type {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 16px;
     text-align: left;
     margin-bottom: 15px;
   }
   .team_card_type_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-weight: 500;
     font-size: 14px;
@@ -3669,14 +3669,14 @@
     margin-bottom: 19px;
   }
   .team_card_experience {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 18px;
     text-align: left;
     margin-bottom: 30px;
   }
   .team_card_experience_box {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #d80100;
     font-weight: 500;
     padding: 5px 8px;
@@ -3688,7 +3688,7 @@
     margin-left: 5px;
   }
   .team_card_consult_fee_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 16px;
     text-align: left;
@@ -3696,7 +3696,7 @@
     margin-top: 20px;
   }
   .team_card_consult_fee {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 16px;
     color: #d80100;
   }
@@ -3704,7 +3704,7 @@
     height: 100px;
     overflow-y: scroll;
     position: relative;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 14px;
     padding-right: 10px;
     margin-right: 0px;
@@ -3758,7 +3758,7 @@
     font-size: 11px;
   }
   .team_title {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     text-transform: uppercase;
     color: #fff;
     font-size: 27px;
@@ -3881,14 +3881,14 @@
     height: 310px;
   }
   .team_card_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
   }
   .team_card_free_report {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #fff;
     font-weight: 600;
     font-size: 12px;
@@ -3899,7 +3899,7 @@
     border: 2px solid #d80100;
   }
   .team_card_appointment {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #d80100;
     font-weight: 500;
     font-size: 12px;
@@ -3937,7 +3937,7 @@
     font-weight: 500;
     position: relative;
     padding-bottom: 12px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .footer-links ul a {
     color: rgba(255, 255, 255, 0.7);
@@ -3947,11 +3947,11 @@
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .copyright {
     text-align: center;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 12px;
   }
   /*--------------------------------Footer page End--------------------------------*/
@@ -4000,14 +4000,14 @@
     height: 320px;
   }
   .team_card_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
   }
   .team_card_free_report {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #fff;
     font-weight: 600;
     font-size: 12px;
@@ -4018,7 +4018,7 @@
     border: 2px solid #d80100;
   }
   .team_card_appointment {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #d80100;
     font-weight: 500;
     font-size: 12px;
@@ -4043,7 +4043,7 @@
     font-weight: 500;
     position: relative;
     padding-bottom: 12px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .footer-links ul a {
     color: rgba(255, 255, 255, 0.7);
@@ -4053,11 +4053,11 @@
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .copyright {
     text-align: center;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 12px;
   }
   /*--------------------------------Footer page End--------------------------------*/
@@ -4100,14 +4100,14 @@
     margin-right: 0px;
   }
   .team_card_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
   }
   .team_card_free_report {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #fff;
     font-weight: 600;
     font-size: 12px;
@@ -4118,7 +4118,7 @@
     border: 2px solid #d80100;
   }
   .team_card_appointment {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #d80100;
     font-weight: 500;
     font-size: 12px;
@@ -4143,7 +4143,7 @@
     font-weight: 500;
     position: relative;
     padding-bottom: 12px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .footer-links ul a {
     color: rgba(255, 255, 255, 0.7);
@@ -4153,11 +4153,11 @@
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .copyright {
     text-align: center;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 12px;
   }
   /*--------------------------------Footer page End--------------------------------*/
@@ -4200,14 +4200,14 @@
     margin-right: 0px;
   }
   .team_card_name {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     color: #000;
     font-size: 20px;
     text-align: center;
     margin-bottom: 15px;
   }
   .team_card_free_report {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #fff;
     font-weight: 600;
     font-size: 12px;
@@ -4218,7 +4218,7 @@
     border: 2px solid #d80100;
   }
   .team_card_appointment {
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     background: #d80100;
     font-weight: 500;
     font-size: 12px;
@@ -4243,7 +4243,7 @@
     font-weight: 500;
     position: relative;
     padding-bottom: 12px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .footer-links ul a {
     color: rgba(255, 255, 255, 0.7);
@@ -4253,11 +4253,11 @@
     display: inline-block;
     font-size: 14px;
     line-height: 20px;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
   }
   .footer .copyright {
     text-align: center;
-    font-family: "Helvetica";
+    font-family: "Montserrat";
     font-size: 12px;
   }
   /*--------------------------------Footer page End--------------------------------*/

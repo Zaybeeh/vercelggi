@@ -112,11 +112,7 @@ function Immigrate(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
-                <div className="visa_card">
-                   <img src={Img.card} className="visa_img"></img>
-                </div>
-              </div>
+                                           
               <div className="col-md-4 d-flex">
                 <div className="visa_card">
                    <img src={Img.caregiver_programs} className="visa_img"></img>
@@ -135,7 +131,7 @@ function Immigrate(){
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h3 className="let_us_introduce_title">Provincial Programs</h3>
+                <h3 className="let_us_introduce_title">Provincial Programs:-</h3>
                 <p className="unlock_additional_para">Unlock additional opportunities for permanent residency through the Provincial Nominee Programs. Each province and territory in Canada has its unique PNP designed to meet specific labor market needs and attract skilled workers, entrepreneurs, and international graduates. These programs enable provinces to nominate individuals who can contribute to their local economy. Let's explore the streams available in each province and territory:</p>
               </div>
               <div className="col-md-4 d-flex">
@@ -246,11 +242,7 @@ function Immigrate(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
-                <div className="visa_card">
-                   <img src={Img.card} className="visa_img"></img>
-                </div>
-              </div>
+                                           
               <div className="col-md-4 d-flex">
                 <div className="visa_card">
                    <img src={Img.NNP} className="visa_img"></img>
@@ -260,11 +252,7 @@ function Immigrate(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
-                <div className="visa_card">
-                   <img src={Img.card} className="visa_img"></img>
-                </div>
-              </div>
+                                           
 
             </div>
           </div>

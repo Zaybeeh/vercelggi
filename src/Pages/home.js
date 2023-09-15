@@ -11,7 +11,7 @@ function Home(){
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 5
+      items: 5,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -63,7 +63,7 @@ function Home(){
                 autoPlay={true}
               />
             </div>
-            <div className="video_counter_box">
+            <div className="video_counter_box" autoPlay>
               <div className="row">
                 <div className="col-md-12">
                   <div className="video_sec_counter_box">
@@ -89,8 +89,16 @@ function Home(){
                         <button className="video_free_report">Free Assesment</button>
                       </div>
                     </div>
-                    <div className="col-md-12" className="text-center">
-                      <a href="#top" className="scrollTo"><img src={Img.home_bottom_arrow} className="video_btn_img"></img></a>
+                    <div className="col-md-12" className="text-center video_sec_counter_box">
+                      <a href="#top" className="scrollTo">
+                      <div class="indicator">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                         <span></span>
+                      </div>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -162,7 +170,6 @@ function Home(){
                   <a href="https://calendly.com/growingglobeimmigration">
                      <button className="embark_book_appoint">Book An Appointment</button>
                   </a>
-                  <button className="embark_free_report">Create A Free Report</button>
                 </div>
               </div>
             </div>
@@ -171,7 +178,7 @@ function Home(){
         <div className="consultants_section">
           <div className="container-fluid">
             <center>
-              <h2 className="consultants_sec_title">Growing Globe Immigration holds the largest number of Registered Canadian <br/>Immigration Consultants (RCICs) in Canada</h2>
+              <h2 className="consultants_sec_title">GROWING GLOBE IMMIGRATION HOLDS THE LARGEST NUMBER OF REGISTERED CANADIAN <br/>IMMIGRATION CONSULTANTS (RCICS) IN CANADA</h2>
             </center>
           </div>
           <div className="consultants">

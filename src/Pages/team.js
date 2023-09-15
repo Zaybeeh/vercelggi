@@ -58,13 +58,15 @@ function Team(){
                     </div>
                     <div className="team_card_inner_2">
                       <h3 className="team_card_type">LANGUAGES</h3>
-                      <ul>
+                      <h5 className="team_card_type_name">                      
+                      <ul className="languages_ul">
                           <li>English</li>
                           <li>Hindi</li>
                           <li>Punjabi</li>
                       </ul>
+                      </h5>
                       <h5 className="team_card_type_name"></h5>
-                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> </span></h3>
+                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box">15 </span></h3>
                       <div class="ttm-social-links-wrapper">
                         <ul class="social-icons list-inline">
                           <li class="social-facebook"><a class="tooltip-top" target="_blank" href="https://www.linkedin.com/in/sargun-singh-057255239"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -93,7 +95,7 @@ function Team(){
                     <div className="team_card_inner_2">
                       <h3 className="team_card_type">LANGUAGES</h3>
                       <h5 className="team_card_type_name">
-                        <ul>
+                        <ul className="languages_ul">
                           <li>English</li>
                           <li>Hindi</li>
                         </ul>
@@ -125,7 +127,7 @@ function Team(){
                     <div className="team_card_inner_2">
                       <h3 className="team_card_type">LANGUAGES</h3>
                       <h5 className="team_card_type_name">
-                        <ul>
+                        <ul className="languages_ul">
                           <li>English</li>
                           <li>Hindi</li>
                           <li>Punjabi</li>
@@ -187,7 +189,7 @@ function Team(){
                     <div className="team_card_inner_2">
                       <h3 className="team_card_type">LANGUAGES</h3>
                       <h5 className="team_card_type_name">
-                        <ul>
+                        <ul className="languages_ul">
                           <li>English</li>
                           <li>Hindi</li>
                           <li>Punjabi</li>
@@ -221,7 +223,7 @@ function Team(){
                     <div className="team_card_inner_2">
                       <h3 className="team_card_type">LANGUAGES</h3>
                       <h5 className="team_card_type_name">
-                        <ul>
+                        <ul className="languages_ul">
                           <li>English</li>
                           <li>Hindi</li>
                           <li>Punjabi</li>
@@ -253,7 +255,7 @@ function Team(){
                     <div className="team_card_inner_2">
                       <h3 className="team_card_type">LANGUAGES</h3>
                       <h5 className="team_card_type_name">
-                        <ul>
+                        <ul className="languages_ul">
                           <li>English</li>
                           <li>Hindi</li>
                           <li>Punjabi</li>
@@ -288,7 +290,7 @@ function Team(){
                     <div className="team_card_inner_2">
                       <h3 className="team_card_type">LANGUAGES</h3>
                       <h5 className="team_card_type_name">
-                        <ul>
+                        <ul className="languages_ul">
                           <li>English</li>
                           <li>Hindi</li>
                           <li>Punjabi</li>
@@ -322,7 +324,7 @@ function Team(){
                     <div className="team_card_inner_2">
                       <h3 className="team_card_type">LANGUAGES</h3>
                       <h5 className="team_card_type_name">
-                      <ul>
+                      <ul className="languages_ul">
                         <li>English</li>
                         <li>Hindi </li>
                         <li>Punjabi</li>
@@ -358,7 +360,7 @@ function Team(){
                     <div className="team_card_inner_2">
                       <h3 className="team_card_type">LANGUAGES</h3>
                       <h5 className="team_card_type_name">
-                        <ul>
+                        <ul className="languages_ul">
                           <li>English</li>
                           <li>Hindi </li>
                           <li>urdu</li>
@@ -391,7 +393,7 @@ function Team(){
                     <div className="team_card_inner_2">
                       <h3 className="team_card_type">LANGUAGES</h3>
                       <h5 className="team_card_type_name">
-                        <ul>
+                        <ul className="languages_ul">
                           <li>English</li>
                           <li>Esan</li>
                           <li>Yoruba</li>
@@ -500,6 +502,7 @@ function Team(){
                     <div className="team_card_inner_1">
                       <center>
                         <div className="image-container">
+                          <img alt="" src={Img.team_16} className="team_card_img"></img>                         
                           <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Parminder Singh Chahal</h5>
@@ -508,7 +511,7 @@ function Team(){
                     <div className="team_card_inner_2">
                       <h3 className="team_card_type">LANGUAGES</h3>
                       <h5 className="team_card_type_name">
-                        <ul>
+                        <ul className="languages_ul">
                           <li>English</li>
                           <li>Hindi</li>
                           <li>Punjabi</li>

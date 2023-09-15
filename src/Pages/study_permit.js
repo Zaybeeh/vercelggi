@@ -91,9 +91,9 @@ function Study_permit(){
                     <li className="sdm_stream_ul_li">Only Online Application Submíssion</li>
                     <li className="sdm_stream_ul_li">Mandatory GIC of at least 10,000 or more</li>
                     <li className="sdm_stream_ul_li">Applicable to certain Asian and African countries</li>
-                    <li className="sdm_stream_ul_li">up to 85% of Sucess Rate</li>
+                    <li className="sdm_stream_ul_li">Up to 85% of Sucess Rate</li>
                     <li className="sdm_stream_ul_li">IELTS mandatory</li>
-                    <li className="sdm_stream_ul_li">1-year Tuition Fee to be paid in advancez</li>
+                    <li className="sdm_stream_ul_li">1-year Tuition Fee to be paid in advance</li>
                   </ul>
                 </div>
               </div>
@@ -102,11 +102,11 @@ function Study_permit(){
                   <h3 className="sdm_stream_title">Non- SDS Stream</h3>
                   <ul>
                     <li className="sdm_stream_ul_li">For Canada Study/Work Permit and Immigration Purposes</li>
-                    <li className="sdm_stream_ul_li">Visa Processing wit in 45-90 days</li>
+                    <li className="sdm_stream_ul_li">Visa Processing within 45-90 days</li>
                     <li className="sdm_stream_ul_li">Online and Offline Application Submission</li>
                     <li className="sdm_stream_ul_li">GIC not a mandatory requirement</li>
                     <li className="sdm_stream_ul_li">Applicable to candidates from any country</li>
-                    <li className="sdm_stream_ul_li">up to 65% of Success Rate</li>
+                    <li className="sdm_stream_ul_li">Up to 65% of Success Rate</li>
                     <li className="sdm_stream_ul_li">IELTS, PTE or TIEFL accepted</li>
                     <li className="sdm_stream_ul_li">6-Months Tuition Fee to be paid in advance</li>
                   </ul>

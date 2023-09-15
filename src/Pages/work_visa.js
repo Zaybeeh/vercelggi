@@ -159,11 +159,7 @@ function Work_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
-                <div className="visa_card">
-                   <img src={Img.card} className="visa_img"></img>
-                </div>
-              </div>
+              
               <div className="col-md-4 d-flex">
                 <div className="visa_card">
                    <img src={Img.international_experiance_canada} className="visa_img"></img>

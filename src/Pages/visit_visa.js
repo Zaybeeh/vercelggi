@@ -59,7 +59,7 @@ function Visit_visa(){
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h3 className="let_us_introduce_title">When it comes to visiting Canada, there are different types of visit visas that cater to various purposes and circumstances.</h3>
+                <h3 className="let_us_introduce_title">When it comes to visiting Canada, there are different types of visas that cater to various purposes and circumstances.</h3>
               </div>
               <div className="col-md-4 d-flex">
                 <div className="visa_card">
@@ -115,11 +115,7 @@ function Visit_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
-                <div className="visa_card">
-                   <img src={Img.card} className="visa_img"></img>
-                </div>
-              </div>
+              
               <div className="col-md-4 d-flex">
                 <div className="visa_card">
                    <img src={Img.transit_visa} className="visa_img"></img>
@@ -129,11 +125,7 @@ function Visit_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
-                <div className="visa_card">
-                   <img src={Img.card} className="visa_img"></img>
-                </div>
-              </div>
+              
 
             </div>
           </div>
