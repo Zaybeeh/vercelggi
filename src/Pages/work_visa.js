@@ -55,15 +55,15 @@ function Work_visa(){
               </a>
           </div>
         </div>
-        <div className="immigrate_canada_section" id="top">
+        <div className="immigrate_canada_section animation" id="top">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h3 className="study_permit_title">Work Visa</h3>
+                <h3 className="study_permit_title anm_mod full fast">Work Visa</h3>
               </div>
               <div className="col-md-6">
-                <p className="study_permit_para">A Canadian work visa opens the doors to new job opportunities in a vibrant and diverse market. At our consultancy, we specialize in supporting individuals like you in navigating the intricacies of various Canadian work visas. We understand that your situation is unique, and we're dedicated to providing personalized solutions tailored to your specific needs.</p>
-                <p className="study_permit_para">At our consultancy, we recognize the diverse range of individuals seeking Canadian work visas, including those involved in charitable or religious work, as well as vulnerable workers. We understand the importance of providing support and guidance tailored to the unique circumstances and needs of these individuals.</p>
+                <p className="study_permit_para anm_mod full fast">A Canadian work visa opens the doors to new job opportunities in a vibrant and diverse market. At our consultancy, we specialize in supporting individuals like you in navigating the intricacies of various Canadian work visas. We understand that your situation is unique, and we're dedicated to providing personalized solutions tailored to your specific needs.</p>
+                <p className="study_permit_para anm_mod full fast">At our consultancy, we recognize the diverse range of individuals seeking Canadian work visas, including those involved in charitable or religious work, as well as vulnerable workers. We understand the importance of providing support and guidance tailored to the unique circumstances and needs of these individuals.</p>
               </div>
               <div className="col-md-6">
                 <img src={Img.work_visa} className="study_permit_img" alt=""></img>
@@ -71,32 +71,32 @@ function Work_visa(){
             </div>
           </div>
         </div>
-        <div className="requirements_section">
+        <div className="requirements_section animation">
           <div className="container">
             <div className="row align_item_center">
               <div className="col-md-6">
                 <div className="sdm_box">
-                  <h3 className="sdm_stream_title">Charity and Religious Workers</h3>
-                  <p className="if_you_are_para">If you are planning to engage in charitable or religious work in Canada, there are specific work permit options available. Depending on your role and the organization you will be working with, you may qualify for a work permit under the International Mobility Program (IMP) or other relevant programs. Our consultants can provide you with information on the specific requirements and assist you in navigating the application process.</p>
+                  <h3 className="sdm_stream_title anm_mod full fast">Charity and Religious Workers</h3>
+                  <p className="if_you_are_para anm_mod full fast">If you are planning to engage in charitable or religious work in Canada, there are specific work permit options available. Depending on your role and the organization you will be working with, you may qualify for a work permit under the International Mobility Program (IMP) or other relevant programs. Our consultants can provide you with information on the specific requirements and assist you in navigating the application process.</p>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="sdm_box">
-                  <h3 className="sdm_stream_title">Vulnerable Workers</h3>
-                  <p className="if_you_are_para">Canada is committed to protecting the rights and well-being of vulnerable workers, including those employed in low-wage or precarious jobs. The government has implemented measures to ensure fair treatment, safe working conditions, and appropriate compensation for these individuals. If you believe you are a vulnerable worker or have concerns about your working conditions, it is important to seek assistance and report any.... <a className="open-modal read_more_btn" href="#modal5">Read More</a> </p>
+                  <h3 className="sdm_stream_title anm_mod full fast">Vulnerable Workers</h3>
+                  <p className="if_you_are_para anm_mod full fast">Canada is committed to protecting the rights and well-being of vulnerable workers, including those employed in low-wage or precarious jobs. The government has implemented measures to ensure fair treatment, safe working conditions, and appropriate compensation for these individuals. If you believe you are a vulnerable worker or have concerns about your working conditions, it is important to seek assistance and report any.... <a className="open-modal read_more_btn" href="#modal5">Read More</a> </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="immigrate_canada_section">
+        <div className="immigrate_canada_section animation">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h3 className="let_us_introduce_title">Let's explore the range of Canadian work visa options available to you:</h3>
+                <h3 className="let_us_introduce_title anm_mod full fast">Let's explore the range of Canadian work visa options available to you:</h3>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.temporary_work_permit} className="visa_img"></img>
                    <div className="visa_content">
@@ -105,7 +105,7 @@ function Work_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.international_mobility_program} className="visa_img"></img>
                    <div className="visa_content">
@@ -114,7 +114,7 @@ function Work_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.gobal_talent_stream} className="visa_img"></img>
                    <div className="visa_content">
@@ -123,7 +123,7 @@ function Work_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.provincial_nominee_program} className="visa_img"></img>
                    <div className="visa_content">
@@ -132,7 +132,7 @@ function Work_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.spousal_work_permit} className="visa_img"></img>
                    <div className="visa_content">
@@ -141,7 +141,7 @@ function Work_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.post_graduation_work_permit} className="visa_img"></img>
                    <div className="visa_content">
@@ -150,7 +150,7 @@ function Work_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.bringing_work_permit} className="visa_img"></img>
                    <div className="visa_content">
@@ -160,7 +160,7 @@ function Work_visa(){
                 </div>
               </div>
               
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.international_experiance_canada} className="visa_img"></img>
                    <div className="visa_content">
@@ -174,29 +174,29 @@ function Work_visa(){
           </div>
         </div>
 
-        <div className="why_glowing_section">
+        <div className="why_glowing_section animation">
           <div className="container">
             <div className="row align_item_center">
               <div className="col-md-12">
-                <h3 className="study_permit_title">Why Growing Globe Immigration?</h3>
+                <h3 className="study_permit_title anm_mod full fast">Why Growing Globe Immigration?</h3>
                 <ul className="why_glowing_ul">
-                  <li>Our consultancy is committed to providing you with comprehensive guidance throughout the Canadian work visa application process, whether it involves an LMIA or falls under an LMIA-exempt category.</li>
-                  <li>We understand the importance of your career aspirations and the impact that working in Canada can have on your professional growth.</li>
-                  <li>Our team of experienced consultants will work closely with you, offering personalized support and guidance.</li>
-                  <li>Together, we'll transform your dreams into reality, helping you embark on a rewarding career adventure in Canada. Also talk about charity and religious workers and vulnerable workers</li>
+                  <li className="anm_mod full fast">Our consultancy is committed to providing you with comprehensive guidance throughout the Canadian work visa application process, whether it involves an LMIA or falls under an LMIA-exempt category.</li>
+                  <li className="anm_mod full fast">We understand the importance of your career aspirations and the impact that working in Canada can have on your professional growth.</li>
+                  <li className="anm_mod full fast">Our team of experienced consultants will work closely with you, offering personalized support and guidance.</li>
+                  <li className="anm_mod full fast">Together, we'll transform your dreams into reality, helping you embark on a rewarding career adventure in Canada. Also talk about charity and religious workers and vulnerable workers</li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="contact_us_today_section">
+        <div className="contact_us_today_section animation">
            <div className="container-fluid">
               <div className="row align_item_center">
                 <div className="col-md-12">
-                  <h3 className="contact_us_today_text">Contact us today to begin your Canadian work visa application journey</h3>
+                  <h3 className="contact_us_today_text anm_mod full fast">Contact us today to begin your Canadian work visa application journey</h3>
                   <a href="https://calendly.com/growingglobeimmigration">
-                     <button className="video_book_appoint mt_10">Book An Appointment</button>
+                     <button className="book_an_appointment_btn_2 anm_mod full fast mt_10">Book An Appointment</button>
                   </a>
                 </div>
               </div>
@@ -220,9 +220,6 @@ function Work_visa(){
                  </div>
               </div>
             </div>
-            <a href="#close" title="Back" class="close">
-                <img src={Img.back} className="back_img" alt=""></img>
-            </a>
           </div>
         </div>
 
@@ -243,9 +240,6 @@ function Work_visa(){
                  </div>
               </div>
             </div>
-            <a href="#close" title="Back" class="close">
-                <img src={Img.back} className="back_img" alt=""></img>
-            </a>
           </div>
         </div>
 
@@ -266,9 +260,6 @@ function Work_visa(){
                  </div>
               </div>
             </div>
-            <a href="#close" title="Back" class="close">
-                <img src={Img.back} className="back_img" alt=""></img>
-            </a>
           </div>
         </div>
 
@@ -289,9 +280,6 @@ function Work_visa(){
                  </div>
               </div>
             </div>
-            <a href="#close" title="Back" class="close">
-                <img src={Img.back} className="back_img" alt=""></img>
-            </a>
           </div>
         </div>
 
@@ -309,9 +297,6 @@ function Work_visa(){
                  </div>
               </div>
             </div>
-            <a href="#close" title="Back" class="close">
-                <img src={Img.back} className="back_img" alt=""></img>
-            </a>
           </div>
         </div>
 

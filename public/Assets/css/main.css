@@ -2572,12 +2572,12 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #fff;
-  font-family: "Helvetica";
+  font-family: "Montserrat";
 }
 
 .footer .footer-info p {
   font-size: 14px;
-  font-family: "Helvetica";
+  font-family: "Montserrat";
 }
 
 .footer .social-links a {
@@ -2604,7 +2604,7 @@ section {
   font-weight: 500;
   position: relative;
   padding-bottom: 12px;
-  font-family: "Helvetica";
+  font-family: "Montserrat";
 }
 
 .footer .footer-links {
@@ -2639,7 +2639,7 @@ section {
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
-  font-family: "Helvetica";
+  font-family: "Montserrat";
 }
 
 .footer .footer-links ul a:hover {
@@ -2648,28 +2648,28 @@ section {
 
 .footer .footer-contact p {
   line-height: 26px;
-  font-family: "Helvetica";
+  font-family: "Montserrat";
 }
 
 .footer .copyright {
   text-align: center;
-  font-family: "Helvetica";
+  font-family: "Montserrat";
 }
 
 .footer .credits {
   padding-top: 4px;
   text-align: center;
   font-size: 13px;
-  font-family: "Helvetica";
+  font-family: "Montserrat";
 }
 
 .footer .credits a {
   color: #fff;
-  font-family: "Helvetica";
+  font-family: "Montserrat";
 }
 
 .footer_subtitle{
-  font-family: "Helvetica";
+  font-family: "Montserrat";
   font-size: 18px!important;
   color: #D80000!important;
 }

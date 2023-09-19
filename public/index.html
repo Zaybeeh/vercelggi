@@ -69,6 +69,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
+
   <script src="Assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="Assets/vendor/aos/aos.js"></script>
   <script src="Assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -79,7 +80,39 @@
   <script src="Assets/js/main.js"></script>
 
 
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  <script>
+
+  $(document).ready(function(){
+    $(window).scroll(function() {
+     $(".animation .anm_mod").each(function() {
+      const position = $(this).offset().top;
+      const scroll = $(window).scrollTop();
+      const windowHeight = $(window).height();
+      if (scroll > position - windowHeight) {
+       $(this).addClass("active");
+      }
+      if (scroll < 100) {
+       $(this).removeClass("active");
+      }
+     });
+    });
+
+    // $(function() {
+    //    $('a[href^="#"]').click(function() {
+    //     const speed = 800;
+    //     const href = $(this).attr("href");
+    //     const target = $(href == "#" || href == "" ? "html" : href);
+    //     const position = target.offset().top;
+    //     $("html, body").animate({ scrollTop: position }, speed, "swing");
+    //     return false;
+    //    });
+    // });
+  });
+</script>
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
   <script>
     $(document).ready(function(){
@@ -168,6 +201,8 @@ $(function(){
 });
 
 </script>
+
+
 
   </body>
 </html>

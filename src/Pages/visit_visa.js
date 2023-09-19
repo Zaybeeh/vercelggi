@@ -55,13 +55,13 @@ function Visit_visa(){
               </a>
           </div>
         </div>
-        <div className="immigrate_canada_section">
+        <div className="immigrate_canada_section animation">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h3 className="let_us_introduce_title">When it comes to visiting Canada, there are different types of visas that cater to various purposes and circumstances.</h3>
+                <h3 className="let_us_introduce_title anm_mod full fast">When it comes to visiting Canada, there are different types of visas that cater to various purposes and circumstances.</h3>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex  anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.temporary_resident_visa} className="visa_img"></img>
                    <div className="visa_content">
@@ -70,7 +70,7 @@ function Visit_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.electronic_travel_authorization} className="visa_img"></img>
                    <div className="visa_content">
@@ -79,7 +79,7 @@ function Visit_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.super_visa} className="visa_img"></img>
                    <div className="visa_content">
@@ -88,7 +88,7 @@ function Visit_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.business_visitor_visa} className="visa_img"></img>
                    <div className="visa_content">
@@ -97,7 +97,7 @@ function Visit_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.parent_and_grandparent_visitor_visa} className="visa_img"></img>
                    <div className="visa_content">
@@ -106,7 +106,7 @@ function Visit_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.tourist_visa} className="visa_img"></img>
                    <div className="visa_content">
@@ -116,7 +116,7 @@ function Visit_visa(){
                 </div>
               </div>
               
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.transit_visa} className="visa_img"></img>
                    <div className="visa_content">
@@ -131,12 +131,12 @@ function Visit_visa(){
           </div>
         </div>
 
-        <div className="why_glowing_section">
+        <div className="why_glowing_section animation">
           <div className="container">
             <div className="row align_item_center">
               <div className="col-md-12">
-                <h3 className="study_permit_title">Important Note</h3>
-                <ul className="why_glowing_ul">
+                <h3 className="study_permit_title anm_mod full fast">Important Note</h3>
+                <ul className="why_glowing_ul anm_mod full fast">
                   <li>Remember that specific requirements, application processes, and durations of stay can vary for each type of visit visa.</li>
                   <li>It's crucial to consult the official website of Immigration, Refugees and Citizenship Canada (IRCC) or seek professional advice to ensure accurate and up-to-date information based on your nationality and circumstances.</li>
                 </ul>
@@ -145,13 +145,13 @@ function Visit_visa(){
           </div>
         </div>
 
-        <div className="contact_us_today_section">
+        <div className="contact_us_today_section animation">
            <div className="container-fluid">
               <div className="row align_item_center">
                 <div className="col-md-12">
-                  <h3 className="contact_us_today_text">Contact us today, To Get Visit Visa today for Canada.</h3>
+                  <h3 className="contact_us_today_text anm_mod full fast">Contact us today, To Get Visit Visa today for Canada.</h3>
                   <a href="https://calendly.com/growingglobeimmigration">
-                     <button className="video_book_appoint mt_10">Book An Appointment</button>
+                     <button className="book_an_appointment_btn_2 anm_mod full fast mt_10">Book An Appointment</button>
                   </a>
                 </div>
               </div>
@@ -175,9 +175,6 @@ function Visit_visa(){
                  </div>
               </div>
             </div>
-            <a href="#close" title="Back" class="close">
-                <img src={Img.back} className="back_img" alt=""></img>
-            </a>
           </div>
         </div>
 

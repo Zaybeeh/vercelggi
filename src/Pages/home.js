@@ -106,47 +106,47 @@ function Home(){
             </div>
           </div>
         </div>
-        <div className="immigrate_canada_section" id="top">
+        <div className="immigrate_canada_section animation" id="top">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-12">
-                <h3 className="immigrate_canada_sec_title mb_25">Did you know that there are 129 ways to immigrate to canada?</h3>
+              <div className="col-md-12 animation">
+                <h3 className="immigrate_canada_sec_title anm_mod full fast mb_25">Did you know that there are 129 ways to immigrate to canada?</h3>
               </div>
               <div className="col-md-12">
                 <Carousel responsive={responsive} showDots={true}>
                   <div>
                     <img src={Img.immigrate_canada_img_1} alt="" className="carousel_img"></img>
                     <div className="text-center">
-                       <Link to="/visit_visa"> <h3 className="permanent_resident_visa_text">Visit Visa</h3></Link>
-                      <Link to="/visit_visa"> <button className="learn_more_btn">Learn More</button></Link>
+                       <Link to="/visit_visa"> <h3 className="permanent_resident_visa_text anm_mod full fast">Visit Visa</h3></Link>
+                      <Link to="/visit_visa"> <button className="learn_more_btn anm_mod full fast">Learn More</button></Link>
                     </div>
                   </div>
                   <div>
                     <img src={Img.immigrate_canada_img_2} alt="" className="carousel_img"></img>
                     <div className="text-center">
-                       <Link to="/study_permit"> <h3 className="permanent_resident_visa_text">Study Permit</h3></Link>
-                       <Link to="/study_permit"><button className="learn_more_btn">Learn More</button></Link>
+                       <Link to="/study_permit"> <h3 className="permanent_resident_visa_text anm_mod full fast">Study Permit</h3></Link>
+                       <Link to="/study_permit"><button className="learn_more_btn anm_mod full fast">Learn More</button></Link>
                     </div>
                   </div>
                   <div>
                     <img src={Img.immigrate_canada_img_3} alt="" className="carousel_img"></img>
                     <div className="text-center">
-                       <Link to="/work_visa"> <h3 className="permanent_resident_visa_text">Work Visa</h3></Link>
-                       <Link to="/work_visa"><button className="learn_more_btn">Learn More</button></Link>
+                       <Link to="/work_visa"> <h3 className="permanent_resident_visa_text anm_mod full fast">Work Visa</h3></Link>
+                       <Link to="/work_visa"><button className="learn_more_btn anm_mod full fast">Learn More</button></Link>
                     </div>
                   </div>
                   <div>
                     <img src={Img.immigrate_canada_img_4} alt="" className="carousel_img"></img>
                     <div className="text-center">
-                       <Link to="/business_visa"> <h3 className="permanent_resident_visa_text">Business Visa</h3></Link>
-                       <Link to="/business_visa"><button className="learn_more_btn">Learn More</button></Link>
+                       <Link to="/business_visa"> <h3 className="permanent_resident_visa_text anm_mod full fast">Business Visa</h3></Link>
+                       <Link to="/business_visa"><button className="learn_more_btn anm_mod full fast">Learn More</button></Link>
                     </div>
                   </div>
                   <div>
                     <img src={Img.immigrate_canada_img_5} alt="" className="carousel_img"></img>
                     <div className="text-center">
-                       <Link to="/immigrate"> <h3 className="permanent_resident_visa_text">Immigration</h3></Link>
-                       <Link to="/immigrate"><button className="learn_more_btn">Learn More</button></Link>
+                       <Link to="/immigrate"> <h3 className="permanent_resident_visa_text anm_mod full fast">Immigration</h3></Link>
+                       <Link to="/immigrate"><button className="learn_more_btn anm_mod full fast">Learn More</button></Link>
                     </div>
                   </div>
                 </Carousel>
@@ -154,10 +154,10 @@ function Home(){
             </div>
           </div>
         </div>
-        <div className="embark_section">
+        <div className="embark_section animation">
           <div className="container-fluid">
             <div className="row align_item_center">
-              <div className="col-md-6">
+              <div className="col-md-6 ">
                 <img src={Img.book_appointment_day} className="embark_img" alt=""></img>
               </div>
               <div className="col-md-6">
@@ -168,17 +168,17 @@ function Home(){
                 </div>
                 <div className="embark_btn_box">
                   <a href="https://calendly.com/growingglobeimmigration">
-                     <button className="embark_book_appoint">Book An Appointment</button>
+                     <button className="embark_book_appoint anm_mod full fast">Book An Appointment</button>
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="consultants_section">
+        <div className="consultants_section animation">
           <div className="container-fluid">
             <center>
-              <h2 className="consultants_sec_title">GROWING GLOBE IMMIGRATION HOLDS THE LARGEST NUMBER OF REGISTERED CANADIAN <br/>IMMIGRATION CONSULTANTS (RCICS) IN CANADA</h2>
+              <h2 className="consultants_sec_title anm_mod full fast">GROWING GLOBE IMMIGRATION HOLDS THE LARGEST NUMBER OF REGISTERED CANADIAN <br/>IMMIGRATION CONSULTANTS (RCICS) IN CANADA</h2>
             </center>
           </div>
           <div className="consultants">
@@ -191,17 +191,18 @@ function Home(){
                 <div className="consultants"><img src={Img.p5} className="embark_img" alt=""></img></div>
                 <div className="consultants"><img src={Img.p6} className="embark_img" alt=""></img></div>
                 <div className="consultants"><img src={Img.p7} className="embark_img" alt=""></img></div>
+                <div className="consultants"><img src={Img.p8} className="embark_img" alt=""></img></div>
               </Carousel>
               <center>
-                <Link to="/team"><button className="meet_the_team_btn">Meet the Team</button></Link>
+                <Link to="/team"><button className="meet_the_team_btn anm_mod full fast">Meet the Team</button></Link>
               </center>
             </div>
           </div>
         </div>
         <div className="testimonials_sec">
           <div className="container-fluid">
-            <section className="row testimonials">
-            	<h2>Testimonials</h2>
+            <section className="row testimonials animation">
+            	<h2 className="anm_mod full fast">Testimonials</h2>
               <div className="blog-slider">
                 <div className="blog-slider__wrp swiper-wrapper">
                   <div className="blog-slider__item swiper-slide">
@@ -322,16 +323,18 @@ function Home(){
         <div className="newsletter_section">
           <div className="container-fluid">
             <div className="row align_item_center">
-              <div className="col-md-12">
-                <h2 className="newsletter_section_title">Subscribe to Our Newsletter</h2>
-                <h4 className="newsletter_section_subtitle">Crossing Borders: Navigating the Pathways of Global Journeys <br/> Stay Informed with Our Immigration Insights  </h4>
+              <div className="col-md-12 animation">
+                <h2 className="newsletter_section_title anm_mod full fast">Subscribe to Our Newsletter</h2>
+                <h4 className="newsletter_section_subtitle anm_mod full fast">Crossing Borders: Navigating the Pathways of Global Journeys <br/> Stay Informed with Our Immigration Insights  </h4>
               </div>
-              <div className="col-md-12">
+              <div className="col-md-12 animation">
                 <center>
+                <div className="anm_mod full fast">
                   <form className="form" action="">
                     <input type="email" name="email" id="email" placeholder="example@example.com" />
                     <input type="submit" name="submit" value="subscribe" />
                   </form>
+                </div>
                 </center>
               </div>
             </div>
@@ -340,14 +343,13 @@ function Home(){
         <div className="book_appoint_section">
           <div className="container-fluid">
             <div className="row align_item_center">
-              <div className="col-md-7">
-                <h4 className="book_appoint_section_title">
+              <div className="col-md-7 animation">
+                <h4 className="book_appoint_section_title anm_mod full fast">
                   Discover the unparalleled expertise of GGI, a renowned institution in the field of immigration, boasting the highest concentration of Registered Canadian Immigration Consultants (RCICs) across Canada, offering comprehensive and trusted guidance for your immigration journey.
                 </h4>
               </div>
-              <div className="col-md-5">
-                <div className="book_appoint_box">
-                  <button className="book_appoint_learn_more">Learn More</button>
+              <div className="col-md-5 animation">
+                <div className="book_appoint_box anm_mod full fast">
                   <a href="https://calendly.com/growingglobeimmigration">
                      <button className="book_appoint_appointment">Book An Appointment</button>
                   </a>

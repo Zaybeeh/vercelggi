@@ -53,24 +53,24 @@ function ContactUs(){
               </a>
           </div>
         </div>
-        <div className="contact_section">
+        <div className="contact_section animation">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h2 className="contact_section_title">Contact Us</h2>
+                <h2 className="contact_section_title anm_mod full fast">Contact Us</h2>
               </div>
             </div>
             <div className="row ">
               <div className="col-md-4">
                 <div className="contact-card contact-card-contact">
-                  <div className="contact-card-image">
+                  <div className="contact-card-image anm_mod full fast">
                     <img className="img" src={Img.contact_canada} ></img>
                   </div>
                   <div className="contact-table">
-                    <h4 className="contact-card-caption mb_30">
+                    <h4 className="contact-card-caption anm_mod full fast mb_30">
                       Canada Offices
                     </h4>
-                    <div className="conatact_add_box">
+                    <div className="conatact_add_box anm_mod full fast">
                       <div>
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
@@ -80,7 +80,7 @@ function ContactUs(){
                       </div>
                     </div>
                     <hr className="hr_sty"/>
-                    <div className="conatact_add_box">
+                    <div className="conatact_add_box anm_mod full fast">
                       <div>
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
@@ -90,7 +90,7 @@ function ContactUs(){
                       </div>
                     </div>
                     <hr className="hr_sty"/>
-                    <div className="conatact_add_box">
+                    <div className="conatact_add_box anm_mod full fast">
                       <div>
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
@@ -100,7 +100,7 @@ function ContactUs(){
                       </div>
                     </div>
                     <hr className="hr_sty"/>
-                    <div className="conatact_add_box">
+                    <div className="conatact_add_box anm_mod full fast">
                       <div>
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
@@ -109,7 +109,7 @@ function ContactUs(){
                       </div>
                     </div>
                     <hr className="hr_sty"/>
-                    <div className="conatact_add_box">
+                    <div className="conatact_add_box anm_mod full fast">
                       <div>
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
@@ -124,15 +124,15 @@ function ContactUs(){
               </div>
               <div className="col-md-4">
                 <div className="contact-card contact-card-contact">
-                  <div className="contact-card-image">
+                  <div className="contact-card-image anm_mod full fast">
                     <img className="img" src={Img.contact_india} ></img>
                   </div>
                   <div className="contact-table">
-                    <h4 className="contact-card-caption mb_30">
+                    <h4 className="contact-card-caption anm_mod full fast mb_30">
                       India Offices
                     </h4>
 
-                    <div className="conatact_add_box">
+                    <div className="conatact_add_box anm_mod full fast">
                       <div>
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
@@ -142,7 +142,7 @@ function ContactUs(){
                       </div>
                     </div>
                     <hr className="hr_sty"/>
-                    <div className="conatact_add_box">
+                    <div className="conatact_add_box anm_mod full fast">
                       <div>
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
@@ -152,7 +152,7 @@ function ContactUs(){
                       </div>
                     </div>
                     <hr className="hr_sty"/>
-                    <div className="conatact_add_box">
+                    <div className="conatact_add_box anm_mod full fast">
                       <div>
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>
@@ -167,15 +167,15 @@ function ContactUs(){
               </div>
               <div className="col-md-4">
                 <div className="contact-card contact-card-contact">
-                  <div className="contact-card-image">
+                  <div className="contact-card-image anm_mod full fast">
                     <img className="img" src={Img.contact_uae} ></img>
                   </div>
                   <div className="contact-table">
-                    <h4 className="contact-card-caption mb_30">
+                    <h4 className="contact-card-caption anm_mod full fast mb_30">
                       UAE Offices
                     </h4>
 
-                    <div className="conatact_add_box">
+                    <div className="conatact_add_box anm_mod full fast">
                       <div>
                         <i className="fa fa-arrow-right red" aria-hidden="true"></i>
                       </div>

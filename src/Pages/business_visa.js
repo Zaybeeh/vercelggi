@@ -55,16 +55,16 @@ function Business_visa(){
               </a>
           </div>
         </div>
-        <div className="immigrate_canada_section" id="top">
+        <div className="immigrate_canada_section animation" id="top">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h3 className="study_permit_title">Business Visa</h3>
+                <h3 className="study_permit_title anm_mod full fast">Business Visa</h3>
               </div>
               <div className="col-md-6">
-                <p className="study_permit_para">Are you planning to visit Canada for business purposes?</p>
-                <p className="study_permit_para">A business visa is your key to unlocking opportunities in the vibrant Canadian market. At our consultancy, we specialize in helping individuals like you navigate the intricacies of various business and investment visas in Canada.</p>
-                <p className="study_permit_para">We understand that each person's circumstances are unique, and that's why we offer personalized solutions tailored to your specific needs.</p>
+                <p className="study_permit_para anm_mod full fast">Are you planning to visit Canada for business purposes?</p>
+                <p className="study_permit_para anm_mod full fast">A business visa is your key to unlocking opportunities in the vibrant Canadian market. At our consultancy, we specialize in helping individuals like you navigate the intricacies of various business and investment visas in Canada.</p>
+                <p className="study_permit_para anm_mod full fast">We understand that each person's circumstances are unique, and that's why we offer personalized solutions tailored to your specific needs.</p>
               </div>
               <div className="col-md-6">
                 <img src={Img.business_visa} className="study_permit_img" alt=""></img>
@@ -72,13 +72,13 @@ function Business_visa(){
             </div>
           </div>
         </div>
-        <div className="requirements_section">
+        <div className="requirements_section animation">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h3 className="let_us_introduce_title">Let us introduce you to the array of business and investment visa options available in Canada:</h3>
+                <h3 className="let_us_introduce_title anm_mod full fast">Let us introduce you to the array of business and investment visa options available in Canada:</h3>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.business_visa_1} className="visa_img"></img>
                    <div className="visa_content">
@@ -87,7 +87,7 @@ function Business_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.start_up_visa} className="visa_img"></img>
                    <div className="visa_content">
@@ -96,7 +96,7 @@ function Business_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.investor_visa} className="visa_img"></img>
                    <div className="visa_content">
@@ -105,7 +105,7 @@ function Business_visa(){
                    </div>
                 </div>
               </div>
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.intra_company_visa} className="visa_img"></img>
                    <div className="visa_content">
@@ -115,7 +115,7 @@ function Business_visa(){
                 </div>
               </div>
               
-              <div className="col-md-4 d-flex">
+              <div className="col-md-4 d-flex anm_mod full fast">
                 <div className="visa_card">
                    <img src={Img.self_employed_visa} className="visa_img"></img>
                    <div className="visa_content">
@@ -128,27 +128,27 @@ function Business_visa(){
           </div>
         </div>
 
-        <div className="why_glowing_section">
+        <div className="why_glowing_section animation">
           <div className="container">
             <div className="row align_item_center">
               <div className="col-md-12">
-                <h3 className="study_permit_title">Why Growing Globe Immigration?</h3>
+                <h3 className="study_permit_title anm_mod full fast">Why Growing Globe Immigration?</h3>
                 <ul className="why_glowing_ul">
-                  <li>We pride ourselves on providing comprehensive guidance throughout the business visa application journey.</li>
-                  <li>Together, we'll transform your business aspirations into reality, opening doors to new opportunities and growth.</li>
+                  <li className="anm_mod full fast">We pride ourselves on providing comprehensive guidance throughout the business visa application journey.</li>
+                  <li className="anm_mod full fast">Together, we'll transform your business aspirations into reality, opening doors to new opportunities and growth.</li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="contact_us_today_section">
+        <div className="contact_us_today_section animation">
            <div className="container-fluid">
               <div className="row align_item_center">
                 <div className="col-md-12">
-                  <h3 className="contact_us_today_text">Contact us today, and our seasoned consultants will lead you <br /> towards a successful business visit or investment in Canada.</h3>
+                  <h3 className="contact_us_today_text anm_mod full fast">Contact us today, and our seasoned consultants will lead you <br /> towards a successful business visit or investment in Canada.</h3>
                   <a href="https://calendly.com/growingglobeimmigration">
-                     <button className="video_book_appoint mt_10">Book An Appointment</button>
+                     <button className="book_an_appointment_btn_2 anm_mod full fast mt_10">Book An Appointment</button>
                   </a>
                 </div>
               </div>
@@ -172,9 +172,6 @@ function Business_visa(){
                  </div>
               </div>
             </div>
-            <a href="#close" title="Back" class="close">
-                <img src={Img.back} className="back_img" alt=""></img>
-            </a>
           </div>
         </div>
 

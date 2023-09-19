@@ -7,7 +7,7 @@ import VideoPlayer from "react-background-video-player";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-function Study_permit(){
+function Demo_permit(){
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -62,13 +62,13 @@ function Study_permit(){
         <div className="immigrate_canada_section" id="top">
           <div className="container">
             <div className="row">
-              <div className="col-md-12 animation">
-                <h3 className="study_permit_title anm_mod full fast">Study Permit</h3>
+              <div className="col-md-12">
+                <h3 className="study_permit_title">Study Permit</h3>
               </div>
-              <div className="col-md-6 animation">
-                <p className="study_permit_para anm_mod full fast">A study permit is a document issued by the Canadian government that allows foreign nationals to study at designated learning institutions (DLIs) in the country. It serves as an essential requirement for most international students planning to pursue their academic aspirations in Canada.</p>
-                <p className="study_permit_para anm_mod full fast">To ensure a smooth and successful study permit application process, it is imperative to have all the required documents ready beforehand.</p>
-                <p className="study_permit_para anm_mod full fast">The specific documents necessary may vary depending on your unique circumstances, including whether you are applying through the Student Direct Stream (SDS) or the regular non-SDS stream... <a className="open-modal read_more_btn" href="#modal">Read More</a></p>
+              <div className="col-md-6">
+                <p className="study_permit_para">A study permit is a document issued by the Canadian government that allows foreign nationals to study at designated learning institutions (DLIs) in the country. It serves as an essential requirement for most international students planning to pursue their academic aspirations in Canada.</p>
+                <p className="study_permit_para">To ensure a smooth and successful study permit application process, it is imperative to have all the required documents ready beforehand.</p>
+                <p className="study_permit_para">The specific documents necessary may vary depending on your unique circumstances, including whether you are applying through the Student Direct Stream (SDS) or the regular non-SDS stream... <a className="open-modal read_more_btn" href="#modal">Read More</a></p>
               </div>
               <div className="col-md-6">
                 <img src={Img.study_permit} className="study_permit_img" alt=""></img>
@@ -76,7 +76,7 @@ function Study_permit(){
             </div>
           </div>
         </div>
-        <div className="requirements_section animation">
+        <div className="requirements_section">
           <div className="container">
             <div className="row align_item_center">
               <div className="col-md-12">
@@ -84,31 +84,31 @@ function Study_permit(){
               </div>
               <div className="col-md-6">
                 <div className="sdm_box">
-                  <h3 className="sdm_stream_title anm_mod full fast">Student Direct Stream</h3>
+                  <h3 className="sdm_stream_title">Student Direct Stream</h3>
                   <ul>
-                    <li className="sdm_stream_ul_li anm_mod full fast">Only for Study Permit</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">Visa Processing within 20 days</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">Only Online Application Submíssion</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">Mandatory GIC of at least 10,000 or more</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">Applicable to certain Asian and African countries</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">Up to 85% of Sucess Rate</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">IELTS mandatory</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">1-year Tuition Fee to be paid in advance</li>
+                    <li className="sdm_stream_ul_li">Only for Study Permit</li>
+                    <li className="sdm_stream_ul_li">Visa Processing within 20 days</li>
+                    <li className="sdm_stream_ul_li">Only Online Application Submíssion</li>
+                    <li className="sdm_stream_ul_li">Mandatory GIC of at least 10,000 or more</li>
+                    <li className="sdm_stream_ul_li">Applicable to certain Asian and African countries</li>
+                    <li className="sdm_stream_ul_li">Up to 85% of Sucess Rate</li>
+                    <li className="sdm_stream_ul_li">IELTS mandatory</li>
+                    <li className="sdm_stream_ul_li">1-year Tuition Fee to be paid in advance</li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-6">
                 <div className="sdm_box">
-                  <h3 className="sdm_stream_title anm_mod full fast">Non- SDS Stream</h3>
+                  <h3 className="sdm_stream_title">Non- SDS Stream</h3>
                   <ul>
-                    <li className="sdm_stream_ul_li anm_mod full fast">For Canada Study/Work Permit and Immigration Purposes</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">Visa Processing within 45-90 days</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">Online and Offline Application Submission</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">GIC not a mandatory requirement</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">Applicable to candidates from any country</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">Up to 65% of Success Rate</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">IELTS, PTE or TIEFL accepted</li>
-                    <li className="sdm_stream_ul_li anm_mod full fast">6-Months Tuition Fee to be paid in advance</li>
+                    <li className="sdm_stream_ul_li">For Canada Study/Work Permit and Immigration Purposes</li>
+                    <li className="sdm_stream_ul_li">Visa Processing within 45-90 days</li>
+                    <li className="sdm_stream_ul_li">Online and Offline Application Submission</li>
+                    <li className="sdm_stream_ul_li">GIC not a mandatory requirement</li>
+                    <li className="sdm_stream_ul_li">Applicable to candidates from any country</li>
+                    <li className="sdm_stream_ul_li">Up to 65% of Success Rate</li>
+                    <li className="sdm_stream_ul_li">IELTS, PTE or TIEFL accepted</li>
+                    <li className="sdm_stream_ul_li">6-Months Tuition Fee to be paid in advance</li>
                   </ul>
                 </div>
               </div>
@@ -116,29 +116,31 @@ function Study_permit(){
           </div>
         </div>
 
-        <div className="why_glowing_section animation">
+        
+
+        <div className="why_glowing_section">
           <div className="container">
             <div className="row align_item_center">
               <div className="col-md-12">
-                <h3 className="study_permit_title anm_mod full fast">Why Growing Globe Immigration?</h3>
+                <h3 className="study_permit_title">Why Growing Globe Immigration?</h3>
                 <ul className="why_glowing_ul">
-                  <li className="anm_mod full fast">At our consultancy, we understand the intricacies of the study permit application process for both SDS and non-SDS streams and are here to assist you every step of the way.</li>
-                  <li className="anm_mod full fast">Our knowledgeable consultants will ensure that you have a smooth experience, from document preparation to submitting your application.</li>
-                  <li className="anm_mod full fast">Our team of experts is ready to provide you with the guidance and support you need to navigate the study permit application process, tailored to your specific circumstances and stream.</li>
-                  <li className="anm_mod full fast">Let us help you turn your aspirations of studying in Canada into a reality.</li>
+                  <li>At our consultancy, we understand the intricacies of the study permit application process for both SDS and non-SDS streams and are here to assist you every step of the way.</li>
+                  <li>Our knowledgeable consultants will ensure that you have a smooth experience, from document preparation to submitting your application.</li>
+                  <li>Our team of experts is ready to provide you with the guidance and support you need to navigate the study permit application process, tailored to your specific circumstances and stream.</li>
+                  <li>Let us help you turn your aspirations of studying in Canada into a reality.</li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="contact_us_today_section animation">
+        <div className="contact_us_today_section">
            <div className="container-fluid">
               <div className="row align_item_center">
                 <div className="col-md-12">
-                  <h3 className="contact_us_today_text anm_mod full fast">Contact us today to start your journey <br /> towards a world-class education in Canada.</h3>
+                  <h3 className="contact_us_today_text">Contact us today to start your journey <br /> towards a world-class education in Canada.</h3>
                   <a href="https://calendly.com/growingglobeimmigration">
-                     <button className="book_an_appointment_btn_2 anm_mod full fast mt_10">Book An Appointment</button>
+                     <button className="book_an_appointment_btn_2 mt_10">Book An Appointment</button>
                   </a>
                 </div>
               </div>
@@ -179,4 +181,4 @@ function Study_permit(){
   );
 }
 
-export default Study_permit;
+export default Demo_permit;

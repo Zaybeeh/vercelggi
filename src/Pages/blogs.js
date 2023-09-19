@@ -52,16 +52,16 @@ function Blogs(){
               </a>
           </div>
         </div>
-        <div className="Blog_section">
+        <div className="Blog_section animation">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-12">
-                <h2 className="blog_section_title">Latest Blogs</h2>
+                <h2 className="blog_section_title anm_mod full fast">Latest Blogs</h2>
               </div>
             </div>
             <div className="row">
               <div className="col-md-4">
-                <div className="blog-card blog-card-blog">
+                <div className="blog-card blog-card-blog anm_mod full fast">
                   <div className="blog-card-image">
                     <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_1} ></img> </a>
                     <div className="ripple-cont"></div>
@@ -82,7 +82,7 @@ function Blogs(){
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="blog-card blog-card-blog">
+                <div className="blog-card blog-card-blog anm_mod full fast">
                   <div className="blog-card-image">
                     <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_2} ></img> </a>
                     <div className="ripple-cont"></div>
@@ -103,7 +103,7 @@ function Blogs(){
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="blog-card blog-card-blog">
+                <div className="blog-card blog-card-blog anm_mod full fast">
                   <div className="blog-card-image">
                     <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_3} ></img> </a>
                     <div className="ripple-cont"></div>
@@ -124,7 +124,7 @@ function Blogs(){
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="blog-card blog-card-blog">
+                <div className="blog-card blog-card-blog anm_mod full fast">
                   <div className="blog-card-image">
                     <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_4} ></img> </a>
                     <div className="ripple-cont"></div>
@@ -145,7 +145,7 @@ function Blogs(){
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="blog-card blog-card-blog">
+                <div className="blog-card blog-card-blog anm_mod full fast">
                   <div className="blog-card-image">
                     <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_5} ></img> </a>
                     <div className="ripple-cont"></div>
@@ -166,7 +166,7 @@ function Blogs(){
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="blog-card blog-card-blog">
+                <div className="blog-card blog-card-blog anm_mod full fast">
                   <div className="blog-card-image">
                     <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_6} ></img> </a>
                     <div className="ripple-cont"></div>
@@ -187,7 +187,7 @@ function Blogs(){
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="blog-card blog-card-blog">
+                <div className="blog-card blog-card-blog anm_mod full fast">
                   <div className="blog-card-image">
                     <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_7} ></img> </a>
                     <div className="ripple-cont"></div>
@@ -208,7 +208,7 @@ function Blogs(){
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="blog-card blog-card-blog">
+                <div className="blog-card blog-card-blog anm_mod full fast">
                   <div className="blog-card-image">
                     <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_8} ></img> </a>
                     <div className="ripple-cont"></div>
