@@ -6,6 +6,7 @@ import VideoPlayer from "react-background-video-player";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import {Link} from 'react-router-dom';
+import ScrollCarousel from "scroll-carousel-react";
 
 function About_us(){
   const responsive = {
@@ -133,24 +134,24 @@ function About_us(){
             </div>
           </div>
         </div>
-        <div className="consultants animation">
-          <div style={{ position: "relative" }}>
-            <Carousel responsive={responsive_2} showArrows={true} showDots={true}>
-              <div className="consultants"><img src={Img.p1} className="embark_img" alt=""></img></div>
-              <div className="consultants"><img src={Img.p2} className="embark_img" alt=""></img></div>
-              <div className="consultants"><img src={Img.p3} className="embark_img" alt=""></img></div>
-              <div className="consultants"><img src={Img.p4} className="embark_img" alt=""></img></div>
-              <div className="consultants"><img src={Img.p5} className="embark_img" alt=""></img></div>
-              <div className="consultants"><img src={Img.p6} className="embark_img" alt=""></img></div>
-              <div className="consultants"><img src={Img.p7} className="embark_img" alt=""></img></div>
-              <div className="consultants"><img src={Img.p1} className="embark_img" alt=""></img></div>
-            </Carousel>
+        <div className="team">
+          <ScrollCarousel className="carousel"
+              autoplay={true}
+              smartSpeed = {true}>
+              <div className="consult_img"><img src={Img.p1} className="consultants" alt=""></img></div>
+              <div className="consult_img"><img src={Img.p2} className="consultants" alt=""></img></div>
+              <div className="consult_img"><img src={Img.p3} className="consultants" alt=""></img></div>
+              <div className="consult_img"><img src={Img.p4} className="consultants" alt=""></img></div>
+              <div className="consult_img"><img src={Img.p5} className="consultants" alt=""></img></div>
+              <div className="consult_img"><img src={Img.p6} className="consultants" alt=""></img></div>
+              <div className="consult_img"><img src={Img.p7} className="consultants" alt=""></img></div>
+              <div className="consult_img"><img src={Img.p8} className="consultants" alt=""></img></div>  
+            </ScrollCarousel>
             <center>
-              <Link to="/team"><button className="meet_the_team_btn anm_mod full fast">Meet the Team</button></Link>
+                <Link to="/team"><button className="meet_the_team_btn anm_mod full fast">Meet the Team</button></Link>
             </center>
-          </div>
         </div>
-        <div className="contact_us_today_section animation">
+        <div className="contact_us_today_section_about_us animation">
            <div className="container-fluid">
               <div className="row align_item_center">
                 <div className="col-md-12">
@@ -160,7 +161,6 @@ function About_us(){
               </div>
            </div>
         </div>
-
       <Footer />
     </div>
   );

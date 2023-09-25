@@ -27,6 +27,7 @@ function Team(){
                           <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Vinay Sachdeva</h5>
+                        <h5 className="team_card_name">RCIC #: R707205</h5>
                       </center>
                     </div>
                     <div className="team_card_inner_2">
@@ -39,7 +40,7 @@ function Team(){
                               <li class="social-twitter"><a class=" tooltip-top" href="mailto:office@growingglobeimmigration.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                           </ul>
                       </div>
-                      <a href="https://calendly.com/growingglobeimmigration pt-3">
+                      <a href="https://calendly.com/growingglobeimmigration/vinaysachdeva?back=1&month=2023-09 pt-3">
                          <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
                       </a>
                     </div>
@@ -73,7 +74,7 @@ function Team(){
                           <li class="social-twitter"><a class=" tooltip-top" href="mailto:Office@immigratetoontario.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                         </ul>
                       </div>
-                      <a href="https://calendly.com/growingglobeimmigration">
+                      <a href="https://calendly.com/growingglobeimmigration/sargun?back=1&month=2023-09">
                          <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
                       </a>
                     </div>
@@ -90,6 +91,7 @@ function Team(){
                           <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Bhavuk Arora</h5>
+                        <h5 className="team_card_name">RCIC #: R710982</h5>
                       </center>
                     </div>
                     <div className="team_card_inner_2">
@@ -107,7 +109,7 @@ function Team(){
                               <li class="social-twitter"><a class=" tooltip-top" href="mailto:Info@growingglobeimmigration.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                           </ul>
                       </div>
-                      <a href="https://calendly.com/growingglobeimmigration">
+                      <a href="https://calendly.com/growingglobeimmigration/bhavuk?back=1&month=2023-09">
                          <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
                       </a>
                     </div>
@@ -122,6 +124,7 @@ function Team(){
                           <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Karan Suri</h5>
+                        <h5 className="team_card_name">RCIC #: R517850</h5>
                       </center>
                     </div>
                     <div className="team_card_inner_2">
@@ -140,7 +143,7 @@ function Team(){
                           <li class="social-twitter"><a class=" tooltip-top" href="mailto:karan.suri@growingglobeimmigration.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                         </ul>
                       </div>
-                      <a href="https://calendly.com/growingglobeimmigration">
+                      <a href="https://calendly.com/growingglobeimmigration/karan?back=1&month=2023-09">
                          <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
                       </a>
                     </div>
@@ -157,6 +160,7 @@ function Team(){
                           <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Harinder Kahlon</h5>
+                        <h5 className="team_card_name">RCIC #: R710204</h5>
                       </center>
                     </div>
                     <div className="team_card_inner_2">
@@ -169,7 +173,7 @@ function Team(){
                           <li class="social-twitter"><a class=" tooltip-top" href="mailto:harinder.kahlon@growingglobeimmigration.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                         </ul>
                       </div>
-                      <a href="https://calendly.com/growingglobeimmigration">
+                      <a href="https://calendly.com/growingglobeimmigration/harinder-kahlon?back=1&month=2023-09">
                          <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
                       </a>
                     </div>
@@ -184,6 +188,7 @@ function Team(){
                           <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Sukhwinder Singh</h5>
+                        <h5 className="team_card_name">RCIC #: R708954</h5>
                       </center>
                     </div>
                     <div className="team_card_inner_2">
@@ -201,7 +206,7 @@ function Team(){
                              <li class="social-twitter"><a class=" tooltip-top" href="mailto:sukhwinder.singh@growingglobeimmigration.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                         </ul>
                       </div>
-                      <a href="https://calendly.com/growingglobeimmigration">
+                      <a href="https://calendly.com/growingglobeimmigration/sukhwinder?back=1&month=2023-09">
                          <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
                       </a>
                     </div>
@@ -218,6 +223,7 @@ function Team(){
                             <div className="opacity-layer"></div>
                           </div>
                         <h5 className="team_card_name">Umer Sheikh</h5>
+                        <h5 className="team_card_name">RCIC #: R707509</h5>
                       </center>
                     </div>
                     <div className="team_card_inner_2">
@@ -235,7 +241,7 @@ function Team(){
                              <li class="social-twitter"><a class=" tooltip-top" href="mailto:umer.sheikh@growingglobeimmigration.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                         </ul>
                       </div>
-                      <a href="https://calendly.com/growingglobeimmigration">
+                      <a href="https://calendly.com/growingglobeimmigration/umer?back=1&month=2023-09">
                          <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
                       </a>
                     </div>
@@ -250,6 +256,7 @@ function Team(){
                           <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Piyush Jain</h5>
+                        <h5 className="team_card_name">RCIC #: R705479</h5>
                       </center>
                     </div>
                     <div className="team_card_inner_2">
@@ -268,7 +275,7 @@ function Team(){
                           <li class="social-twitter"><a class=" tooltip-top" href="mailto:piyush.jain@growingglobeimmigration.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                         </ul>
                       </div>
-                      <a href="https://calendly.com/growingglobeimmigration">
+                      <a href="https://calendly.com/growingglobeimmigration/piyushjain?back=1&month=2023-09">
                          <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
                       </a>
                     </div>
@@ -285,6 +292,7 @@ function Team(){
                           <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Sultan Singh Rana</h5>
+                        <h5 className="team_card_name">RCIC #R710368: </h5>
                       </center>
                     </div>
                     <div className="team_card_inner_2">
@@ -319,6 +327,7 @@ function Team(){
                           <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Amandeep Kaur</h5>
+                        <h5 className="team_card_name">RCIC #: R711248</h5>
                       </center>
                     </div>
                     <div className="team_card_inner_2">
@@ -338,7 +347,7 @@ function Team(){
                           <li class="social-twitter"><a class=" tooltip-top" href="mailto:amandeep.kaur@growingglobeimmigration.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                         </ul>
                       </div>
-                      <a href="https://calendly.com/growingglobeimmigration">
+                      <a href="https://calendly.com/growingglobeimmigration/amandeep?back=1&month=2023-09">
                          <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
                       </a>
                     </div>
@@ -355,6 +364,7 @@ function Team(){
                           <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Tabinda Khan</h5>
+                        <h5 className="team_card_name">RCIC #: R710562</h5>
                       </center>
                     </div>
                     <div className="team_card_inner_2">
@@ -373,7 +383,7 @@ function Team(){
                           <li class="social-twitter"><a class=" tooltip-top" href="mailto:tabinda.khan@growingglobeimmigration.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                         </ul>
                       </div>
-                      <a href="https://calendly.com/growingglobeimmigration">
+                      <a href="https://calendly.com/growingglobeimmigration/tabinda?back=1&month=2023-09">
                          <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
                       </a>
                     </div>
@@ -388,6 +398,7 @@ function Team(){
                           <div className="opacity-layer"></div>
                         </div>
                         <h5 className="team_card_name">Ebhote Francis</h5>
+                        <h5 className="team_card_name">RCIC #: R506578</h5>
                       </center>
                     </div>
                     <div className="team_card_inner_2">
@@ -406,7 +417,7 @@ function Team(){
                           <li class="social-twitter"><a class=" tooltip-top" href="mailto:ebhote.francis@growingglobeimmigration.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                         </ul>
                       </div>
-                      <a href="https://calendly.com/growingglobeimmigration">
+                      <a href="https://calendly.com/growingglobeimmigration/francis_ebhote?back=1&month=2023-09">
                          <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
                       </a>
                     </div>
@@ -419,23 +430,25 @@ function Team(){
                     <div className="team_card_inner_1">
                       <center>
                         <div className="image-container">
-                          <img alt="" src={Img.team_10} className="team_card_img"></img>
+                          <img alt="" src={Img.team_16} className="team_card_img"></img>
                           <div className="opacity-layer"></div>
                         </div>
-                        <h5 className="team_card_name">Simer Gill</h5>
+                        <h5 className="team_card_name">Parminder Singh Chahal</h5>
+                        <h5 className="team_card_name">RCIC #: R705477</h5>
                       </center>
                     </div>
                     <div className="team_card_inner_2">
                       <h3 className="team_card_type">LANGUAGES</h3>
-                      <h5 className="team_card_type_name">Leadership</h5>
-                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 15</span></h3>
-                      <div class="ttm-social-links-wrapper">
-                        <ul class="social-icons list-inline">
-                          <li class="social-facebook"><a class="tooltip-top" target="_blank" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                          <li class="social-twitter"><a class=" tooltip-top" href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                      <h5 className="team_card_type_name">
+                        <ul className="languages_ul">
+                          <li>English</li>
+                          <li>Hindi</li>
+                          <li>Punjabi</li>
+                          <li>Marathi</li>
                         </ul>
-                      </div>
-                      <a href="https://calendly.com/growingglobeimmigration">
+                      </h5>
+                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box">4</span></h3>
+                      <a href="https://calendly.com/growingglobeimmigration/parminder-singh?back=1&month=2023-09">
                          <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
                       </a>
                     </div>
@@ -469,63 +482,7 @@ function Team(){
                   </div>
                 </div>                            
               </div>                          
-              <div className="row mt_30">                            
-                <div className="col-md-6 animation">
-                  <div className="team_card anm_mod full fast">
-                    <div className="team_card_inner_1">
-                      <center>
-                        <div className="image-container">
-                          <img alt="" src={Img.team_11} className="team_card_img"></img>
-                          <div className="opacity-layer"></div>
-                        </div>
-                        <h5 className="team_card_name">Tamanna Mudgal</h5>
-                      </center>
-                    </div>
-                    <div className="team_card_inner_2">
-                      <h3 className="team_card_type">LANGUAGES</h3>
-                      <h5 className="team_card_type_name">Leadership</h5>
-                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box"> 15</span></h3>
-                      <div class="ttm-social-links-wrapper">
-                        <ul class="social-icons list-inline">
-                          <li class="social-facebook"><a class="tooltip-top" target="_blank" href="http://linkedin.com/in/tamanna-mudgal-44a87017a"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                          <li class="social-twitter"><a class=" tooltip-top" href="mailto:tabinda.khan@growingglobeimmigration.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                        </ul>
-                      </div>
-                      <a href="https://calendly.com/growingglobeimmigration">
-                         <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6 animation">
-                  <div className="team_card anm_mod full fast">
-                    <div className="team_card_inner_1">
-                      <center>
-                        <div className="image-container">
-                          <img alt="" src={Img.team_16} className="team_card_img"></img>                         
-                          <div className="opacity-layer"></div>
-                        </div>
-                        <h5 className="team_card_name">Parminder Singh Chahal</h5>
-                      </center>
-                    </div>
-                    <div className="team_card_inner_2">
-                      <h3 className="team_card_type">LANGUAGES</h3>
-                      <h5 className="team_card_type_name">
-                        <ul className="languages_ul">
-                          <li>English</li>
-                          <li>Hindi</li>
-                          <li>Punjabi</li>
-                          <li>Marathi</li>
-                        </ul>
-                      </h5>
-                      <h3 className="team_card_experience">YEARS OF EXPERIENCE: <span className="team_card_experience_box">4</span></h3>
-                      <a href="https://calendly.com/growingglobeimmigration">
-                         <button className="team_card_appointment">BOOK AN APPOINTMENT</button>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
 
             </div>
           </div>

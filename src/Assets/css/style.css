@@ -1149,6 +1149,16 @@
 .red{
   color: #d80100;
 }
+@keyframes dropTop {
+  0% {
+    transform: translateY(-100%) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%) scale(1);
+    opacity: 1;
+  }
+}
 /*----------------------------------Extra Code End----------------------------------*/
 
 /*---------------------------------Top Bar Start---------------------------------*/
@@ -1271,7 +1281,8 @@
   padding: 10px 50px 10px 55px;
   letter-spacing: 0.5px;
   border: 2px solid #f30302;
-  transition: border-color 0.5s, background-color 0.5s, color 0.5s
+  transition: border-color 0.5s, background-color 0.5s, color 0.5s;
+  border: solid 2px white;
 }
 .video_free_report{
   font-family: "Montserrat";
@@ -1296,7 +1307,7 @@
   letter-spacing: 0.5px;
   border: 2px solid #f30302;
   width: 280px;
-  transition: border-color 0.5s, background-color 0.5s, color 0.5s
+  transition: border-color 0.5s, background-color 0.5s, color 0.5s;
 }
 .video_sec_counter_title{
   font-family: "Montserrat";
@@ -1313,13 +1324,14 @@
 }
 .immigrate_canada_section{
   background: #101822;
-  padding: 80px 20px 80px 20px;
+  padding: 50px 20px 80px 20px;
+  height: max-content;
 }
 .immigrate_canada_sec_title{
   font-family: "Montserrat";
   font-size: 25px;
   font-weight: 600;
- text-transform: uppercase;
+  text-transform: uppercase;
   text-align: center;
   color: #fff;
 }
@@ -1327,8 +1339,11 @@
   width: 511px;
   height: 771px;
 }
+.team {
+  background-color: #D80000;
+}
 .carousel_img{
-  width: 100%;
+  width: 350px;
 }
 .permanent_resident_visa_text{
   font-family: "Montserrat";
@@ -1355,6 +1370,10 @@
   margin-left: -5px;
 /*  margin-left: 15px;*/
 }
+.learn_more_btn:hover{
+  background-color: rgb(111, 111, 111);
+  transition: 0.3 ease;
+}  
 .book_appoint_section{
   padding: 50px 100px;
 }
@@ -1446,6 +1465,29 @@
   font-weight:500;
   font-size: 16px;
   color: #fff;
+  border-radius: 6px;
+  padding: 10px 50px 10px 55px;
+  letter-spacing: 0.5px;
+  border: 2px solid #d80100;
+  transition: border-color 0.5s, background-color 0.5s, color 0.5s
+}
+.business-visit-visa{
+  font-family: "Montserrat";
+  background: #d80100;
+  font-weight:500;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px 50px 10px 55px;
+  letter-spacing: 0.5px;
+  border: 2px solid #fff;
+}
+.business-visit-visa:hover{
+  font-family: "Montserrat";
+  color: #d80100;
+  background: #fff;
+  font-weight:500;
+  font-size: 16px;
   border-radius: 6px;
   padding: 10px 50px 10px 55px;
   letter-spacing: 0.5px;
@@ -1956,6 +1998,22 @@
     cursor: pointer;
     font-size: 25px;
 }*/
+.consultants{
+  width: 200px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: filter 600ms ease;
+  -webkit-transition: -webkit-filter 600ms ease;
+}
+.consultants:hover{
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+.consult_img{
+  width: 190px;
+  height: fit-content;
+}
+
 .consultants_section{
   background: #101822;
   padding: 50px 0 0 0;
@@ -1979,7 +2037,7 @@
 }
 
 .consultants .react-multi-carousel-item img{
-  width: 100%;
+  width: 200px;
 }
 
 .consultants .react-multi-carousel-track {
@@ -2021,7 +2079,7 @@
 .meet_the_team_btn{
   font-family: "Montserrat";
   position: relative;
-  top: -40px;
+  top: -100px;
   border: none;
   color: #ffffff;
   background: #ff0000;
@@ -2030,8 +2088,11 @@
   font-size: 18px;
   text-transform: capitalize;
 }
-
-
+.meet_the_team_btn:hover {
+  background: #fff;
+  color: #d80100;
+  transition: border-color 0.5s, background-color 0.5s, color 0.5s
+}
 .video_section_2 {
     background: #000;
     padding: 30px 0 60px 0;
@@ -2099,6 +2160,7 @@
   background-color: #292A2B;
 /*  padding: 80px 0;*/
   padding: 80px 20px 80px 20px;
+  align-content: center;
 }
 
 .requirements_title{
@@ -2157,7 +2219,14 @@ ul.why_glowing_ul {
 .contact_us_today_section{
   background-color: #D80000;
   text-align: center;
-  padding: 35px 0;
+  padding: 35px 0 35px 35px;
+  align-items: center;
+}
+.contact_us_today_section_about_us{
+  background-color: #D80000;
+  text-align: center;
+  padding: 0px 0 35px 35px;
+  align-items: center;
 }
 .contact_us_today_text{
   font-family: "Helvetica-Bold";
@@ -2177,7 +2246,14 @@ ul.why_glowing_ul {
   width: 100%;
   margin: 15px 0;
   border-radius: 6px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  opacity: 1;
 /*  min-height: 415px;*/
+}
+.visa_card:hover {
+  scale: 1.05;
+  box-shadow: 0 16px 38px -12px #fff, 0 4px 25px 0px #fff, 0 8px 10px -5px #fff;
+  transition: 0.5s;
 }
 .visa_img{
   width: 100%;
@@ -2348,7 +2424,7 @@ ul.who_we_are_ul_2 li::before {
 /*------------------------------Testimonials------------------------------------*/
 .testimonials_sec{
   background-color: #101822;
-  padding: 60px 65px;
+  padding: 10px 35px 60px 35px;
   box-sizing: border-box;
 }
 .testimonials h2 {
@@ -2459,7 +2535,6 @@ ul.who_we_are_ul_2 li::before {
   width: 300px;
   flex-shrink: 0;
   height: 300px;
-  background-image: linear-gradient(147deg, #ff0000 0%, #d80100 74%);
   /* box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2); */
   border-radius: 20px;
   transform: translateX(-80px);
@@ -2475,7 +2550,6 @@ ul.who_we_are_ul_2 li::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(147deg, #ff0000 0%, #d80100 74%);
   border-radius: 20px;
   opacity: 0.8;
 }
@@ -2638,11 +2712,17 @@ ul.who_we_are_ul_2 li::before {
     display: inline-block;
     position: relative;
     width: 100%;
+    height: 500px;
     margin-bottom: 30px;
     border-radius: 6px;
     color: rgba(0, 0, 0, 0.87);
     background: #fff;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.blog-card:hover {
+  scale: 1.05;
+  box-shadow: 0 16px 38px -12px #fff, 0 4px 25px 0px #fff, 0 8px 10px -5px #fff;
+  transition: 0.5s;
 }
 .blog-card .blog-card-image {
     height: 217px;
@@ -2656,7 +2736,6 @@ ul.who_we_are_ul_2 li::before {
 }
 .blog-card .blog-card-image img {
     width: 100%;
-    height: 100%;
     border-radius: 6px;
     pointer-events: none;
 }
@@ -2700,10 +2779,13 @@ ul.who_we_are_ul_2 li::before {
     padding-bottom: 10px;
     text-transform: capitalize;
 }
+.ftr {
+  margin-bottom: 1px;
+}
 .blog-card .ftr {
     margin-top: 15px;
 }
-.blog-card .ftr .author {
+.blog-card  .author {
     color: #888;
 }
 
@@ -2737,6 +2819,7 @@ ul.who_we_are_ul_2 li::before {
 }
 .blog_author_name{
   font-family: "Montserrat";
+  margin-right: 25px;
 }
 /*-----------------------------------------Blog Page End-----------------------------------------*/
 /*----------------------------------------Contact Page Start----------------------------------------*/
@@ -2765,7 +2848,7 @@ ul.who_we_are_ul_2 li::before {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 .contact-card .contact-card-image {
-    height: -webkit-fill-available;
+    height: 400px;
     position: relative;
     overflow: hidden;
     margin-left: 15px;
@@ -2883,7 +2966,29 @@ ul.who_we_are_ul_2 li::before {
 }
 /*------------------------------------------Visit Visa End------------------------------------------*/
 /*-----------------------------------------Blog Details Start-----------------------------------------*/
-
+.share-icons {
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: none;
+}
+.twitter_img {
+  margin-bottom: 10px;
+}
+.facebook-icon {
+  background-color: #3c5997;
+  color: white;
+}
+.linkedin-icon {
+  background-color: #027fb1;
+  color: white;
+}
+.share-icons:hover {
+  scale: 1.05;
+  box-shadow: 0 16px 38px -12px grey, 0 4px 25px 0px grey, 0 8px 10px -5px grey;
+  transition: 0.5s;
+}
 .blog_detail_section_title{
   font-family: "Montserrat";
   font-size: 30px;
@@ -2969,6 +3074,7 @@ ul.who_we_are_ul_2 li::before {
   text-align: left;
   margin-bottom:30px;
 }
+
 /*------------------------------------------Blog Details End------------------------------------------*/
 /*------------------------------------------Footer Start------------------------------------------*/
 .footer_icon{
@@ -2985,7 +3091,15 @@ ul.who_we_are_ul_2 li::before {
 /*--------------------------------------------------------------------------------------------*/
 
 /*-------------------------------------------Footer End-------------------------------------------*/
-
+.popup-style {
+  position: absolute;
+  top: 5%;
+  left: 25%;
+  width: 50%;
+  height: 180;
+  background-color: white;
+  border-radius: 6px;
+}
 #modal  {
   top: 0;
   right: 0;
@@ -3065,14 +3179,20 @@ ul.who_we_are_ul_2 li::before {
   top: 1px;
 }
 
+.popup-img{
+  width: 100%;
+  border-radius: 6px;
+}
 .express_entry_img{
   width: 100%;
+  border-radius: 6px;
 }
 
 .express_entry_title{
   font-family: "Montserrat";
   font-size: 18px;
   text-align: center;
+  padding-top: 10px;
 }
 
 .ul li{
@@ -3083,6 +3203,7 @@ ul.who_we_are_ul_2 li::before {
 .get_ready_para{
   font-family: "Montserrat";
   font-size: 14px;
+  padding-left: 10px;
 }
 
 .indicator {
@@ -3193,6 +3314,234 @@ ul.who_we_are_ul_2 li::before {
 }
 .animation .anm_mod.fast {
   transition: all 0.8 ease;
+  z-index: 1;
+}
+
+.animation .anm_mod.active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.org_to_top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+#modal  {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99999999;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.63);
+  transition: all 0.5s;
+  display: grid;
+  place-content: center;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+#modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.  {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99999999;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.63);
+  transition: all 0.5s;
+  display: grid;
+  place-content: center;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+. {
+  margin: 0.5em;
+/*  padding: 1.2em;*/
+  background: #ffffff;
+  border-radius: 10px;
+  width: 82vw;
+  max-width: 1200px!important;
+  overflow-y: scroll;
+  overflow-x: hidden;  
+  height: auto;
+}
+
+.modal-content .close {
+  display: inline-block;
+  text-decoration: none;
+/*  background-color: #a079e9;*/
+  padding: 0.8em 1.2em;
+  border-radius: 5px;
+  color: #fff;
+  position: relative;
+  font-size: 18px;
+  text-align: center;
+}
+.close-top{
+  float: right;
+  color: #000!important;
+}
+.back_img{
+  height: 12px;
+}
+.modal-content .close:hover {
+/*  background-color: #7c68ea;*/
+}
+.modal-content .close:active {
+  top: 1px;
+}
+
+.popup-img{
+  width: 100%;
+  border-radius: 6px;
+}
+.express_entry_img{
+  width: 100%;
+  border-radius: 6px;
+}
+
+.express_entry_title{
+  font-family: "Montserrat";
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.ul li{
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+
+.get_ready_para{
+  font-family: "Montserrat";
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.indicator {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+}
+
+.indicator span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  animation: animate 5s linear infinite;
+  transition: all 0.6s ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    border-color: #fff;
+    transform: translate(0, 0);
+  }
+  20% {
+    border-color: #fff;
+    transform: translate(15px, 15px);
+  }
+  20.1%,
+  100% {
+    border-color: #fff;
+  }
+}
+
+.twitter_img{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 3px;
+  margin-right: 10px;
+}
+
+.book_an_appointment_btn_2{
+  font-family: "Montserrat";
+  background: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  color: #f30302;
+  border-radius: 6px;
+  padding: 10px 50px 10px 55px;
+  letter-spacing: 0.5px;
+  border: 2px solid #fff;
+}
+
+.book_an_appointment_btn_2:hover{
+  font-family: "Montserrat";
+  background: #f30302;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px 50px 10px 55px;
+  letter-spacing: 0.5px;
+  border: 2px solid #fff;
+}
+
+
+.animation {
+  /*display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+  padding: 2rem 40px;*/
+}
+.animation .anm_mod {
+  opacity: 0;
+  transform: translate3d(0, 100%, 0);
+  transition: all 1.2s ease;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  width: 50%;
+  height: 40vh;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(20, 20, 20, 0.5);
+  background: rgba(250, 250, 250, 0.5);
+  box-shadow: 0px 4px 8px rgba(250, 250, 250, 0.3);*/
+}
+.animation .anm_mod.full {
+/*  width: 100%;*/
+/*  font-size: 3rem;*/
+}
+.animation .anm_mod.left {
+  transform: translate3d(-100%, 0, 100%);
+}
+.animation .anm_mod.right {
+  transform: translate3d(100%, 0, 0);
+}
+.animation .anm_mod.delay {
+  transition: all 2s ease;
+}
+.animation .anm_mod.fast {
+  transition: all 0.8 ease;
+  z-index: 1;
 }
 
 .animation .anm_mod.active {

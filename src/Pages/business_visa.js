@@ -79,7 +79,7 @@ function Business_visa(){
                 <h3 className="let_us_introduce_title anm_mod full fast">Let us introduce you to the array of business and investment visa options available in Canada:</h3>
               </div>
               <div className="col-md-4 d-flex anm_mod full fast">
-                <div className="visa_card">
+                <div className="visa_card anm_mod full fast">
                    <img src={Img.business_visa_1} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Business Visitor Visa</h3>
@@ -88,7 +88,7 @@ function Business_visa(){
                 </div>
               </div>
               <div className="col-md-4 d-flex anm_mod full fast">
-                <div className="visa_card">
+                <div className="visa_card anm_mod full fast">
                    <img src={Img.start_up_visa} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Start-up Visa</h3>
@@ -97,7 +97,7 @@ function Business_visa(){
                 </div>
               </div>
               <div className="col-md-4 d-flex anm_mod full fast">
-                <div className="visa_card">
+                <div className="visa_card anm_mod full fast">
                    <img src={Img.investor_visa} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Investor Visa</h3>
@@ -106,7 +106,7 @@ function Business_visa(){
                 </div>
               </div>
               <div className="col-md-4 d-flex anm_mod full fast">
-                <div className="visa_card">
+                <div className="visa_card anm_mod full fast">
                    <img src={Img.intra_company_visa} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Intra-Company Transfer Visa</h3>
@@ -116,7 +116,7 @@ function Business_visa(){
               </div>
               
               <div className="col-md-4 d-flex anm_mod full fast">
-                <div className="visa_card">
+                <div className="visa_card anm_mod full fast">
                    <img src={Img.self_employed_visa} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Self-Employed Visa</h3>
@@ -168,6 +168,7 @@ function Business_visa(){
                  <div className="p-3">
                     <h3 className="express_entry_title">Self-Employed Visa</h3>
                     <p className="get_ready_para">Are you a cultural, artistic, or athletic professional with aspirations to become self-employed in Canada? The Self-Employed Visa provides the opportunity to showcase your talent and contribute to the vibrant Canadian landscape. Our consultancy will guide you through the application process, highlighting your unique abilities.</p>
+                 <center><button className="business-visit-visa">Book An Appointment</button></center>
                     
                  </div>
               </div>

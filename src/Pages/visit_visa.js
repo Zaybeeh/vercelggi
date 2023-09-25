@@ -62,7 +62,7 @@ function Visit_visa(){
                 <h3 className="let_us_introduce_title anm_mod full fast">When it comes to visiting Canada, there are different types of visas that cater to various purposes and circumstances.</h3>
               </div>
               <div className="col-md-4 d-flex  anm_mod full fast">
-                <div className="visa_card">
+                <div className="visa_card anm_mod full fast">
                    <img src={Img.temporary_resident_visa} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Temporary Resident Visa (Visitor Visa)</h3>
@@ -71,7 +71,7 @@ function Visit_visa(){
                 </div>
               </div>
               <div className="col-md-4 d-flex anm_mod full fast">
-                <div className="visa_card">
+                <div className="visa_card anm_mod full fast">
                    <img src={Img.electronic_travel_authorization} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Electronic Travel Authorization (eTA)</h3>
@@ -80,7 +80,7 @@ function Visit_visa(){
                 </div>
               </div>
               <div className="col-md-4 d-flex anm_mod full fast">
-                <div className="visa_card">
+                <div className="visa_card anm_mod full fast">
                    <img src={Img.super_visa} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Super Visa</h3>
@@ -89,7 +89,7 @@ function Visit_visa(){
                 </div>
               </div>
               <div className="col-md-4 d-flex anm_mod full fast">
-                <div className="visa_card">
+                <div className="visa_card anm_mod full fast">
                    <img src={Img.business_visitor_visa} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Business Visitor Visa</h3>
@@ -98,7 +98,7 @@ function Visit_visa(){
                 </div>
               </div>
               <div className="col-md-4 d-flex anm_mod full fast">
-                <div className="visa_card">
+                <div className="visa_card anm_mod full fast">
                    <img src={Img.parent_and_grandparent_visitor_visa} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Parent and Grandparent Visitor Visa</h3>
@@ -107,7 +107,7 @@ function Visit_visa(){
                 </div>
               </div>
               <div className="col-md-4 d-flex anm_mod full fast">
-                <div className="visa_card">
+                <div className="visa_card anm_mod full fast">
                    <img src={Img.tourist_visa} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Tourist Visa</h3>
@@ -117,7 +117,7 @@ function Visit_visa(){
               </div>
               
               <div className="col-md-4 d-flex anm_mod full fast">
-                <div className="visa_card">
+                <div className="visa_card anm_mod full fast">
                    <img src={Img.transit_visa} className="visa_img"></img>
                    <div className="visa_content">
                       <h3 className="visa_title">Transit Visa</h3>
@@ -171,7 +171,9 @@ function Visit_visa(){
                  <div className="p-3">
                     <h3 className="express_entry_title">Business Visitor Visa</h3>
                     <p className="get_ready_para">This visa is for individuals visiting Canada for business-related purposes, such as attending conferences, negotiating contracts, or exploring investment opportunities. It is essential to have a letter of invitation from a Canadian organization and provide documentation demonstrating the business nature of the visit.</p>
-                    
+                    <a href="https://calendly.com/growingglobeimmigration">
+                 <center><button className="business-visit-visa">Book An Appointment</button></center>
+              </a>
                  </div>
               </div>
             </div>

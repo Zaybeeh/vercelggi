@@ -1,10 +1,15 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import Header from "./header.js";
 import Footer from "./footer.js";
 import {Img, Icons, Blogs_img} from "../Utilities/Icons.js";
+import { Link } from "react-router-dom";
+import { FacebookShareButton, FacebookIcon, TwitterShareButton, LinkedinIcon, LinkedinShareButton } from 'react-share';
+import twitter from "../Utilities/logo.webp"
+import axios from "axios";
 
 
-function Blogs(){
+function Blogs() {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -41,199 +46,91 @@ function Blogs(){
       items: 1
     }
   };
-  return(
+
+  const [posts, setPosts] = useState([]);
+
+  const getPosts = async () => {
+    const response = await axios.get('/db.json');
+    if (response.status === 200) {
+      setPosts(response.data.posts);
+    } else {
+      console.log("Something went wrong");
+    }
+  };
+
+  useEffect(() => {
+    getPosts()
+  }, [])
+
+  return (
     <div>
       <Header />
-        <div className="banner_section">
-          <img src={Img.blog_banner} className="banner_img" alt=""></img>
-          <div className="banner_content">
-              <a href="https://calendly.com/growingglobeimmigration">
-                 <button className="embark_book_appoint_2">Book An Appointment</button>
-              </a>
-          </div>
+      <div className="banner_section">
+        <img src={Img.blog_banner} className="banner_img" alt=""></img>
+        <div className="banner_content">
+          <Link to = "https://calendly.com/growingglobeimmigration"  target="_blank" rel="noreferrer">
+            <button className="embark_book_appoint_2">Book An Appointment</button></Link>
         </div>
-        <div className="Blog_section animation">
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col-md-12">
-                <h2 className="blog_section_title anm_mod full fast">Latest Blogs</h2>
-              </div>
+      </div>
+      <div className="Blog_section animation">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-md-12">
+              <h2 className="blog_section_title anm_mod full fast">Latest Blogs</h2>
             </div>
-            <div className="row">
-              <div className="col-md-4">
-                <div className="blog-card blog-card-blog anm_mod full fast">
+          </div>
+          <div className="row">
+            {posts.map(post => (
+              <div className="col-md-4" key={post.id}>
+                <Link to = {`/blog_details/${post.id}`}><div className="blog-card blog-card-blog anm_mod full fast">
                   <div className="blog-card-image">
-                    <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_1} ></img> </a>
+                    <Link to={`/blog_details/${post.id}`}>
+                      <img className="img" src={post.image} ></img>
+                    </Link>
                     <div className="ripple-cont"></div>
                   </div>
                   <div className="blog-table">
-                    <h6 className="blog-category blog-text-success"><i className="far fa-newspaper"></i> News</h6>
+                    <h6 className="blog-category blog-text-success"><i className="far fa-newspaper"></i> {post.category}</h6>
                     <h4 className="blog-card-caption">
-                      <a href="/blog_details">Advancement of Technology in Canadian Immigration</a>
+                      <Link to={`/blog_details/${post.id}`}>{post.title}</Link>
                     </h4>
-                    <p className="blog-card-description">When it comes to the usage of technology, Canada is off to a great start. This will ultimately reduce processing...</p>
+                    <p className="blog-card-description">{post.description}</p>
                     <div className="ftr">
                       <div className="author">
-                        <img src={Icons.useravtar} alt="..." className="avatar img-raised" ></img> <span className="blog_author_name">GGI</span>
+                        <img src={Icons.useravtar} alt="..." className="avatar img-raised" ></img> <span className="blog_author_name">{post.author}</span>
                       </div>
-                      <div className="stats"><i className="fa fa-calendar"></i> Mar 08, 2023</div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="blog-card blog-card-blog anm_mod full fast">
-                  <div className="blog-card-image">
-                    <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_2} ></img> </a>
-                    <div className="ripple-cont"></div>
-                  </div>
-                  <div className="blog-table">
-                    <h6 className="blog-category blog-text-success"><i className="far fa-newspaper"></i> News</h6>
-                    <h4 className="blog-card-caption">
-                      <a href="/blog_details">Families of Some Work Permit Holders are Now Eligible for OWP </a>
-                    </h4>
-                    <p className="blog-card-description">Work permits enable non-citizens and non-permanent residents of Canada to work in the country.</p>
-                    <div className="ftr">
-                      <div className="author">
-                        <img src={Icons.useravtar} alt="..." className="avatar img-raised" ></img> <span className="blog_author_name">GGI</span>
-                      </div>
-                      <div className="stats"><i className="fa fa-calendar"></i> Jun 02, 2023</div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="blog-card blog-card-blog anm_mod full fast">
-                  <div className="blog-card-image">
-                    <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_3} ></img> </a>
-                    <div className="ripple-cont"></div>
-                  </div>
-                  <div className="blog-table">
-                    <h6 className="blog-category blog-text-success"><i className="far fa-newspaper"></i> News</h6>
-                    <h4 className="blog-card-caption">
-                      <a href="/blog_details">Tips for Students</a>
-                    </h4>
-                    <p className="blog-card-description">Statement of Purpose is the key document which is submitted with the study permit application. It details... </p>
-                    <div className="ftr">
-                      <div className="author">
-                        <img src={Icons.useravtar} alt="..." className="avatar img-raised" ></img> <span className="blog_author_name">GGI</span>
-                      </div>
-                      <div className="stats"><i className="fa fa-calendar"></i> Dec 12, 2022</div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="blog-card blog-card-blog anm_mod full fast">
-                  <div className="blog-card-image">
-                    <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_4} ></img> </a>
-                    <div className="ripple-cont"></div>
-                  </div>
-                  <div className="blog-table">
-                    <h6 className="blog-category blog-text-success"><i className="far fa-newspaper"></i> News</h6>
-                    <h4 className="blog-card-caption">
-                      <a href="/blog_details">Reasons for Refusal from Canada</a>
-                    </h4>
-                    <p className="blog-card-description">Refusal of a Canada visa is the biggest obstacle for individuals who want to study, work, and settle in...</p>
-                    <div className="ftr">
-                      <div className="author">
-                        <img src={Icons.useravtar} alt="..." className="avatar img-raised" ></img> <span className="blog_author_name">GGI</span>
-                      </div>
-                      <div className="stats"><i className="fa fa-calendar"></i> Dec 05, 2022</div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="blog-card blog-card-blog anm_mod full fast">
-                  <div className="blog-card-image">
-                    <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_5} ></img> </a>
-                    <div className="ripple-cont"></div>
-                  </div>
-                  <div className="blog-table">
-                    <h6 className="blog-category blog-text-success"><i className="far fa-newspaper"></i> News</h6>
-                    <h4 className="blog-card-caption">
-                      <a href="/blog_details">TEER System</a>
-                    </h4>
-                    <p className="blog-card-description">New Canadian TEER System The new NOC system (TEER) was announced in 2020 and made public at...</p>
-                    <div className="ftr">
-                      <div className="author">
-                        <img src={Icons.useravtar} alt="..." className="avatar img-raised" ></img> <span className="blog_author_name">GGI</span>
-                      </div>
-                      <div className="stats"><i className="fa fa-calendar"></i> Nov 29, 2022</div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="blog-card blog-card-blog anm_mod full fast">
-                  <div className="blog-card-image">
-                    <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_6} ></img> </a>
-                    <div className="ripple-cont"></div>
-                  </div>
-                  <div className="blog-table">
-                    <h6 className="blog-category blog-text-success"><i className="far fa-newspaper"></i> News</h6>
-                    <h4 className="blog-card-caption">
-                      <a href="/blog_details">OINP</a>
-                    </h4>
-                    <p className="blog-card-description">One of the Employer Job Offer streams of the Ontario Immigrant Nominee Program (OINP), a Provincial...</p>
-                    <div className="ftr">
-                      <div className="author">
-                        <img src={Icons.useravtar} alt="..." className="avatar img-raised" ></img> <span className="blog_author_name">GGI</span>
-                      </div>
-                      <div className="stats"><i className="fa fa-calendar"></i> Nov 22, 2022</div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="blog-card blog-card-blog anm_mod full fast">
-                  <div className="blog-card-image">
-                    <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_7} ></img> </a>
-                    <div className="ripple-cont"></div>
-                  </div>
-                  <div className="blog-table">
-                    <h6 className="blog-category blog-text-success"><i className="far fa-newspaper"></i> News</h6>
-                    <h4 className="blog-card-caption">
-                      <a href="/blog_details">Express Entry Score</a>
-                    </h4>
-                    <p className="blog-card-description">Before kickstarting with the why’s and hows, let's try to fathom what CRS score is and how important of a role...</p>
-                    <div className="ftr">
-                      <div className="author">
-                        <img src={Icons.useravtar} alt="..." className="avatar img-raised" ></img> <span className="blog_author_name">GGI</span>
-                      </div>
-                      <div className="stats"><i className="fa fa-calendar"></i> Nov 14, 2022</div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="blog-card blog-card-blog anm_mod full fast">
-                  <div className="blog-card-image">
-                    <a href="/blog_details"> <img className="img" src={Blogs_img.blogs_8} ></img> </a>
-                    <div className="ripple-cont"></div>
-                  </div>
-                  <div className="blog-table">
-                    <h6 className="blog-category blog-text-success"><i className="far fa-newspaper"></i> News</h6>
-                    <h4 className="blog-card-caption">
-                      <a href="/blog_details">case study</a>
-                    </h4>
-                    <p className="blog-card-description">Growing Globe Immigration has been known for years now for successfully handling those cases where...</p>
-                    <div className="ftr">
-                      <div className="author">
-                        <img src={Icons.useravtar} alt="..." className="avatar img-raised" ></img> <span className="blog_author_name">GGI</span>
-                      </div>
-                      <div className="stats"><i className="fa fa-calendar"></i> Nov 08, 2022</div>
-                      </div>
-                  </div>
-                </div>
-              </div>
+                      <FacebookShareButton 
+                        url={"https://vercelggi.vercel.app/blog_details"}
+                        quote={"Hey guys! Check out this article!"}
+                        hashtag="#GGI">
+                        <button round = "true" className="fa fa-facebook facebook-icon share-icons"/>
+                      </FacebookShareButton>
 
-            </div>
+                      <TwitterShareButton 
+                        url={"https://vercelggi.vercel.app/blog_details"}
+                        quote={"Hey guys! Check out this article!"}
+                        hashtag="#GGI">
+                        <img className="share-icons" src={twitter}></img>
+                      </TwitterShareButton>
+
+                      <LinkedinShareButton 
+                        url={"https://vercelggi.vercel.app/blog_details"}
+                        quote={"Hey guys! Check out this article!"}
+                        hashtag="#GGI">
+                        <button className="fa fa-linkedin linkedin-icon share-icons"/>
+                      </LinkedinShareButton>
+                      <div className="stats calendar"><i className="fa fa-calendar"></i> {post.published_date}</div>
+                    </div>
+                  </div>
+                </div></Link>
+              </div>
+            ))}
+
           </div>
         </div>
+      </div>
       <Footer />
-    </div>
+    </div >
   );
 }
 

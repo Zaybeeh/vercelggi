@@ -6,6 +6,16 @@ import VideoPlayer from "react-background-video-player";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import {Link} from 'react-router-dom';
+import Video from '../Utilities/video.mp4';
+import ScrollCarousel from 'scroll-carousel-react';
+import img1 from "../Assets/img/test-1.jpeg";
+import img2 from "../Assets/img/test2.jpeg";
+import img3 from "../Assets/img/test3.png";
+import img4 from "../Assets/img/test4.png";
+import img5 from "../Assets/img/test5.jpeg";
+import img6 from "../Assets/img/test6.png";
+import img7 from "../Assets/img/test7.jpeg";
+import img8 from "../Assets/img/test8.png";
 
 function Home(){
   const responsive = {
@@ -49,7 +59,7 @@ function Home(){
   return(
     <div>
       <Header />
-        <div className="video_section">
+        <div className="video_section animation">
           <div className="container-fluid">
             <div className="video_box">
               <VideoPlayer
@@ -58,9 +68,8 @@ function Home(){
                 loop={true}
                 controls={false}
                 src={
-                  "https://growingglobeimmigration.com/video/video.mp4"
+                  Video
                 }
-                autoPlay={true}
               />
             </div>
             <div className="video_counter_box" autoPlay>
@@ -77,7 +86,7 @@ function Home(){
                     </div>
                     <div className="video_sec_counter_box_inner">
                       <h3 className="video_sec_counter_title">48 Hours</h3>
-                      <h5 className="video_sec_counter_subtitle">Current Processing Time</h5>
+                      <h5 className="video_sec_counter_subtitle">Current Processing Time*</h5>
                     </div>
                   </div>
                   <div className="col-md-12">
@@ -85,9 +94,7 @@ function Home(){
                       <div>
                         <a href="https://calendly.com/growingglobeimmigration"><button className="video_book_appoint">Book An Appointment</button></a>
                       </div>
-                      <div>
-                        <button className="video_free_report">Free Assesment</button>
-                      </div>
+                      
                     </div>
                     <div className="col-md-12" className="text-center video_sec_counter_box">
                       <a href="#top" className="scrollTo">
@@ -113,7 +120,9 @@ function Home(){
                 <h3 className="immigrate_canada_sec_title anm_mod full fast mb_25">Did you know that there are 129 ways to immigrate to canada?</h3>
               </div>
               <div className="col-md-12">
-                <Carousel responsive={responsive} showDots={true}>
+                <ScrollCarousel className="carousel"
+                  autoplay={true}
+                  smartSpeed = {true}>
                   <div>
                     <img src={Img.immigrate_canada_img_1} alt="" className="carousel_img"></img>
                     <div className="text-center">
@@ -149,7 +158,7 @@ function Home(){
                        <Link to="/immigrate"><button className="learn_more_btn anm_mod full fast">Learn More</button></Link>
                     </div>
                   </div>
-                </Carousel>
+                </ScrollCarousel>
               </div>
             </div>
           </div>
@@ -181,22 +190,22 @@ function Home(){
               <h2 className="consultants_sec_title anm_mod full fast">GROWING GLOBE IMMIGRATION HOLDS THE LARGEST NUMBER OF REGISTERED CANADIAN <br/>IMMIGRATION CONSULTANTS (RCICS) IN CANADA</h2>
             </center>
           </div>
-          <div className="consultants">
-            <div style={{ position: "relative" }}>
-              <Carousel responsive={responsive_2} showArrows={true} showDots={true}>
-                <div className="consultants"><img src={Img.p1} className="embark_img" alt=""></img></div>
-                <div className="consultants"><img src={Img.p2} className="embark_img" alt=""></img></div>
-                <div className="consultants"><img src={Img.p3} className="embark_img" alt=""></img></div>
-                <div className="consultants"><img src={Img.p4} className="embark_img" alt=""></img></div>
-                <div className="consultants"><img src={Img.p5} className="embark_img" alt=""></img></div>
-                <div className="consultants"><img src={Img.p6} className="embark_img" alt=""></img></div>
-                <div className="consultants"><img src={Img.p7} className="embark_img" alt=""></img></div>
-                <div className="consultants"><img src={Img.p8} className="embark_img" alt=""></img></div>
-              </Carousel>
+          <div className="">
+              <ScrollCarousel className="carousel"
+              autoplay={true}
+              smartSpeed = {true}>
+                <div className="consult_img"><img src={Img.p1} className="consultants" alt=""></img></div>
+                <div className="consult_img"><img src={Img.p2} className="consultants" alt=""></img></div>
+                <div className="consult_img"><img src={Img.p3} className="consultants" alt=""></img></div>
+                <div className="consult_img"><img src={Img.p4} className="consultants" alt=""></img></div>
+                <div className="consult_img"><img src={Img.p5} className="consultants" alt=""></img></div>
+                <div className="consult_img"><img src={Img.p6} className="consultants" alt=""></img></div>
+                <div className="consult_img"><img src={Img.p7} className="consultants" alt=""></img></div>
+                <div className="consult_img"><img src={Img.p8} className="consultants" alt=""></img></div>
+              </ScrollCarousel>
               <center>
                 <Link to="/team"><button className="meet_the_team_btn anm_mod full fast">Meet the Team</button></Link>
               </center>
-            </div>
           </div>
         </div>
         <div className="testimonials_sec">
@@ -207,7 +216,7 @@ function Home(){
                 <div className="blog-slider__wrp swiper-wrapper">
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img img_shadow">
-                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759872/kuldar-kalvik-799168-unsplash.webp" alt=""></img>
+                      <img src={img8} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Shriya Jain</div>
@@ -216,7 +225,7 @@ function Home(){
                   </div>
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img ">
-                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/jason-leung-798979-unsplash.webp" alt=""></img>
+                      <img src={img2} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Piyush Miglani</div>
@@ -226,7 +235,7 @@ function Home(){
 
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img ">
-                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                      <img src={img5} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Randeep Sidhu</div>
@@ -236,7 +245,7 @@ function Home(){
 
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img ">
-                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                      <img src={img3} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Akshay Singh</div>
@@ -266,7 +275,7 @@ function Home(){
 
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img ">
-                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                      <img src={img7} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Freya</div>
@@ -286,7 +295,7 @@ function Home(){
 
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img ">
-                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                      <img src={img1} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Gursagar Singh</div>
@@ -296,7 +305,7 @@ function Home(){
 
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img ">
-                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                      <img src={img6} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Akanksha Sobti</div>
@@ -306,7 +315,7 @@ function Home(){
 
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img ">
-                      <img src="https://res.cloudinary.com/muhammederdem/image/upload/q_60/v1535759871/alessandro-capuzzi-799180-unsplash.webp" alt=""></img>
+                      <img src={img4} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Aaliya Pathan</div>
