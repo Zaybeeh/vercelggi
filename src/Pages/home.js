@@ -8,14 +8,6 @@ import 'react-multi-carousel/lib/styles.css';
 import {Link} from 'react-router-dom';
 import Video from '../Utilities/video.mp4';
 import ScrollCarousel from 'scroll-carousel-react';
-import img1 from "../Assets/img/test-1.jpeg";
-import img2 from "../Assets/img/test2.jpeg";
-import img3 from "../Assets/img/test3.png";
-import img4 from "../Assets/img/test4.png";
-import img5 from "../Assets/img/test5.jpeg";
-import img6 from "../Assets/img/test6.png";
-import img7 from "../Assets/img/test7.jpeg";
-import img8 from "../Assets/img/test8.png";
 
 function Home(){
   const responsive = {
@@ -96,7 +88,7 @@ function Home(){
                       </div>
                       
                     </div>
-                    <div className="col-md-12" className="text-center video_sec_counter_box">
+                    <div className="col-md-12 text-center video_sec_counter_box">
                       <a href="#top" className="scrollTo">
                       <div class="indicator">
                         <span></span>
@@ -216,7 +208,7 @@ function Home(){
                 <div className="blog-slider__wrp swiper-wrapper">
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img img_shadow">
-                      <img src={img8} alt=""></img>
+                      <img src={Img.testimonial8} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Shriya Jain</div>
@@ -225,7 +217,7 @@ function Home(){
                   </div>
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img ">
-                      <img src={img2} alt=""></img>
+                      <img src={Img.testimonial2} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Piyush Miglani</div>
@@ -235,7 +227,7 @@ function Home(){
 
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img ">
-                      <img src={img5} alt=""></img>
+                      <img src={Img.testimonial5} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Randeep Sidhu</div>
@@ -245,7 +237,7 @@ function Home(){
 
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img ">
-                      <img src={img3} alt=""></img>
+                      <img src={Img.testimonial3} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Akshay Singh</div>
@@ -275,7 +267,7 @@ function Home(){
 
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img ">
-                      <img src={img7} alt=""></img>
+                      <img src={Img.testimonial7} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Freya</div>
@@ -295,7 +287,7 @@ function Home(){
 
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img ">
-                      <img src={img1} alt=""></img>
+                      <img src={Img.testimonial1} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Gursagar Singh</div>
@@ -305,7 +297,7 @@ function Home(){
 
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img ">
-                      <img src={img6} alt=""></img>
+                      <img src={Img.testimonial6} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Akanksha Sobti</div>
@@ -315,7 +307,7 @@ function Home(){
 
                   <div className="blog-slider__item swiper-slide">
                     <div className="blog-slider__img ">
-                      <img src={img4} alt=""></img>
+                      <img src={Img.testimonial4} alt=""></img>
                     </div>
                     <div className="blog-slider__content">
                       <div className="blog-slider__title">Aaliya Pathan</div>

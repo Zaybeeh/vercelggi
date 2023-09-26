@@ -112,7 +112,14 @@ export const Img = {
   newsletter_bg: require("../Assets/img/newsletter.png"),
   express_entry: require("../Assets/img/federal_programs/Express-Entry-Canada.jpg"),
   back: require("../Assets/img/BACK.png"),
-
+  testimonial1: require("../Assets/img/test-1.jpeg"),
+  testimonial2: require("../Assets/img/test2.jpeg"),
+  testimonial3: require("../Assets/img/test3.png"),
+  testimonial4: require("../Assets/img/test4.png"),
+  testimonial5: require("../Assets/img/test5.jpeg"),
+  testimonial6: require("../Assets/img/test6.png"),
+  testimonial7: require("../Assets/img/test7.jpeg"),
+  testimonial8: require("../Assets/img/test8.png"),
 };
 
 export const Icons = {
