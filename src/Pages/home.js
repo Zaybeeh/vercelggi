@@ -6,7 +6,6 @@ import VideoPlayer from "react-background-video-player";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import {Link} from 'react-router-dom';
-import Video from '../Utilities/video.mp4';
 import ScrollCarousel from 'scroll-carousel-react';
 
 function Home(){
@@ -60,8 +59,9 @@ function Home(){
                 loop={true}
                 controls={false}
                 src={
-                  Video
+                  "https://growingglobeimmigration.com/video/video.mp4"
                 }
+                autoPlay={true}
               />
             </div>
             <div className="video_counter_box" autoPlay>
@@ -86,7 +86,7 @@ function Home(){
                       <div>
                         <a href="https://calendly.com/growingglobeimmigration"><button className="video_book_appoint">Book An Appointment</button></a>
                       </div>
-                      
+
                     </div>
                     <div className="col-md-12 text-center video_sec_counter_box">
                       <a href="#top" className="scrollTo">
